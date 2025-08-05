@@ -1,0 +1,17 @@
+{
+  "originUrl": "https://ballseed-25.webflow.io",
+  "urls": [
+    {
+      "url": "https://ballseed-25.webflow.io",
+      "source": "MANUAL",
+      "targetPath": "/",
+      "id": "dad4c5a4d85ca8326b8fe86ed98e26d932992647"
+    }
+  ],
+  "crawlOptions": {
+    "strategy": "manual",
+    "strategiesAttempted": [
+      "MANUAL"
+    ]
+  }
+}
