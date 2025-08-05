@@ -1,0 +1,393 @@
+{
+  "originUrl": "https://ballseed-25.webflow.io",
+  "lastCrawled": "https://ballseed-25.webflow.io/",
+  "urls": [
+    {
+      "url": "https://ballseed-25.webflow.io/",
+      "source": "CRAWL",
+      "targetPath": "/",
+      "id": "3f4e1eacced4c54058f4895529c886b2aee4349d"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/contact-us",
+      "source": "CRAWL",
+      "targetPath": "/contact-us",
+      "id": "9416a02dd6c291d7da1b65d68bbc1721406d9339"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/faq",
+      "source": "CRAWL",
+      "targetPath": "/faq",
+      "id": "b8b0df2eddafebba2b58bc0c21c3a517111f3392"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2022/gardens-2022",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2022/gardens-2022",
+      "id": "1344f6748a6fcd8ba229a844c8922811d569cb78"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2022/virtual-tour-2022-ball-floraplant-and-selecta-one-gardens",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2022/virtual-tour-2022-ball-floraplant-and-selecta-one-gardens",
+      "id": "46f4808f6238bc6161e6de7d98b89f946ac71794"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2022/virtual-tour-2022-darwin-perennials-kieft-seed",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2022/virtual-tour-2022-darwin-perennials-kieft-seed",
+      "id": "97e11dac1c0f058c905f8be1125ea5fcc73c3c8b"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2022/virtual-tour-2022-garden-gateway",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2022/virtual-tour-2022-garden-gateway",
+      "id": "86a823df7cd4003a4ccafe8f48c9f3d2793d3162"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2022/virtual-tour-2022-panamerican-seed-gardens-and-pergola",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2022/virtual-tour-2022-panamerican-seed-gardens-and-pergola",
+      "id": "a3a23b362b74a0690ecc52b49db7cb991cc7a3f2"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2022/virtual-tour-2022-pavilion",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2022/virtual-tour-2022-pavilion",
+      "id": "817cd6ba5b01748a827e68d92dc4a181fabd6d41"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2022/virtual-tour-2022-shade-ball-ingenuity-burpee",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2022/virtual-tour-2022-shade-ball-ingenuity-burpee",
+      "id": "fd7dec16e21d285fa3b49ad23dfdd27b60d55797"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2022/virtual-tour-2022-sun-containers",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2022/virtual-tour-2022-sun-containers",
+      "id": "8a244d68a0f76cbec86adaa58f466927a84e0d44"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2022/virtual-tour-2022-windings-skyframe",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2022/virtual-tour-2022-windings-skyframe",
+      "id": "36593e1ea1dc42eb11e53807a1ccebf7b9eaf8f1"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2023/gardens-2023",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2023/gardens-2023",
+      "id": "d52c1f5e95cc1ebde35e6aa8378c35eb16dedac2"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2023/virtual-tour-2023-ball-floraplant-and-selecta-one",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2023/virtual-tour-2023-ball-floraplant-and-selecta-one",
+      "id": "bfc0a055ebfc70ea40ec2d35a5baa21d23f06c2c"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2023/virtual-tour-2023-darwin-perennials-and-kieft-seed",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2023/virtual-tour-2023-darwin-perennials-and-kieft-seed",
+      "id": "f67b4d17b7533d7a8f8f876b50f9344e5eaae2fc"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2023/virtual-tour-2023-hillside",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2023/virtual-tour-2023-hillside",
+      "id": "5b4d800b062edf7e48ed814e18885dffea435da1"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2023/virtual-tour-2023-panamerican-seed",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2023/virtual-tour-2023-panamerican-seed",
+      "id": "408aa2392739a30f974d518f579638cb8604696c"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2023/virtual-tour-2023-shade-containers-and-ball-ingenuity",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2023/virtual-tour-2023-shade-containers-and-ball-ingenuity",
+      "id": "5ae0ed5ac8e6ec9174b9b38f9b58cbaa3971227d"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2023/virtual-tour-2023-sun-container-showcase",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2023/virtual-tour-2023-sun-container-showcase",
+      "id": "564dc5fe904bd5e8450389ff2c77ea139df1269e"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2023/virtual-tour-2023-the-windings",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2023/virtual-tour-2023-the-windings",
+      "id": "a1b2b51a90bd08116e274f74e1710f3df03b1770"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2023/virtual-tour-2023-the-woodlands",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2023/virtual-tour-2023-the-woodlands",
+      "id": "eb311f9d3bc4819357c14bde06837611fe4e578f"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2024/gardens-2024",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2024/gardens-2024",
+      "id": "8a3541b8f69b7644af128f28d86d5b423ebf3be5"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2024/virtual-tour-2024-ball-floraplant-and-selecta-one-gardens",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2024/virtual-tour-2024-ball-floraplant-and-selecta-one-gardens",
+      "id": "878b0257227b7dd82729d06487ee27fd3c86a11b"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2024/virtual-tour-2024-darwin-perennials-kieft-seed",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2024/virtual-tour-2024-darwin-perennials-kieft-seed",
+      "id": "157c16b51fe2a7dea43c11c550f4137000f97e99"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2024/virtual-tour-2024-mixed-container-solutions",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2024/virtual-tour-2024-mixed-container-solutions",
+      "id": "9dab1682a4ac6071cdf6081e866f3a8490af6473"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2024/virtual-tour-2024-panamerican-seed-gardens",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2024/virtual-tour-2024-panamerican-seed-gardens",
+      "id": "706be656c92d951e99096cf2d0bb239ced6b32cb"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2024/virtual-tour-2024-the-circle-garden-skyframe",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2024/virtual-tour-2024-the-circle-garden-skyframe",
+      "id": "9242b34b22af6d0b9d092b4bca4e0aad98c32107"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/gardens/2024/virtual-tour-2024-the-woodlands",
+      "source": "CRAWL",
+      "targetPath": "/gardens/2024/virtual-tour-2024-the-woodlands",
+      "id": "61f8727ae9358951172d6691b7e13734c0546e9e"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/literature/catalogs-brochures",
+      "source": "CRAWL",
+      "targetPath": "/literature/catalogs-brochures",
+      "id": "69e544ef2f507cb6d1aa886848c3e886c2e7fa9c"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/literature/literature-index",
+      "source": "CRAWL",
+      "targetPath": "/literature/literature-index",
+      "id": "f1789024b63407c94a39303e826084f9d4476e8c"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/literature/techdocs",
+      "source": "CRAWL",
+      "targetPath": "/literature/techdocs",
+      "id": "02115fe6c94bef8a5554b2fa70e30ff5c924aa51"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/news/gardens",
+      "source": "CRAWL",
+      "targetPath": "/news/gardens",
+      "id": "adab4303c242ef89130f84229ddcfb25cf8d725d"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/news/news-index",
+      "source": "CRAWL",
+      "targetPath": "/news/news-index",
+      "id": "28a86e3b05c1b52db0544e5c43bb211f5f2db068"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/newsletter/signup",
+      "source": "CRAWL",
+      "targetPath": "/newsletter/signup",
+      "id": "a170664da93adf28cf635bd1d848e69d28f6eb26"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/products/annuals",
+      "source": "CRAWL",
+      "targetPath": "/products/annuals",
+      "id": "86cf8610a06c57757a2dd0da86ead4934c85a1ed"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/products/bulbs",
+      "source": "CRAWL",
+      "targetPath": "/products/bulbs",
+      "id": "ab8906f9b20731b235ae8f92ac49bef62e7f4705"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/products/cut-flowers",
+      "source": "CRAWL",
+      "targetPath": "/products/cut-flowers",
+      "id": "fec673c1dcc4e92d951ecb8d120a71c27ceac0dd"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/products/equipment",
+      "source": "CRAWL",
+      "targetPath": "/products/equipment",
+      "id": "523312d7f1b6bc61523835d3b80118fbd37cf530"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/products/lighting",
+      "source": "CRAWL",
+      "targetPath": "/products/lighting",
+      "id": "d61f80d2404ed375793f20132eb559632a936f30"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/products/liners",
+      "source": "CRAWL",
+      "targetPath": "/products/liners",
+      "id": "91fa46d0dd50d652cb41aa91cdcff874773d6a89"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/products/mums",
+      "source": "CRAWL",
+      "targetPath": "/products/mums",
+      "id": "a46d67605bbc1513b18b704785adde0f59f88caf"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/products/perennials",
+      "source": "CRAWL",
+      "targetPath": "/products/perennials",
+      "id": "0ef89b13c2d5d3dc810d6f8136eed9809f730e99"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/products/plugs",
+      "source": "CRAWL",
+      "targetPath": "/products/plugs",
+      "id": "c86bd7ec051e4e9c0bf537c884835f59a10dcb2a"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/products/poinsettias",
+      "source": "CRAWL",
+      "targetPath": "/products/poinsettias",
+      "id": "68785f223a79911e69d63b638dd283ab0e02ca3a"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/products/product-index",
+      "source": "CRAWL",
+      "targetPath": "/products/product-index",
+      "id": "bb3720199d4547e8f0ccb1b3674707f37961a5a1"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/products/seed",
+      "source": "CRAWL",
+      "targetPath": "/products/seed",
+      "id": "9f6711775299f9951a9dada9b10483bdea67c0af"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/products/soil",
+      "source": "CRAWL",
+      "targetPath": "/products/soil",
+      "id": "b2bc98c89c9eb8fd329f567027890f52594934db"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/products/tissue-culture",
+      "source": "CRAWL",
+      "targetPath": "/products/tissue-culture",
+      "id": "119a572580ad8eb99f6bc80fab9c7181eecce4cd"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/products/urc",
+      "source": "CRAWL",
+      "targetPath": "/products/urc",
+      "id": "0639f0e238428a3aa38eb78926d00cba963f2ca8"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/services/ball-landscape",
+      "source": "CRAWL",
+      "targetPath": "/services/ball-landscape",
+      "id": "2a4b26ebe8bfa625931f38447dcf3c01c87fe789"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/services/breeder-services",
+      "source": "CRAWL",
+      "targetPath": "/services/breeder-services",
+      "id": "08cd45c23ff357d684c654aa6a4652e58e2f72c6"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/services/burpee",
+      "source": "CRAWL",
+      "targetPath": "/services/burpee",
+      "id": "789b2f9bd09ebae290acb4e90b25a351873a9005"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/services/colorlink",
+      "source": "CRAWL",
+      "targetPath": "/services/colorlink",
+      "id": "01c74464eb458e0ffd7e27144fcf9912817dd9bd"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/services/logistics",
+      "source": "CRAWL",
+      "targetPath": "/services/logistics",
+      "id": "9e2a222f9fec1c99d2e706d092ce6d34171ee7ec"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/services/mixed-container-solutions",
+      "source": "CRAWL",
+      "targetPath": "/services/mixed-container-solutions",
+      "id": "6e8d7e99f6e72b99adf5053fe43b9885e80fc1aa"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/services/retail-support",
+      "source": "CRAWL",
+      "targetPath": "/services/retail-support",
+      "id": "73e2caca989cb8fb8fbb7a5b3a4f09f6a29b05b6"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/services/services-index",
+      "source": "CRAWL",
+      "targetPath": "/services/services-index",
+      "id": "a82847d308e96564ec7d3cd3a5febd88f66e2f14"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/services/technical-services",
+      "source": "CRAWL",
+      "targetPath": "/services/technical-services",
+      "id": "7cd5737b3d41e697898a496ee8891316a4a660e3"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/supply/network-map",
+      "source": "CRAWL",
+      "targetPath": "/supply/network-map",
+      "id": "05642acee2e88353b586eee2399f59a30ed30cdb"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/supply/our-mission",
+      "source": "CRAWL",
+      "targetPath": "/supply/our-mission",
+      "id": "f05b28cee7ff7531e076a7fb4757be23c81f6243"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/supply/our-suppliers",
+      "source": "CRAWL",
+      "targetPath": "/supply/our-suppliers",
+      "id": "f632e3065b69cc9538541505db7000d93aef6b8e"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io/supply/supply-index",
+      "source": "CRAWL",
+      "targetPath": "/supply/supply-index",
+      "id": "753c5fc1bded4dfd69bafa1f9a8f288ef32e3b4d"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 64800000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": -1,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "crawl",
+    "logger": {},
+    "strategiesAttempted": [
+      "SITEMAPS",
+      "CRAWL"
+    ]
+  },
+  "extractionErrors": []
+}
