@@ -1,0 +1,239 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://ballseed-25.webflow.io",
+          "urlHash": "dad4c5a4d85ca8326b8fe86ed98e26d932992647",
+          "uuid": "dad4c5a4-00-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]"
+        }
+      ],
+      "styles": {
+        "height": 186
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://ballseed-25.webflow.io",
+          "urlHash": "dad4c5a4d85ca8326b8fe86ed98e26d932992647",
+          "uuid": "dad4c5a4-15-2699cf48136889eb4c501db6ef6144845a8f98ab",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]/div[2]"
+        }
+      ],
+      "styles": {
+        "background": "rgb(228, 0, 50) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "header",
+      "cluster": 1,
+      "source": "Header",
+      "target": "Header",
+      "key": "header1",
+      "instances": [
+        {
+          "url": "https://ballseed-25.webflow.io",
+          "urlHash": "dad4c5a4d85ca8326b8fe86ed98e26d932992647",
+          "uuid": "dad4c5a4-00-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 2,
+      "source": "Cards",
+      "target": "Cards (cards2)",
+      "key": "cards2",
+      "instances": [
+        {
+          "url": "https://ballseed-25.webflow.io",
+          "urlHash": "dad4c5a4d85ca8326b8fe86ed98e26d932992647",
+          "uuid": "dad4c5a4-03-5f441624e1b629dbe51ec85c59d71ebffc61008c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 3,
+      "source": "Columns",
+      "target": "Columns (columns3)",
+      "key": "columns3",
+      "instances": [
+        {
+          "url": "https://ballseed-25.webflow.io",
+          "urlHash": "dad4c5a4d85ca8326b8fe86ed98e26d932992647",
+          "uuid": "dad4c5a4-04-6225ec754386dc3995edfd2a67ae483d0c2f1ed2",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 4,
+      "source": "Cards",
+      "target": "Cards (cards4)",
+      "key": "cards4",
+      "instances": [
+        {
+          "url": "https://ballseed-25.webflow.io",
+          "urlHash": "dad4c5a4d85ca8326b8fe86ed98e26d932992647",
+          "uuid": "dad4c5a4-07-2f6860e7141cbad2cc8dcc0f57766f5756bc9ab6",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[2]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 5,
+      "source": "Cards",
+      "target": "Cards (cards5)",
+      "key": "cards5",
+      "instances": [
+        {
+          "url": "https://ballseed-25.webflow.io",
+          "urlHash": "dad4c5a4d85ca8326b8fe86ed98e26d932992647",
+          "uuid": "dad4c5a4-08-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 6,
+      "source": "Carousel",
+      "target": "Carousel",
+      "key": "carousel6",
+      "instances": [
+        {
+          "url": "https://ballseed-25.webflow.io",
+          "urlHash": "dad4c5a4d85ca8326b8fe86ed98e26d932992647",
+          "uuid": "dad4c5a4-09-6512955e21f90302035766704979576ed0000dfc",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[4]/div[1]/div[1]/div[1]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 7,
+      "source": "Cards",
+      "target": "Cards (cards7)",
+      "key": "cards7",
+      "instances": [
+        {
+          "url": "https://ballseed-25.webflow.io",
+          "urlHash": "dad4c5a4d85ca8326b8fe86ed98e26d932992647",
+          "uuid": "dad4c5a4-13-cb82c81c4475893989b504cf5e3cd2b643888462",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[5]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 8,
+      "source": "Columns",
+      "target": "Columns (columns8)",
+      "key": "columns8",
+      "instances": [
+        {
+          "url": "https://ballseed-25.webflow.io",
+          "urlHash": "dad4c5a4d85ca8326b8fe86ed98e26d932992647",
+          "uuid": "dad4c5a4-14-e16edbc8082317536381017fb00a9ca605c778df",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]/div[1]",
+          "section": "section-4"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://ballseed-25.webflow.io",
+      "urlHash": "dad4c5a4d85ca8326b8fe86ed98e26d932992647",
+      "uuid": "dad4c5a4-01-304e5f9953c69db52c6fb0f28d50ad2b9d039880",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io",
+      "urlHash": "dad4c5a4d85ca8326b8fe86ed98e26d932992647",
+      "uuid": "dad4c5a4-02-43861646675b279549e0d0a9f06de6b7057456aa",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io",
+      "urlHash": "dad4c5a4d85ca8326b8fe86ed98e26d932992647",
+      "uuid": "dad4c5a4-05-252295f1fe8a3b84ed794504ca6a38ac71893534",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/h2[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io",
+      "urlHash": "dad4c5a4d85ca8326b8fe86ed98e26d932992647",
+      "uuid": "dad4c5a4-06-74b733085e6f03fdf0adb8f74fa14905906a07bb",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io",
+      "urlHash": "dad4c5a4d85ca8326b8fe86ed98e26d932992647",
+      "uuid": "dad4c5a4-10-9eff79ffffbc8806bd2bdb76030412d0a390d718",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[4]/div[1]/div[1]/div[4]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io",
+      "urlHash": "dad4c5a4d85ca8326b8fe86ed98e26d932992647",
+      "uuid": "dad4c5a4-11-6363a92fa0d2e620b2eae82e7fca52d367788539",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[4]/div[1]/div[2]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io",
+      "urlHash": "dad4c5a4d85ca8326b8fe86ed98e26d932992647",
+      "uuid": "dad4c5a4-12-852f8e8ef36b6af60bf2d865023cb804e88c2328",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[5]/div[1]/div[1]"
+    },
+    {
+      "url": "https://ballseed-25.webflow.io",
+      "urlHash": "dad4c5a4d85ca8326b8fe86ed98e26d932992647",
+      "uuid": "dad4c5a4-15-2699cf48136889eb4c501db6ef6144845a8f98ab",
+      "xpath": "/html[1]/body[1]/div[1]/footer[1]/div[2]",
+      "section": "section-4"
+    }
+  ],
+  "sections": [
+    {
+      "name": "section-1",
+      "background": "rgba(0, 0, 0, 0.14) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-2",
+      "background": "rgba(0, 0, 0, 0) linear-gradient(135deg, rgb(226, 226, 226), rgb(250, 250, 250)) repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 4
+    },
+    {
+      "name": "section-3",
+      "background": "rgba(221, 221, 221, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 2
+    },
+    {
+      "name": "section-4",
+      "background": "rgb(228, 0, 50) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 2
+    }
+  ]
+}
