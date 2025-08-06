@@ -1,0 +1,32 @@
+{
+  "originUrl": "https://avalerehealth.com",
+  "lastCrawled": "https://avalerehealth.com/news/",
+  "urls": [
+    {
+      "url": "https://avalerehealth.com/news/",
+      "source": "CRAWL",
+      "targetPath": "/news",
+      "id": "26b474b8082b8ade4f24b88fe915f79121b4e23d"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 64800000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": -1,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "crawl",
+    "logger": {},
+    "strategiesAttempted": [
+      "SITEMAPS",
+      "CRAWL"
+    ]
+  },
+  "extractionErrors": [
+    {
+      "url": "https://avalerehealth.com/media/content/favicons/site.webmanifest",
+      "status": "content type is not text/html"
+    }
+  ]
+}
