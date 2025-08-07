@@ -1,0 +1,17 @@
+{
+  "originUrl": "https://avalerehealth.com",
+  "urls": [
+    {
+      "url": "https://avalerehealth.com/news/thought-leadership",
+      "source": "MANUAL",
+      "targetPath": "/news/thought-leadership",
+      "id": "3cd7682b879ec85f848c0a9b9fd5e648e1104156"
+    }
+  ],
+  "crawlOptions": {
+    "strategy": "manual",
+    "strategiesAttempted": [
+      "MANUAL"
+    ]
+  }
+}
