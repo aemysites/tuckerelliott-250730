@@ -1,0 +1,17 @@
+{
+  "originUrl": "https://avalerehealth.com",
+  "urls": [
+    {
+      "url": "https://avalerehealth.com/news/thought-leadership/strategic-prompting-is-the-new-creative-brief",
+      "source": "MANUAL",
+      "targetPath": "/news/thought-leadership/strategic-prompting-is-the-new-creative-brief",
+      "id": "4806360c6c5b4d53aace01d9fa7b6447d96645e4"
+    }
+  ],
+  "crawlOptions": {
+    "strategy": "manual",
+    "strategiesAttempted": [
+      "MANUAL"
+    ]
+  }
+}
