@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .tabs .tabs-list {
   display: flex;
   gap: 0.5ch;
@@ -55,4 +56,230 @@
 
 .tabs .tabs-panel[aria-hidden='true'] {
   display: none;
+}
+
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background: transparent;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgb(40 40 40 / 7%);
+  padding: 40px 0;
+  max-width: 100%;
+  justify-content: center;
+  gap: 24px;
+  min-height: 420px;
+}
+
+/* Sidebar (navigation) */
+.tabs > .tabs-list {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  min-width: 200px;
+  background: #fbfbfd;
+  padding: 28px 0;
+  margin: 0;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgb(40 40 40 / 6%);
+  gap: 16px;
+  align-items: stretch;
+  justify-content: stretch;
+  height: auto;
+}
+
+.tabs > .tabs-list > .tabs-tab {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  width: 100%;
+  background: #f6f6f6;
+  color: #6a6a6a;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 400;
+  box-shadow: none;
+  border-radius: 8px;
+  border: none;
+  border-bottom: 1px solid #ececec;
+  cursor: pointer;
+  margin: 0;
+  padding-left: 28px;
+  position: relative;
+  transition: background 0.17s, color 0.15s, box-shadow 0.15s;
+  justify-content: flex-start;
+}
+
+.tabs > .tabs-list > .tabs-tab:last-child {
+  border-bottom: none;
+}
+
+.tabs > .tabs-list > .tabs-tab[aria-selected="true"] {
+  background: #fff;
+  color: #222;
+  box-shadow: 0 4px 18px 0 rgb(40 40 40 / 12%);
+  z-index: 2;
+}
+
+.tabs > .tabs-list > .tabs-tab[aria-selected="true"]::before {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  bottom: 10px;
+  width: 6px;
+  border-radius: 3px;
+  background: #1478d8;
+  content: "";
+}
+
+.tabs > .tabs-list > .tabs-tab > p {
+  margin: 0;
+  padding: 0;
+}
+
+.tabs > .tabs-list > .tabs-tab:not(:last-child) {
+  margin-bottom: 0;
+}
+
+/* Content area */
+.tabs > .tabs-panel {
+  flex: 1 1 0%;
+  background: #fff;
+  border-radius: 16px;
+  color: #6a6a6a;
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 100%;
+  box-shadow: 0 2px 12px rgb(40 40 40 / 6%);
+  border: none;
+  padding: 48px 56px 44px;
+  margin: 0;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tabs > .tabs-panel[aria-hidden="false"] {
+  display: flex;
+}
+
+.tabs > .tabs-panel > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.tabs > .tabs-panel > div > p {
+  margin-bottom: 22px;
+  margin-top: 0;
+  color: #6a6a6a;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Center the CTA link */
+.tabs > .tabs-panel .button-container {
+  text-align: center;
+  margin-top: 34px;
+}
+
+/* CTA LINK - override default .button style for this context */
+.tabs > .tabs-panel .button {
+  color: #1478d8;
+  background: none;
+  font-size: 15px;
+  font-weight: 400;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  letter-spacing: 0.012em;
+  transition: color 0.17s;
+  min-width: 0;
+  max-width: 100%;
+  outline: none;
+}
+
+/* Right arrow icon for button */
+.tabs > .tabs-panel .button::after {
+  display: inline-block;
+  margin-left: 8px;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  background: url("data:image/svg+xml,%3Csvg width='16' height='16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 8h6m0 0l-3-3m3 3l-3 3' stroke='%231478d8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat;
+  content: "";
+}
+
+/* Responsive stacking for mobile */
+@media (width <= 900px) {
+  .tabs {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 12px 0;
+    border-radius: 12px;
+    gap: 0;
+    min-height: unset;
+  }
+
+  .tabs > .tabs-list {
+    flex-direction: row;
+    width: 100%;
+    min-width: 0;
+    border-radius: 12px 12px 0 0;
+    background: #f8fafd;
+    overflow-x: auto;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 2px 12px rgb(40 40 40 / 6%);
+  }
+
+  .tabs > .tabs-list > .tabs-tab {
+    min-width: 130px;
+    height: 44px;
+    border-radius: 12px 12px 0 0;
+    border-bottom: none;
+    border-right: 1px solid #e5e5e5;
+    padding-left: 0;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .tabs > .tabs-list > .tabs-tab:last-child {
+    border-right: none;
+  }
+
+  .tabs > .tabs-list > .tabs-tab[aria-selected="true"]::before {
+    top: auto;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    bottom: 0;
+    border-radius: 3px 3px 0 0;
+    background: #1478d8;
+  }
+
+  .tabs > .tabs-panel {
+    border-radius: 0 0 12px 12px;
+    padding: 18px 10px 22px;
+    min-height: 180px;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .tabs > .tabs-panel .button-container {
+    margin-top: 18px;
+  }
 }
