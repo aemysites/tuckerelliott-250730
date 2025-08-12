@@ -1,0 +1,1285 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-00-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]"
+        }
+      ],
+      "styles": {
+        "height": 65,
+        "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-27-26bb43af345feb1be99d208b20d76ccfc5eb3ed1",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/footer[1]/div[1]/div[1]/div[1]/div[2]/div[5]",
+          "differences": [
+            {
+              "element_id": "html__body__div__div_3__footer__div__div__div__div_2__div_5",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Cookie Preferences Privacy Statement Terms of Use Trust Center \u00a92025 SAS Institute Inc. All Rights Reserved."
+                }
+              ],
+              "dissimilarity_score": 0.0
+            },
+            {
+              "element_id": "html__body__div__div_3__footer__div__div__div__div_2__div_5",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Cookie Preferences Privacy Statement Terms of Use Trust Center \u00a92025 SAS Institute Inc. All Rights Reserved."
+                }
+              ],
+              "dissimilarity_score": 0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ],
+      "styles": {
+        "background": "rgb(3, 41, 84) none repeat scroll 0% 0% / cover padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "header",
+      "cluster": 1,
+      "source": "Header",
+      "target": "Header",
+      "key": "header1",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-00-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 2,
+      "source": "Columns",
+      "target": "Columns (columns2)",
+      "key": "columns2",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-01-8cd3e19c279cb587ec2d1edb0748f9c9fe49bb0b",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-2",
+          "differences": [
+            {
+              "element_id": "html__body__div__main__div_2__div__div__div__div",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Data and AI Solutions Try SAS Viya"
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 3,
+      "source": "Hero",
+      "target": "Hero",
+      "key": "hero3",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-02-3759d0959dde47266ef89f0136cc469a7081f250",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[3]",
+          "differences": [
+            {
+              "element_id": "html__body__div__main__div_2__div__div__div_3",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "This isn\u2019t just AI. This is Agentic AI. Agentic AI builds smart agents that act fast, stay aligned and operate with human oversight \u2014 so you can move with speed and trust. Powered by SAS Viya. Discover Agentic AI Explore SAS Viya"
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 4,
+      "source": "Cards",
+      "target": "Cards (cards4)",
+      "key": "cards4",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-05-8e6889a6550284daa1a06621f9d4815f7bc439bc",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[3]",
+          "differences": [
+            {
+              "element_id": "html__body__div__main__div_2__div__div__div_4__div__div__div__div_2__div_3",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "SAS \u00ae Viya \u00ae Find the quickest way from a billion points of data to a point of view. SAS Viya fulfills the promise of trusted AI, while providing unmatched speed and productivity. Why choose SAS Viya SAS and Epic Games Integrating Epic's Unreal Engine with SAS AI will transform advances in problem solving. Explore digital twins AI Governance Strengthen the integrity of your decisions with AI governance solutions you can trust. Get expert guidance"
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 5,
+      "source": "Columns",
+      "target": "Columns (columns5)",
+      "key": "columns5",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-07-39528f1480a211d99996a7ec469c1d64406d7bb1",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[2]/div[2]",
+          "differences": [
+            {
+              "element_id": "html__body__div__main__div_2__div__div__div_7__div__div__div__div_2__div_2",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Get faster results from your data and a greater return on your investment Better business outcomes Domain-driven, purpose-built AI designed to grow top-line revenue, improve operational performance and reduce risks. Faster time to value Packaged, IP-rich solutions that accelerate and sustain value. Results you can trust Clear and transparent insights from the most trusted data and AI partner."
+                }
+              ],
+              "dissimilarity_score": 0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Tabs",
+      "cluster": 6,
+      "source": "Tabs",
+      "target": "Tabs",
+      "key": "tabs6",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-08-349fb62539dc5a58afa204df4e0d48b191bb34f6",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[2]/div[4]",
+          "section": "section-3",
+          "differences": [
+            {
+              "element_id": "html__body__div__main__div_2__div__div__div_7__div__div__div__div_2__div_4",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Fraud Solutions IoT Solutions Marketing Solutions Risk Solutions Solutions by Industry Detect and prevent fraud across channels with a unified approach to fraud, compliance and security. Our fraud solutions, powered by world-leading data and AI capabilities, deliver essential protection for your organization. Leveraging advanced analytics, machine learning and real-time decisioning, SAS provides unmatched defense against evolving threats. Respond faster to new risks, reduce false positives and enhance customer experience while safeguarding your reputation and bottom line. Fraud solutions Transform your IoT data into actionable insights with SAS. Our edge-to-enterprise platform seamlessly connects IT and operations, delivering powerful analytics across your entire IoT ecosystem. From real-time visualization to AI-powered predictions, we help you unlock the true value of your connected devices and drive smarter business decisions. IoT solutions Elevate your marketing with intuitive solutions that empower you to deliver hyper-personalized experiences by connecting to your data wherever it lives \u2013 no migration needed. Easily create dynamic audiences, craft targeted customer journeys, automate decisions and engage customers across all channels while maintaining data privacy and fostering customer trust. Marketing solutions Optimize risk management across your financial institution. Our unified risk management approach empowers risk professionals with high-performance, on-demand capabilities to maximize profitability and efficiency while ensuring regulatory compliance. Drive confident decisions through transparent risk assessment, strategic capital optimization and streamlined regulatory reporting \u2013 all backed by industry-leading methodologies. Risk solutions Unlock the power of your data with SAS industry solutions. From small businesses to large enterprises, SAS helps you achieve faster, trusted results that drive better outcomes. Tailored to your industry\u2019s unique challenges, SAS industry solutions are packaged with purpose-built IP and domain-driven workflows to help you make better, faster decisions in the moments that matter. View all industries"
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 7,
+      "source": "Cards",
+      "target": "Cards (cards7)",
+      "key": "cards7",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-11-59ac61c1058cb00e1331f997d8a2d09c525dab3a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[2]/div[2]",
+          "differences": [
+            {
+              "element_id": "html__body__div__main__div_2__div__div__div_9__div__div__div__div_2__div_2",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "SAS Models Accelerate innovation with prebuilt models trained and tuned for specific industry needs, offering simple, transparent and agile analytic intelligence. Discover SAS Models"
+                }
+              ],
+              "dissimilarity_score": 0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 8,
+      "source": "Columns",
+      "target": "Columns (columns8)",
+      "key": "columns8",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-14-b1122315eec015508bd3941a9ee23f10ccabc466",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[2]/div[3]",
+          "differences": [
+            {
+              "element_id": "html__body__div__main__div_2__div__div__div_10__div__div_2__div_3",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Where time is money, Viya saves you both. With our data and AI platform, you can understand what\u2019s happening with your data now, predict how to pivot seamlessly, and get results faster. Regardless of roles, everyone in your organization will feel the impact. Learn just how much your organization can save every year by getting a free assessment with our SAS Viya Value Calculator. Learn more about SAS Viya SAS Viya Value Calculator"
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 9,
+      "source": "Columns",
+      "target": "Columns (columns9)",
+      "key": "columns9",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-16-c96f292c8015acced34ef0c6677321bd085e29e6",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[2]/div[2]",
+          "differences": [
+            {
+              "element_id": "html__body__div__main__div_2__div__div__div_11__div__div__div__div_2__div_2",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Flexible cloud strategies. Unmatched performance. Use SAS Viya however you want, wherever you want. SAS managed. Self-managed. Cloud-native. Cloud-agnostic. See all cloud options"
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 10,
+      "source": "Columns",
+      "target": "Columns (columns10)",
+      "key": "columns10",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-19-6e0fe3786309aed0e08261ba2968f389183dd1f0",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[2]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 11,
+      "source": "Cards",
+      "target": "Cards (cards11)",
+      "key": "cards11",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-23-477a977ddeacbc84d977f274c74d2bfb2880aea9",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[2]/div[2]",
+          "differences": [
+            {
+              "element_id": "html__body__div__main__div_2__div__div__div_14__div__div_2__div_2",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "SAS CHAMPIONSHIP Celebrate 25 years of legendary golf as we connect with customers and support charitable partners. Join us October 6 - 12 SAS HACKATHON Build AI skills, network with pros, and work on meaningful challenges. Register now "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "for the SAS Hackathon "
+                },
+                {
+                  "change_type": "equal",
+                  "text": "FREE TRAINING COURSES Learn how training in GenAI and our Viya platform can promote new opportunities. Featured courses ORLANDO MAGIC With SAS Viya, Orlando Magic achieved a 180% increase in gameday app users. Read the customer story"
+                }
+              ],
+              "dissimilarity_score": 0.02
+            }
+          ],
+          "similarity_score": 0.98
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 12,
+      "source": "Columns",
+      "target": "Columns (columns12)",
+      "key": "columns12",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-25-90b28b09febacb3fd55334530412fecccb8f7257",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[2]/div[2]",
+          "differences": [
+            {
+              "element_id": "html__body__div__main__div_2__div__div__div_16__div__div__div__div_2__div_2",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Free SAS Viya Trial Explore SAS Viya in a secure trial environment. Try SAS Viya for free Demo and Pricing Request a software demo or price quote. Request Pricing Academic Programs Discover free software and resources for academics. Academic Programs Contact Us Get fast answers to any of your questions. Contact Us"
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 13,
+      "source": "Columns",
+      "target": "Columns (columns13)",
+      "key": "columns13",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-26-4c803b9539b0bb4c724a287ad431812b6c743f32",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/footer[1]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-4",
+          "differences": [
+            {
+              "element_id": "html__body__div__div_3__footer__div__div__div__div_2__div_5",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Cookie Preferences Privacy Statement Terms of Use Trust Center \u00a92025 SAS Institute Inc. All Rights Reserved."
+                }
+              ],
+              "dissimilarity_score": 0.0
+            },
+            {
+              "element_id": "html__body__div__div_3__footer__div__div__div__div_2",
+              "differences": [
+                {
+                  "change_type": "deletion",
+                  "text": "Home SAS: Data and AI Solutions "
+                },
+                {
+                  "change_type": "equal",
+                  "text": "Home SAS: Data and AI Solutions SAS data and AI solutions provide our global customers with knowledge they can trust in the moments that matter, inspiring bold new innovations across industries. Contact Us Follow Us Facebook Twitter LinkedIn YouTube RSS Explore Accessibility Careers Certification Communities Company Data Management Developers Documentation For Educators Events Industries My SAS Newsroom Products SAS Viya Solutions Students Support & Services Training Try/Buy Video Tutorials Why SAS? What is... What is... Analytics Artificial Intelligence Data Management Data Science Generative AI Responsible Innovation"
+                },
+                {
+                  "change_type": "deletion",
+                  "text": " Cookie Preferences Privacy Statement Terms of Use Trust Center \u00a92025 SAS Institute Inc. All Rights Reserved."
+                }
+              ],
+              "dissimilarity_score": 0.07
+            },
+            {
+              "element_id": "html__body__div__div_3__footer__div__div__div__div_2__div_5",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Cookie Preferences Privacy Statement Terms of Use Trust Center \u00a92025 SAS Institute Inc. All Rights Reserved."
+                }
+              ],
+              "dissimilarity_score": 0.0
+            }
+          ],
+          "similarity_score": 0.9766666666666667
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 14,
+      "source": "Columns",
+      "target": "Columns (columns14)",
+      "key": "columns14",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-27-26bb43af345feb1be99d208b20d76ccfc5eb3ed1",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/footer[1]/div[1]/div[1]/div[1]/div[2]/div[5]",
+          "section": "section-4",
+          "differences": [
+            {
+              "element_id": "html__body__div__div_3__footer__div__div__div__div_2__div_5",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Cookie Preferences Privacy Statement Terms of Use Trust Center \u00a92025 SAS Institute Inc. All Rights Reserved."
+                }
+              ],
+              "dissimilarity_score": 0.0
+            },
+            {
+              "element_id": "html__body__div__div_3__footer__div__div__div__div_2__div_5",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Cookie Preferences Privacy Statement Terms of Use Trust Center \u00a92025 SAS Institute Inc. All Rights Reserved."
+                }
+              ],
+              "dissimilarity_score": 0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-03-9f7d800125591b18312eef9c48cfb3402d27df50",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-04-af203e4fc6fa5f4565ef39f8f8b17460d114c6e1",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[2]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-06-60f049db642b44b44cdbe1f9acf3df99b7e72407",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-09-239ffbd6a86670bc5d823ee9f3bdfda9759734da",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[8]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-10-a827f11041f99d818e96d98e0614efe2804a0b99",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-12-2da9966c597cf7ac796253b1e877c73317f0392a",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-13-ec731e7eecb7b14ee9a0f5814c11683ca0273a3c",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[2]/div[2]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-15-f641602f03f85c9c8e5dbd4337589833c7cdefb2",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-17-19afd0bf44d574be925a8557769ee0f31319f5a6",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[12]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-18-7704f5cb597085b4d865c147e9f740305b650168",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-20-c1bffc835f0ddec8c831af588ca5c05d93e4af3d",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[2]/div[3]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-21-cfcd5621b2158c74a3a2b0389971ee4b91b8a617",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[2]/div[4]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-22-47958ddac7709b4c463778f0b7d81f818a1d9286",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-24-49f364d98a33b24978efcf1e206ca531f70d8333",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[2]/div[1]"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "differences": [
+        {
+          "change_type": "deletion",
+          "text": "Skip"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Trends"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "to"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Casual"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "main"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Streetwear"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "content"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Everyday"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Menu"
+        },
+        {
+          "change_type": "insertion",
+          "text": "looks, always"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Software"
+        },
+        {
+          "change_type": "insertion",
+          "text": "fresh. Sporty"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Learn"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Move"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Support"
+        },
+        {
+          "change_type": "insertion",
+          "text": "easy, look"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Partners About Us SAS Innovate Try"
+        },
+        {
+          "change_type": "insertion",
+          "text": "sharp. Party"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "SAS"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Turn"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Software"
+        },
+        {
+          "change_type": "insertion",
+          "text": "heads"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "SAS"
+        },
+        {
+          "change_type": "insertion",
+          "text": "after"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Viya Platform SAS Viya Platform Overview Data Management Explore and Model Deploy Insights Why SAS Viya? How to Buy Try it "
+        },
+        {
+          "change_type": "insertion",
+          "text": "dark. "
+        },
+        {
+          "change_type": "equal",
+          "text": "Now "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Solutions Solutions"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Trending"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Artificial"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Tennis"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Intelligence (AI) Fraud"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Serve"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "IoT"
+        },
+        {
+          "change_type": "insertion",
+          "text": "up"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Marketing"
+        },
+        {
+          "change_type": "insertion",
+          "text": "cool"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Risk"
+        },
+        {
+          "change_type": "insertion",
+          "text": "style. Beach"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Management"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Chill"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "All"
+        },
+        {
+          "change_type": "insertion",
+          "text": "fits, sun"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Products & Solutions Industries Industries Banking Public Sector Insurance Health Care Life Sciences Manufacturing All Industries Explore Explore Try/Buy Contracting with SAS Why SAS? Customer Stories Generative AI Solutions Consulting Managed Cloud Services Learn Training Training Overview Train My Team Course Catalog Free Training Books My Training Academics Academics Academic Programs Free Academic Software Educators Students Certification Certification Choose a Credential Free Practice Exams Exam Preparation My Certification Explore Explore Communities Events Ask the Expert All Webinars Video Tutorials YouTube Channel Use Your Software Support Communities Communities SAS Viya SAS Programming Statistical Procedures New SAS Users Administrators All Communities Documentation Documentation By Product Installation & Configuration SAS Viya Administration SAS Viya Programming System Requirements All Documentation Support & Services Support & Services Downloads Knowledge Base Starter Kit Support by Product Support Services All Support & Services Explore Explore Blogs User Groups Webinars Video Tutorials YouTube Channel MySAS Partners About Us Company Company Overview Annual Report Leadership Vision & Mission Office Locations Careers Careers Overview Culture Internships Search Jobs News & Events News & Events Newsroom Newsletters Blogs Events Explore Explore Brand Communities Trust Center Contact Us SAS Innovate Close SAS Viya Platform Overview Data Management Explore and Model Deploy Insights Why SAS Viya? How to Buy Try it Now Try it now Solutions Artificial Intelligence (AI) Fraud IoT Marketing Risk Management All Products & Solutions Industries Banking Public Sector Insurance Health Care Life Sciences Manufacturing All Industries Explore Try/Buy Contracting with SAS Why SAS? Customer Stories Generative AI Solutions Consulting Managed Cloud Services Close Software Success Discover free resources and tailored guides to help you optimize your software experience"
+        },
+        {
+          "change_type": "insertion",
+          "text": "vibes"
+        },
+        {
+          "change_type": "equal",
+          "text": ". "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Learn to use your software Training Overview Train My Team Course Catalog Free Training Books My Training Academics Academic Programs Free Academic Software Educators Students Certification Choose a Credential Free Practice Exams Exam"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Festival"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Preparation My Certification Explore Communities Events Ask the Expert All Webinars Video Tutorials YouTube Channel Close Communities SAS Viya SAS Programming Statistical Procedures New SAS Users Administrators All Communities Documentation By Product Installation & Configuration SAS Viya Administration SAS Viya Programming System Requirements All Documentation Support & Services Downloads Knowledge Base Starter Kit Support by Product Support Services All Support & Services Explore Blogs User Groups Webinars Video Tutorials YouTube Channel MySAS Close Overview Partner Program Find a Partner Sign Into PartnerNet Close Why SAS? Learn why SAS is the world's most trusted analytics platform"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Dance"
+        },
+        {
+          "change_type": "equal",
+          "text": ", "
+        },
+        {
+          "change_type": "deletion",
+          "text": "and why analysts"
+        },
+        {
+          "change_type": "insertion",
+          "text": "play"
+        },
+        {
+          "change_type": "equal",
+          "text": ", "
+        },
+        {
+          "change_type": "deletion",
+          "text": "customers and industry experts love SAS"
+        },
+        {
+          "change_type": "insertion",
+          "text": "repeat"
+        },
+        {
+          "change_type": "equal",
+          "text": ". "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Learn more about SAS Company Overview Annual Report Leadership Vision & Mission Office Locations Careers Overview Culture Internships Search Jobs News & Events Newsroom Newsletters Blogs Events Explore Brand Communities Trust Center Contact Us sas.com sas.com support.sas.com"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Inspo"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "documentation.sas.com"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Style"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "blogs.sas.com"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Files"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "communities.sas.com"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Real"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "developer.sas.com"
+        },
+        {
+          "change_type": "insertion",
+          "text": "looks, real"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Search"
+        },
+        {
+          "change_type": "insertion",
+          "text": "people. Blog"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Close"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Watch"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Close"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Fresh"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Select Your Region Visit the Cary"
+        },
+        {
+          "change_type": "insertion",
+          "text": "brands"
+        },
+        {
+          "change_type": "equal",
+          "text": ", "
+        },
+        {
+          "change_type": "deletion",
+          "text": "NC, US corporate headquarters site Americas Europe Middle East & Africa Asia Pacific View our worldwide contacts list for help finding your region Americas Brasil Canada (English) Canada (Fran\u00e7ais) Colombia M\u00e9xico United States Europe Belgium \u010cesk\u00e1 Republika Danmark Deutschland Espa\u00f1a France Iceland Ireland Italia Nederland Norge \u00d6sterreich Polska Portugal Rom\u00e2nia \u0420\u043e\u0441\u0441\u0438\u044f Schweiz (Deutsch) Suisse (Fran\u00e7ais) Suomi Sverige T\u00fcrkiye"
+        },
+        {
+          "change_type": "insertion",
+          "text": "hot"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "\u0423\u043a\u0440\u0430\u0457\u043d\u0430 United"
+        },
+        {
+          "change_type": "insertion",
+          "text": "takes. How"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Kingdom"
+        },
+        {
+          "change_type": "insertion",
+          "text": "To"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Middle"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Trend"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "East & Africa Middle East Saudi Arabia South Africa Asia Pacific Australia \u4e2d\u56fd (\u7b80\u4f53\u4e2d\u6587) Hong Kong India \u65e5\u672c \ub300\ud55c\ubbfc\uad6d Malaysia New Zealand Philippines Singapore \u53f0\u7063 (\u7e41\u9ad4\u4e2d\u6587) Thailand (English) \u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e44\u0e17\u0e22 (\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22) Search Worldwide Sites Contact Us SAS Sites Sign In Hi ! Sign Out Close Sign In Create Profile My SAS Get access to My SAS"
+        },
+        {
+          "change_type": "insertion",
+          "text": "tips"
+        },
+        {
+          "change_type": "equal",
+          "text": ", "
+        },
+        {
+          "change_type": "deletion",
+          "text": "trials, communities and"
+        },
+        {
+          "change_type": "insertion",
+          "text": "made"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "more"
+        },
+        {
+          "change_type": "insertion",
+          "text": "easy"
+        },
+        {
+          "change_type": "equal",
+          "text": ". "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Close"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Fresh"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Sign"
+        },
+        {
+          "change_type": "insertion",
+          "text": "fits, bold"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Out"
+        },
+        {
+          "change_type": "insertion",
+          "text": "moves"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Edit"
+        },
+        {
+          "change_type": "insertion",
+          "text": "See"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Profile"
+        },
+        {
+          "change_type": "insertion",
+          "text": "how"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "My"
+        },
+        {
+          "change_type": "insertion",
+          "text": "trendsetters"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "SAS"
+        },
+        {
+          "change_type": "insertion",
+          "text": "own"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Get"
+        },
+        {
+          "change_type": "insertion",
+          "text": "every"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "access to My SAS, trials, communities and more"
+        },
+        {
+          "change_type": "insertion",
+          "text": "moment"
+        },
+        {
+          "change_type": "equal",
+          "text": ". "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Close"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Discover"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "SAS"
+        },
+        {
+          "change_type": "insertion",
+          "text": "About"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Sites sas.com"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Blog"
+        },
+        {
+          "change_type": "equal",
+          "text": " Support "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Blogs Communities Developer Curiosity"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Contact"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Videos"
+        },
+        {
+          "change_type": "insertion",
+          "text": "FAQ"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Documentation Learn Brand PartnerNet Merchandise"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Subscribe"
+        },
+        {
+          "change_type": "equal",
+          "text": " Data and AI Solutions Try SAS Viya This isn\u2019t just AI. This is Agentic AI. Agentic AI builds smart agents that act fast, stay aligned and operate with human oversight \u2014 so you can move with speed and trust. Powered by SAS Viya. Discover Agentic AI Explore SAS Viya Featured Topics From SAS SAS \u00ae Viya \u00ae Find the quickest way from a billion points of data to a point of view. SAS Viya fulfills the promise of trusted AI, while providing unmatched speed and productivity. Why choose SAS Viya SAS and Epic Games Integrating Epic's Unreal Engine with SAS AI will transform advances in problem solving. Explore digital twins AI Governance Strengthen the integrity of your decisions with AI governance solutions you can trust. Get expert guidance SAS Industry Solutions: Purpose-Built AI Get faster results from your data and a greater return on your investment Better business outcomes Domain-driven, purpose-built AI designed to grow top-line revenue, improve operational performance and reduce risks. Faster time to value Packaged, IP-rich solutions that accelerate and sustain value. Results you can trust Clear and transparent insights from the most trusted data and AI partner. Fraud Solutions IoT Solutions Marketing Solutions Risk Solutions Solutions by Industry Detect and prevent fraud across channels with a unified approach to fraud, compliance and security. Our fraud solutions, powered by world-leading data and AI capabilities, deliver essential protection for your organization. Leveraging advanced analytics, machine learning and real-time decisioning, SAS provides unmatched defense against evolving threats. Respond faster to new risks, reduce false positives and enhance customer experience while safeguarding your reputation and bottom line. Fraud solutions Transform your IoT data into actionable insights with SAS. Our edge-to-enterprise platform seamlessly connects IT and operations, delivering powerful analytics across your entire IoT ecosystem. From real-time visualization to AI-powered predictions, we help you unlock the true value of your connected devices and drive smarter business decisions. IoT solutions Elevate your marketing with intuitive solutions that empower you to deliver hyper-personalized experiences by connecting to your data wherever it lives \u2013 no migration needed. Easily create dynamic audiences, craft targeted customer journeys, automate decisions and engage customers across all channels while maintaining data privacy and fostering customer trust. Marketing solutions Optimize risk management across your financial institution. Our unified risk management approach empowers risk professionals with high-performance, on-demand capabilities to maximize profitability and efficiency while ensuring regulatory compliance. Drive confident decisions through transparent risk assessment, strategic capital optimization and streamlined regulatory reporting \u2013 all backed by industry-leading methodologies. Risk solutions Unlock the power of your data with SAS industry solutions. From small businesses to large enterprises, SAS helps you achieve faster, trusted results that drive better outcomes. Tailored to your industry\u2019s unique challenges, SAS industry solutions are packaged with purpose-built IP and domain-driven workflows to help you make better, faster decisions in the moments that matter. View all industries SAS Models Accelerate innovation with prebuilt models trained and tuned for specific industry needs, offering simple, transparent and agile analytic intelligence. Discover SAS Models The SAS Viya Performance Advantage Where time is money, Viya saves you both. With our data and AI platform, you can understand what\u2019s happening with your data now, predict how to pivot seamlessly, and get results faster. Regardless of roles, everyone in your organization will feel the impact. Learn just how much your organization can save every year by getting a free assessment with our SAS Viya Value Calculator. Learn more about SAS Viya SAS Viya Value Calculator Flexible cloud strategies. Unmatched performance. Use SAS Viya however you want, wherever you want. SAS managed. Self-managed. Cloud-native. Cloud-agnostic. See all cloud options Customers Working Smarter With SAS Explore all customer stories Trending Topics SAS CHAMPIONSHIP Celebrate 25 years of legendary golf as we connect with customers and support charitable partners. Join us October 6 - 12 SAS HACKATHON Build AI skills, network with pros, and work on meaningful challenges. Register now "
+        },
+        {
+          "change_type": "deletion",
+          "text": "for the SAS Hackathon "
+        },
+        {
+          "change_type": "equal",
+          "text": "FREE TRAINING COURSES Learn how training in GenAI and our Viya platform can promote new opportunities. Featured courses ORLANDO MAGIC With SAS Viya, Orlando Magic achieved a 180% increase in gameday app users. Read the customer story Free SAS Viya Trial Explore SAS Viya in a secure trial environment. Try SAS Viya for free Demo and Pricing Request a software demo or price quote. Request Pricing Academic Programs Discover free software and resources for academics. Academic Programs Contact Us Get fast answers to any of your questions. Contact Us Home SAS: Data and AI Solutions "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Home SAS: Data and AI Solutions "
+        },
+        {
+          "change_type": "equal",
+          "text": "SAS data and AI solutions provide our global customers with knowledge they can trust in the moments that matter, inspiring bold new innovations across industries. Contact Us Follow Us Facebook Twitter LinkedIn YouTube RSS Explore Accessibility Careers Certification Communities Company Data Management Developers Documentation For Educators Events Industries My SAS Newsroom Products SAS Viya Solutions Students Support & Services Training Try/Buy Video Tutorials Why SAS? What is... What is... Analytics Artificial Intelligence Data Management Data Science Generative AI Responsible Innovation "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Cookie Preferences Privacy Statement Terms of Use Trust Center \u00a92025 SAS Institute Inc. All Rights Reserved. "
+        },
+        {
+          "change_type": "equal",
+          "text": "Contact Us Share Subscribe Share this Share this page with friends or colleagues. Back to Top About cookies on this site This site uses cookies and related technologies for site operation, analytics and third-party advertising purposes, as described in our SAS Privacy Statement . You may consent to our use of these technologies, reject non-essential technologies or further manage your preferences. To opt out of SAS making information relating to cookies and similar technologies available to third parties for advertising purposes, select \"Required only.\" To exercise other rights you may have related to cookies, select \"Manage cookies.\" Accept all Required only Manage cookies SAS Privacy Statement | Powered by: | Truste"
+        },
+        {
+          "change_type": "insertion",
+          "text": " Cookie Preferences Privacy Statement Terms of Use Trust Center \u00a92025 SAS Institute Inc. All Rights Reserved."
+        }
+      ],
+      "similarity_score": 0.8944472391736085
+    }
+  ]
+}
