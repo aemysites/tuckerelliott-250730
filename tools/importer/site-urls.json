@@ -1,0 +1,21 @@
+{
+  "originUrl": "https://www.sas.com",
+  "aborted": false,
+  "urls": [
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "source": "MANUAL",
+      "targetPath": "/en-us/home",
+      "id": "f619d570db5d303ba3b0f63f012c828b5128b1ff"
+    }
+  ],
+  "lastCrawled": null,
+  "crawlOptions": {
+    "limit": 100,
+    "strategy": "manual",
+    "strategiesAttempted": [
+      "MANUAL"
+    ]
+  },
+  "extractionErrors": []
+}
