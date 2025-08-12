@@ -34,131 +34,6 @@
 }
 
 
-.columns.columns9 {
-  background: #fff;
-  margin: 0;
-  padding-top: 48px;
-  padding-bottom: 48px;
-  box-sizing: border-box;
-}
-
-.columns.columns9 > div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 0;
-  width: 100%;
-  min-height: 120px;
-  box-sizing: border-box;
-  padding: 0;
-}
-
-.columns.columns9 > div > div:first-child {
-  display: none;
-  width: 0;
-  min-width: 0;
-  margin: 0;
-  padding: 0;
-  flex: 0 0 0px;
-}
-
-.columns.columns9 > div > div:last-child {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  flex: 1 1 0%;
-  min-width: 320px;
-  width: 100%;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.columns.columns9 h3 {
-  font-size: 20px;
-  font-weight: 700;
-  color: #181C23;
-  margin-bottom: 8px;
-  margin-top: 0;
-  line-height: 1.2;
-  text-align: left;
-}
-
-.columns.columns9 p:not(.button-container) {
-  font-size: 14px;
-  color: #484B52;
-  margin-bottom: 10px;
-  margin-top: 0;
-  line-height: 1.5;
-  text-align: left;
-}
-
-.columns.columns9 .button-container {
-  margin-top: 14px;
-  margin-bottom: 0;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 0;
-}
-
-.columns.columns9 .button-container .button {
-  background: none;
-  border: none;
-  box-shadow: none;
-  color: #2173C8;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 0;
-  margin: 0;
-  border-radius: 0;
-  display: inline-flex;
-  align-items: center;
-  text-align: left;
-  text-decoration: none;
-  line-height: 1.4;
-  min-width: unset;
-  max-width: unset;
-  white-space: normal;
-  transition: color 0.2s;
-}
-
-.columns.columns9 .button-container .button:hover,
-.columns.columns9 .button-container .button:focus {
-  color: #005fa3;
-  text-decoration: underline;
-  background: none;
-  box-shadow: none;
-}
-
-@media (width <= 900px) {
-  .columns.columns9 {
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
-
-  .columns.columns9 > div {
-    flex-direction: column;
-    gap: 16px;
-    min-height: unset;
-    padding: 0;
-  }
-
-  .columns.columns9 > div > div:first-child {
-    display: none;
-  }
-
-  .columns.columns9 > div > div:last-child {
-    width: 100%;
-    min-width: unset;
-    justify-content: flex-start;
-  }
-}
-
-
 .columns.columns10 > div {
   display: flex;
   flex-direction: row;
@@ -949,18 +824,16 @@
   padding: 0;
 }
 
-/* Main row: horizontal flex, top-aligned, with tight gap */
 .columns.columns8 > div {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 28px; /* tighter gap for visual compactness */
+  gap: 28px;
   width: 100%;
   box-sizing: border-box;
 }
 
-/* Responsive: stack columns on mobile */
 @media (width <= 900px) {
   .columns.columns8 > div {
     flex-direction: column;
@@ -970,7 +843,6 @@
   }
 }
 
-/* Left column (headline, text, buttons): slightly wider for less wrapping */
 .columns.columns8 > div > div:first-child {
   flex: 1 1 0;
   min-width: 350px;
@@ -982,7 +854,6 @@
   justify-content: flex-start;
 }
 
-/* Headline */
 .columns.columns8 h3 {
   font-size: 1.7rem;
   font-weight: 700;
@@ -992,21 +863,18 @@
   line-height: 1.15;
 }
 
-/* Description paragraph */
 .columns.columns8 > div > div:first-child p {
   font-size: 1rem;
   color: #444;
-  margin-bottom: 0.9rem; /* slightly tighter above buttons */
+  margin-bottom: 0.9rem;
   margin-top: 0;
   max-width: 100%;
 }
 
-/* Final paragraph just above buttons: the tightest margin */
 .columns.columns8 > div > div:first-child p:last-of-type:not(.button-container) {
   margin-bottom: 0.5rem;
 }
 
-/* CTA Buttons: arrange side by side (row) with flex */
 .columns.columns8 > div > div:first-child .button-row {
   display: flex;
   flex-direction: row;
@@ -1016,7 +884,6 @@
   margin-bottom: 0;
 }
 
-/* For HTML without .button-row, use inline-block fallback */
 .columns.columns8 > div > div:first-child .button-container {
   display: inline-block;
   vertical-align: top;
@@ -1029,7 +896,6 @@
   margin-right: 0;
 }
 
-/* Button tweaks: ensure consistent sizing and visual weight */
 .columns.columns8 .button {
   min-width: 200px;
   padding: 0.7em 2.1em;
@@ -1055,7 +921,6 @@
   border: 2px solid #1976d2;
 }
 
-/* Responsive: stack buttons vertically on mobile */
 @media (width <= 600px) {
   .columns.columns8 > div > div:first-child .button-row {
     flex-direction: column;
@@ -1074,7 +939,6 @@
   }
 }
 
-/* Chart (image) column: right-aligned, modest right padding */
 .columns.columns8 .columns-img-col {
   flex: 1 1 0;
   min-width: 340px;
@@ -1088,7 +952,6 @@
   padding-right: 22px;
 }
 
-/* Chart image: fixed size but responsive down, never stretches past max size */
 .columns.columns8 .columns-img-col img {
   width: 566px;
   height: 336px;
@@ -1100,7 +963,6 @@
   box-shadow: none;
 }
 
-/* Responsive: make image full width and centered on small screens */
 @media (width <= 900px) {
   .columns.columns8 .columns-img-col {
     max-width: 100%;
@@ -1116,5 +978,150 @@
     width: 100%;
     height: auto;
     min-width: 0;
+  }
+}
+
+
+.columns.columns9 {
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.columns.columns9 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 28px;
+  min-height: 124px;
+  padding: 40px 0 40px 64px;
+  box-sizing: border-box;
+}
+
+/* Simulate four circles (like logo grid) in the left column using multiple radial gradients */
+.columns.columns9 > div > div:first-child {
+  display: block;
+  min-width: 312px;
+  width: 312px;
+  max-width: 312px;
+  height: 78px;
+  background:
+    radial-gradient(circle at 16% 50%, #fff 39px, transparent 40px),
+    radial-gradient(circle at 39% 50%, #fff 39px, transparent 40px),
+    radial-gradient(circle at 62% 50%, #fff 39px, transparent 40px),
+    radial-gradient(circle at 85% 50%, #fff 39px, transparent 40px);
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Text column: heading + description + CTA stacked vertically */
+.columns.columns9 > div > div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 340px;
+  max-width: 440px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.columns.columns9 h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #15181e;
+  margin-bottom: 8px;
+  margin-top: 0;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.columns.columns9 p:not(.button-container) {
+  font-size: 14px;
+  color: #4D5259;
+  margin-bottom: 10px;
+  margin-top: 0;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.columns.columns9 .button-container {
+  margin-top: 14px;
+  margin-bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}
+
+.columns.columns9 .button-container .button {
+  background: none;
+  border: none;
+  box-shadow: none;
+  color: #0072c6;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  display: inline-flex;
+  align-items: center;
+  text-align: left;
+  text-decoration: none;
+  line-height: 1.4;
+  min-width: unset;
+  max-width: unset;
+  white-space: normal;
+  transition: color 0.2s;
+  position: relative;
+}
+
+.columns.columns9 .button-container .button::after {
+  display: inline-block;
+  margin-left: 8px;
+  width: 16px;
+  height: 16px;
+  background: url('right-arrow.svg') center/contain no-repeat;
+  vertical-align: middle;
+}
+
+/* Responsive adjustments */
+@media (width <= 900px) {
+  .columns.columns9 > div {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    min-height: unset;
+    padding: 24px 0 24px 16px;
+  }
+
+  .columns.columns9 > div > div:first-child {
+    min-width: 160px;
+    width: 100%;
+    max-width: 100%;
+    height: 72px;
+    background:
+      radial-gradient(circle at 20% 50%, #fff 32px, transparent 33px),
+      radial-gradient(circle at 46% 50%, #fff 32px, transparent 33px),
+      radial-gradient(circle at 72% 50%, #fff 32px, transparent 33px),
+      radial-gradient(circle at 98% 50%, #fff 32px, transparent 33px);
+    margin-bottom: 12px;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
+  }
+
+  .columns.columns9 > div > div:last-child {
+    min-width: unset;
+    max-width: 100%;
+    width: 100%;
   }
 }
