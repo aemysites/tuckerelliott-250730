@@ -34,146 +34,6 @@
 }
 
 
-.columns.columns5 {
-  background: #fff;
-  padding: 48px 0;
-  display: block;
-}
-
-.columns.columns5 > div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 24px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-@media (width <= 899px) {
-  .columns.columns5 > div {
-    flex-direction: column;
-    gap: 32px;
-    align-items: center;
-  }
-}
-
-.columns.columns5 .columns-img-col {
-  width: 504px;
-  height: 504px;
-  min-width: 504px;
-  min-height: 504px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-@media (width <= 899px) {
-  .columns.columns5 .columns-img-col,
-  .columns.columns5 .columns-img-col img {
-    width: 320px;
-    height: 320px;
-    min-width: 320px;
-    min-height: 320px;
-  }
-}
-
-.columns.columns5 .columns-img-col img {
-  width: 504px;
-  height: 504px;
-  object-fit: cover;
-  border-radius: 56px 0;
-  display: block;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-
-.columns.columns5 .columns-img-col span,
-.columns.columns5 .columns-img-col i {
-  position: absolute;
-  width: 96px;
-  height: 96px;
-  pointer-events: none;
-  display: block;
-  z-index: 2;
-  background: transparent;
-}
-
-.columns.columns5 .columns-img-col span.corner-tl {
-  top: -32px;
-  left: -32px;
-  background: #0066d6;
-  border-top-left-radius: 96px;
-}
-
-.columns.columns5 .columns-img-col span.corner-bl {
-  bottom: -32px;
-  left: -32px;
-  background: #96c8f8;
-  border-bottom-left-radius: 96px;
-}
-
-.columns.columns5 .columns-img-col i.corner-tr {
-  top: -32px;
-  right: -32px;
-  background: #96c8f8;
-  border-top-right-radius: 96px;
-}
-
-.columns.columns5 .columns-img-col i.corner-br {
-  bottom: -32px;
-  right: -32px;
-  background: #0066d6;
-  border-bottom-right-radius: 96px;
-}
-
-.columns.columns5 > div > div:not(.columns-img-col) {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 540px;
-  width: 100%;
-  align-self: center;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-@media (width <= 899px) {
-  .columns.columns5 > div > div:not(.columns-img-col) {
-    max-width: 100%;
-    align-self: stretch;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-}
-
-.columns.columns5 h3 {
-  font-size: 2.15rem;
-  font-weight: 700;
-  margin-bottom: 26px;
-  color: #1a1a1a;
-  line-height: 1.22;
-  letter-spacing: -0.01em;
-}
-
-.columns.columns5 h4 {
-  font-size: 1.14rem;
-  font-weight: 700;
-  color: #1a1a1a;
-  margin-top: 20px;
-  margin-bottom: 6px;
-}
-
-.columns.columns5 p {
-  font-size: 1rem;
-  color: #444;
-  margin-bottom: 10px;
-  margin-top: 0;
-  line-height: 1.5;
-}
-
-
 .columns.columns8 {
   background: #fff;
   padding: 0;
@@ -1100,4 +960,152 @@
     justify-content: flex-start;
     padding-bottom: 8px;
   }
+}
+
+
+.columns.columns5 {
+  background: #fff;
+  padding: 48px 0;
+  display: block;
+}
+
+/* Main row: flex, columns side by side, top aligned, slightly tighter gap */
+.columns.columns5 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 52px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (width <= 899px) {
+  .columns.columns5 > div {
+    flex-direction: column;
+    gap: 32px;
+    align-items: stretch;
+  }
+}
+
+/* Image column: even more compact height, improved vertical alignment */
+.columns.columns5 .columns-img-col {
+  position: relative;
+  width: 360px;
+  max-width: 40vw;
+  min-width: 260px;
+  height: 235px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+@media (width <= 899px) {
+  .columns.columns5 .columns-img-col {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+  }
+}
+
+/* Image: fills container, covers area */
+.columns.columns5 .columns-img-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  display: block;
+  margin: 0;
+  padding: 0;
+  transform: none;
+}
+
+/* Decorative blue shapes: nudge closer, size even smaller for subtlety */
+.columns.columns5 .columns-img-col span,
+.columns.columns5 .columns-img-col i {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+  display: block;
+  z-index: 2;
+  background: transparent;
+}
+
+/* Top-left: overlap closer to image corner */
+.columns.columns5 .columns-img-col span.corner-tl {
+  top: -22px;
+  left: -22px;
+  background: #2175f3;
+  border-top-left-radius: 40px;
+}
+
+/* Bottom-left: overlap closer to image corner */
+.columns.columns5 .columns-img-col span.corner-bl {
+  bottom: -22px;
+  left: -22px;
+  background: #96c8f8;
+  border-bottom-left-radius: 40px;
+}
+
+/* Bottom-right: overlap closer to image corner */
+.columns.columns5 .columns-img-col i.corner-br {
+  bottom: -22px;
+  right: -22px;
+  background: #2175f3;
+  border-bottom-right-radius: 40px;
+}
+
+/* Hide top-right shape for visual fidelity */
+.columns.columns5 .columns-img-col i.corner-tr {
+  display: none;
+}
+
+/* Text column: align to top, increase max-width, ultra-tight vertical rhythm */
+.columns.columns5 > div > div:not(.columns-img-col) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 695px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media (width <= 899px) {
+  .columns.columns5 > div > div:not(.columns-img-col) {
+    max-width: 100%;
+  }
+}
+
+/* Headline: zero top margin, compact bottom margin */
+.columns.columns5 h3 {
+  font-size: 2.15rem;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 1.2rem;
+  margin-top: 0;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+}
+
+/* Subheadings: decrease vertical spacing, compact margins */
+.columns.columns5 h4 {
+  font-size: 1.03rem;
+  font-weight: 700;
+  color: #222;
+  margin-top: 0.95rem;
+  margin-bottom: 0.12rem;
+}
+
+/* Paragraphs: ultra-tight spacing for compact block */
+.columns.columns5 p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.18rem;
+  margin-top: 0;
+  line-height: 1.5;
 }
