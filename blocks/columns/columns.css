@@ -34,161 +34,6 @@
 }
 
 
-.columns.columns8 {
-  background: #fff;
-  padding: 0;
-}
-
-.columns.columns8 > div {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 48px;
-  width: 100%;
-  box-sizing: border-box;
-  min-height: 1px;
-}
-
-.columns.columns8 > div > div:first-child {
-  flex: 1 1 60%;
-  min-width: 300px;
-  max-width: 650px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font-size: 0;
-}
-
-.columns.columns8 h3 {
-  font-size: 1.55rem;
-  font-weight: 700;
-  color: #222;
-  margin-bottom: 1.2rem;
-  line-height: 1.2;
-  margin-top: 0;
-}
-
-.columns.columns8 p {
-  font-size: 1rem;
-  color: #444;
-  line-height: 1.6;
-  margin-bottom: 1rem;
-  margin-top: 0;
-  max-width: 100%;
-  word-break: normal;
-  white-space: normal;
-}
-
-.columns.columns8 > div > div:first-child .button-container {
-  display: inline-block;
-  margin-right: 16px;
-  margin-top: 1.6rem;
-  vertical-align: top;
-  margin-bottom: 0;
-  font-size: 1rem;
-}
-
-.columns.columns8 > div > div:first-child .button-container:last-of-type {
-  margin-right: 0;
-}
-
-.columns.columns8 .button {
-  display: inline-block;
-  min-width: 215px;
-  padding: 0.66em 1.8em;
-  border-radius: 999px;
-  font-size: 1rem;
-  font-weight: 500;
-  font-family: inherit;
-  text-decoration: none;
-  line-height: 1.25;
-  box-sizing: border-box;
-  transition: background 0.2s, color 0.2s, border 0.2s;
-  margin: 0;
-}
-
-.columns.columns8 > div > div:first-child .button-container:first-of-type .button {
-  background: #1976d2;
-  color: #fff;
-  border: none;
-}
-
-.columns.columns8 > div > div:first-child .button-container:last-of-type .button {
-  background: #fff;
-  color: #1976d2;
-  border: 2px solid #1976d2;
-}
-
-.columns.columns8 .button:hover,
-.columns.columns8 .button:focus {
-  filter: brightness(0.94);
-}
-
-.columns.columns8 .columns-img-col {
-  flex: 1 1 40%;
-  min-width: 250px;
-  max-width: 540px;
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
-  box-sizing: border-box;
-  padding-left: 8px;
-  padding-right: 24px;
-  min-height: 1px;
-}
-
-.columns.columns8 .columns-img-col img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 0.5rem;
-  box-shadow: none;
-  object-fit: contain;
-}
-
-@media (width <= 900px) {
-  .columns.columns8 > div {
-    flex-direction: column;
-    gap: 32px;
-    padding: 24px 0;
-  }
-
-  .columns.columns8 > div > div:first-child {
-    max-width: 100%;
-    width: 100%;
-    font-size: 1rem;
-  }
-
-  .columns.columns8 .columns-img-col {
-    max-width: 100%;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    justify-content: center;
-  }
-
-  .columns.columns8 > div > div:first-child .button-container {
-    display: block;
-    margin: 12px 0 0;
-  }
-
-  .columns.columns8 > div > div:first-child .button-container:first-of-type {
-    margin-top: 1.4rem;
-  }
-}
-
-@media (width >= 1200px) {
-  .columns.columns8 .columns-img-col {
-    padding-right: 44px;
-    max-width: 650px;
-  }
-}
-
-
 .columns.columns9 {
   background: #fff;
   margin: 0;
@@ -969,7 +814,6 @@
   display: block;
 }
 
-/* Main row: flex, columns side by side, top aligned, slightly tighter gap */
 .columns.columns5 > div {
   display: flex;
   flex-direction: row;
@@ -987,7 +831,6 @@
   }
 }
 
-/* Image column: even more compact height, improved vertical alignment */
 .columns.columns5 .columns-img-col {
   position: relative;
   width: 360px;
@@ -1010,7 +853,6 @@
   }
 }
 
-/* Image: fills container, covers area */
 .columns.columns5 .columns-img-col img {
   width: 100%;
   height: 100%;
@@ -1022,7 +864,6 @@
   transform: none;
 }
 
-/* Decorative blue shapes: nudge closer, size even smaller for subtlety */
 .columns.columns5 .columns-img-col span,
 .columns.columns5 .columns-img-col i {
   position: absolute;
@@ -1034,7 +875,6 @@
   background: transparent;
 }
 
-/* Top-left: overlap closer to image corner */
 .columns.columns5 .columns-img-col span.corner-tl {
   top: -22px;
   left: -22px;
@@ -1042,7 +882,6 @@
   border-top-left-radius: 40px;
 }
 
-/* Bottom-left: overlap closer to image corner */
 .columns.columns5 .columns-img-col span.corner-bl {
   bottom: -22px;
   left: -22px;
@@ -1050,7 +889,6 @@
   border-bottom-left-radius: 40px;
 }
 
-/* Bottom-right: overlap closer to image corner */
 .columns.columns5 .columns-img-col i.corner-br {
   bottom: -22px;
   right: -22px;
@@ -1058,12 +896,10 @@
   border-bottom-right-radius: 40px;
 }
 
-/* Hide top-right shape for visual fidelity */
 .columns.columns5 .columns-img-col i.corner-tr {
   display: none;
 }
 
-/* Text column: align to top, increase max-width, ultra-tight vertical rhythm */
 .columns.columns5 > div > div:not(.columns-img-col) {
   display: flex;
   flex-direction: column;
@@ -1081,7 +917,6 @@
   }
 }
 
-/* Headline: zero top margin, compact bottom margin */
 .columns.columns5 h3 {
   font-size: 2.15rem;
   font-weight: 800;
@@ -1092,7 +927,6 @@
   letter-spacing: -0.01em;
 }
 
-/* Subheadings: decrease vertical spacing, compact margins */
 .columns.columns5 h4 {
   font-size: 1.03rem;
   font-weight: 700;
@@ -1101,11 +935,186 @@
   margin-bottom: 0.12rem;
 }
 
-/* Paragraphs: ultra-tight spacing for compact block */
 .columns.columns5 p {
   font-size: 1rem;
   color: #333;
   margin-bottom: 0.18rem;
   margin-top: 0;
   line-height: 1.5;
+}
+
+
+.columns.columns8 {
+  background: #fff;
+  padding: 0;
+}
+
+/* Main row: horizontal flex, top-aligned, with tight gap */
+.columns.columns8 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 28px; /* tighter gap for visual compactness */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Responsive: stack columns on mobile */
+@media (width <= 900px) {
+  .columns.columns8 > div {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 24px;
+    padding: 24px 0;
+  }
+}
+
+/* Left column (headline, text, buttons): slightly wider for less wrapping */
+.columns.columns8 > div > div:first-child {
+  flex: 1 1 0;
+  min-width: 350px;
+  max-width: 800px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* Headline */
+.columns.columns8 h3 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 1.2rem;
+  margin-top: 0;
+  line-height: 1.15;
+}
+
+/* Description paragraph */
+.columns.columns8 > div > div:first-child p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 0.9rem; /* slightly tighter above buttons */
+  margin-top: 0;
+  max-width: 100%;
+}
+
+/* Final paragraph just above buttons: the tightest margin */
+.columns.columns8 > div > div:first-child p:last-of-type:not(.button-container) {
+  margin-bottom: 0.5rem;
+}
+
+/* CTA Buttons: arrange side by side (row) with flex */
+.columns.columns8 > div > div:first-child .button-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* For HTML without .button-row, use inline-block fallback */
+.columns.columns8 > div > div:first-child .button-container {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 0;
+  margin-right: 18px;
+  margin-top: 0;
+}
+
+.columns.columns8 > div > div:first-child .button-container:last-of-type {
+  margin-right: 0;
+}
+
+/* Button tweaks: ensure consistent sizing and visual weight */
+.columns.columns8 .button {
+  min-width: 200px;
+  padding: 0.7em 2.1em;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  text-decoration: none;
+  line-height: 1.25;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.columns.columns8 > div > div:first-child .button-container:first-of-type .button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+}
+
+.columns.columns8 > div > div:first-child .button-container:last-of-type .button {
+  background: #fff;
+  color: #1976d2;
+  border: 2px solid #1976d2;
+}
+
+/* Responsive: stack buttons vertically on mobile */
+@media (width <= 600px) {
+  .columns.columns8 > div > div:first-child .button-row {
+    flex-direction: column;
+    gap: 12px;
+    align-items: stretch;
+  }
+
+  .columns.columns8 > div > div:first-child .button-container {
+    display: block;
+    margin-right: 0;
+    margin-top: 12px;
+  }
+
+  .columns.columns8 > div > div:first-child .button-container:first-of-type {
+    margin-top: 0;
+  }
+}
+
+/* Chart (image) column: right-aligned, modest right padding */
+.columns.columns8 .columns-img-col {
+  flex: 1 1 0;
+  min-width: 340px;
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-left: 8px;
+  padding-right: 22px;
+}
+
+/* Chart image: fixed size but responsive down, never stretches past max size */
+.columns.columns8 .columns-img-col img {
+  width: 566px;
+  height: 336px;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* Responsive: make image full width and centered on small screens */
+@media (width <= 900px) {
+  .columns.columns8 .columns-img-col {
+    max-width: 100%;
+    min-width: 0;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .columns.columns8 .columns-img-col img {
+    width: 100%;
+    height: auto;
+    min-width: 0;
+  }
 }
