@@ -561,7 +561,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center; /* center the entire row horizontally */
+  justify-content: center;
   gap: 56px;
   width: 100%;
   min-height: 48px;
@@ -592,8 +592,8 @@
   align-items: center;
   justify-content: center;
   min-width: 0;
-  padding: 0 4px; /* add a little breathing room around logos */
-  flex: 0 0 auto; /* only as wide as content */
+  padding: 0 4px;
+  flex: 0 0 auto;
 }
 
 .columns.columns10 img {
@@ -606,10 +606,183 @@
   vertical-align: middle;
 }
 
-/* Tight vertical spacing for any text or captions under logos, if present */
 .columns.columns10 > div > div > * {
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
   line-height: 1.2;
+}
+
+
+.columns.columns12 {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  gap: 0;
+}
+
+@media (width >= 900px) {
+  .columns.columns12 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.columns.columns12 > div {
+  display: contents;
+}
+
+/* Card containers: flex column, distribute content vertically */
+.columns.columns12 > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+  height: 460px;
+  padding: 40px 32px 32px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+}
+
+/* Distinct backgrounds for each card */
+.columns.columns12 > div > div:nth-child(1) { background: #0070d9; }
+.columns.columns12 > div > div:nth-child(2) { background: #f7f7fa; }
+.columns.columns12 > div > div:nth-child(3) { background: #eaecef; }
+.columns.columns12 > div > div:nth-child(4) { background: #fff; }
+
+/* Center text */
+
+/* Headings and divider line */
+.columns.columns12 > div > div h2 {
+  text-align: center;
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 0 0 10px;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Short divider line above headings, extra space for elegance */
+.columns.columns12 > div > div h2::before {
+  display: block;
+  width: 64px;
+  height: 2px;
+  margin: 0 auto 20px;
+  border-radius: 1px;
+  position: relative;
+  background: #232323;
+  margin-bottom: 18px;
+  content: "";
+}
+
+.columns.columns12 > div > div:nth-child(1) h2 { color: #fff; }
+.columns.columns12 > div > div:nth-child(1) h2::before { background: #fff; }
+
+.columns.columns12 > div > div:nth-child(n+2) h2 { color: #232323; }
+
+/* Description text block, tight margins */
+.columns.columns12 > div > div p {
+  color: #232323;
+  font-size: 1rem;
+  margin: 8px auto 0;
+  line-height: 1.5;
+  max-width: 90%;
+}
+.columns.columns12 > div > div:nth-child(1) p { color: #fff; }
+
+/* Button container: 
+   - First card: grouped closely below description.
+   - Cards 2-4: use margin-top:auto to anchor button to bottom. */
+.columns.columns12 > div > div .button-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* First card: magenta rectangular button, spaced below description */
+.columns.columns12 > div > div:nth-child(1) .button-container {
+  margin-top: 36px;
+}
+
+/* Cards 2-4: push button to bottom */
+.columns.columns12 > div > div:nth-child(n+2) .button-container {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+/* Button styles */
+.columns.columns12 > div > div:nth-child(1) .button {
+  background: #eb247b;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 180px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  box-shadow: none;
+  margin: 0 auto;
+}
+
+/* Cards 2-4: circular arrow button, anchored lower (not tightly grouped) */
+.columns.columns12 > div > div:nth-child(n+2) .button {
+  background: #0070d9;
+  color: #fff;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0;
+  padding: 0;
+  border: none;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+  margin: 0 auto 10px;
+  position: relative;
+  overflow: hidden;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 12H16M16 12L12 8M16 12L12 16' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+}
+
+.columns.columns12 > div > div:nth-child(n+2) .button span,
+.columns.columns12 > div > div:nth-child(n+2) .button strong,
+.columns.columns12 > div > div:nth-child(n+2) .button em {
+  display: none;
+}
+
+/* Responsive tweaks for mobile */
+@media (width <= 899px) {
+  .columns.columns12 > div > div {
+    height: auto;
+    min-height: 300px;
+    margin-bottom: 24px;
+    border-radius: 12px;
+    padding: 28px 16px 24px;
+  }
+
+  .columns.columns12 > div > div:nth-child(n+2) .button {
+    width: 44px;
+    height: 44px;
+    background-size: 20px 20px;
+    margin-bottom: 4px;
+  }
+
+  .columns.columns12 > div > div .button-container {
+    margin-top: 24px;
+  }
 }
