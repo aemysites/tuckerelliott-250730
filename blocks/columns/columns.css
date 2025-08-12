@@ -787,7 +787,7 @@
   align-items: flex-start;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 18px 24px 14px; /* tighter vertical/horizontal padding */
+  padding: 18px 24px 14px;
   gap: 0;
 }
 
@@ -798,7 +798,6 @@
   }
 }
 
-/* Left column */
 .columns.columns13 > div > div:nth-child(1) {
   flex: 0 0 210px;
   max-width: 220px;
@@ -823,7 +822,6 @@
   }
 }
 
-/* Hide breadcrumbs if present */
 .columns.columns13 > div > div:nth-child(1) ol {
   display: none;
 }
@@ -860,7 +858,6 @@
   text-decoration: underline;
 }
 
-/* Follow Us heading: compact */
 .columns.columns13 > div > div:nth-child(1) h2,
 .columns.columns13 > div > div:nth-child(1) h2[id*="follow"] {
   font-size: 14px;
@@ -869,7 +866,6 @@
   margin: 8px 0 7px;
 }
 
-/* Social icons list: horizontal, compact, smaller */
 .columns.columns13 > div > div:nth-child(1) ul {
   display: flex;
   gap: 8px;
@@ -894,7 +890,6 @@
   margin-bottom: 0;
 }
 
-/* Center nav: multi-column using column-count for a single <ul> */
 .columns.columns13 > div > div:nth-child(2) {
   flex: 1 1 0;
   min-width: 0;
@@ -911,13 +906,11 @@
   }
 }
 
-/* Hide nav heading if present */
 .columns.columns13 > div > div:nth-child(2) > p,
 .columns.columns13 > div > div:nth-child(2) > h2 {
   display: none;
 }
 
-/* Multi-column nav: use CSS columns for single ul */
 .columns.columns13 > div > div:nth-child(2) ul {
   column-count: 3;
   column-gap: 14px;
@@ -961,7 +954,6 @@
   text-decoration: underline;
 }
 
-/* Right column: "What is..." topics, right-aligned */
 .columns.columns13 > div > div:nth-child(3) {
   flex: 0 0 150px;
   min-width: 120px;
@@ -981,12 +973,10 @@
   }
 }
 
-/* Remove extra heading above the topic list if present */
 .columns.columns13 > div > div:nth-child(3) > p {
   display: none;
 }
 
-/* Topic heading: top-aligned right, compact */
 .columns.columns13 > div > div:nth-child(3) h2,
 .columns.columns13 > div > div:nth-child(3) h2[id*="what"] {
   font-size: 18px;
@@ -999,7 +989,6 @@
   width: 100%;
 }
 
-/* Topic list: unbulleted, compact, right-aligned */
 .columns.columns13 > div > div:nth-child(3) ul {
   list-style: none;
   padding-left: 0;
@@ -1025,4 +1014,99 @@
 .columns.columns13 > div > div:nth-child(3) ul li a:focus {
   color: #b0b7c3;
   text-decoration: underline;
+}
+
+
+.columns.columns14 {
+  background: #0a2946;
+  font-family: var(--body-font-family);
+  padding: 0;
+}
+
+/* Layout: tightly group columns row, no image columns or extra spacing */
+.columns.columns14 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 14px;
+  min-height: 24px;
+  background: transparent;
+  gap: 0;
+}
+
+/* Nav item: tight horizontal padding, no flex-grow */
+.columns.columns14 > div > div {
+  display: flex;
+  align-items: center;
+  flex: none;
+  padding: 0 6px;
+  color: #dce6f1;
+  font-size: 11px;
+  line-height: 1;
+  white-space: nowrap;
+  min-width: 0;
+  background: transparent;
+}
+
+/* Remove left padding from first item to pull it tight to left */
+.columns.columns14 > div > div:first-child {
+  padding-left: 0;
+}
+
+/* Dividers: tight, subtle line between links, no extra margin */
+.columns.columns14 > div > div:not(:first-child) {
+  border-left: 1px solid #bfcbd6;
+}
+
+/* Remove image columns if present */
+.columns.columns14 img {
+  display: none;
+}
+
+/* Navigation links: remove list bullets and spacing */
+.columns.columns14 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.columns.columns14 li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+/* Link style: compact, light text, no underline */
+.columns.columns14 a {
+  color: #dce6f1;
+  font-size: 11px;
+  text-decoration: none;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  background: none;
+}
+
+/* Responsive: stack vertically and preserve divider feel */
+@media (width <= 600px) {
+  .columns.columns14 > div {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 8px;
+    min-height: unset;
+  }
+
+  .columns.columns14 > div > div {
+    border-left: none;
+    border-top: 1px solid #bfcbd6;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 4px 0;
+  }
+
+  .columns.columns14 > div > div:first-child {
+    border-top: none;
+    padding-left: 0;
+  }
 }
