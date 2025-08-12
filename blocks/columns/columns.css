@@ -143,13 +143,12 @@
   display: block;
 }
 
-/* Flex container for columns, row layout, vertical centering */
 .columns.columns5 > div {
   display: flex;
   flex-direction: row;
-  align-items: center; /* Perfect vertical centering */
+  align-items: center;
   justify-content: flex-start;
-  gap: 24px; /* Slightly reduced gap for even tighter, more original layout */
+  gap: 24px;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -162,7 +161,6 @@
   }
 }
 
-/* Image Column Styling */
 .columns.columns5 .columns-img-col {
   width: 504px;
   height: 504px;
@@ -185,7 +183,6 @@
   }
 }
 
-/* Maintain image aspect ratio, correct corners, and orientation */
 .columns.columns5 .columns-img-col img {
   width: 504px;
   height: 504px;
@@ -195,7 +192,6 @@
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
-/* Decorative Blue Corner Shapes (illustrative positioning; real markup should use appropriate elements) */
 .columns.columns5 .columns-img-col span,
 .columns.columns5 .columns-img-col i {
   position: absolute;
@@ -235,12 +231,11 @@
   border-bottom-right-radius: 96px;
 }
 
-/* Text Column Styling: vertical centering and optimal width */
 .columns.columns5 > div > div:not(.columns-img-col) {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 540px; /* Slightly tighter for more original line length */
+  max-width: 540px;
   width: 100%;
   align-self: center;
   margin-top: auto;
@@ -279,4 +274,173 @@
   margin-bottom: 10px;
   margin-top: 0;
   line-height: 1.5;
+}
+
+
+.columns.columns8 {
+  background: #fff;
+  padding: 0;
+}
+
+/* --- Main two-column flex layout --- */
+.columns.columns8 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 48px;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 1px;
+}
+
+/* --- Left column: text & CTAs --- */
+.columns.columns8 > div > div:first-child {
+  flex: 1 1 60%;
+  min-width: 300px;
+  max-width: 650px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 0;
+}
+
+/* --- Headline --- */
+.columns.columns8 h3 {
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 1.2rem;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+/* --- Paragraph text --- */
+.columns.columns8 p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  max-width: 100%;
+  word-break: normal;
+  white-space: normal;
+}
+
+/* --- BUTTONS: horizontal row (critical fix) --- */
+.columns.columns8 > div > div:first-child .button-container {
+  display: inline-block;
+  margin-right: 16px;
+  margin-top: 1.6rem;
+  vertical-align: top;
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+.columns.columns8 > div > div:first-child .button-container:last-of-type {
+  margin-right: 0;
+}
+
+/* Ensure buttons are on the same line after last paragraph */
+
+/* --- BUTTONS base --- */
+.columns.columns8 .button {
+  display: inline-block;
+  min-width: 215px;
+  padding: 0.66em 1.8em;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  text-decoration: none;
+  line-height: 1.25;
+  box-sizing: border-box;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+  margin: 0;
+}
+
+/* --- Solid and outlined button distinction --- */
+.columns.columns8 > div > div:first-child .button-container:first-of-type .button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+}
+
+.columns.columns8 > div > div:first-child .button-container:last-of-type .button {
+  background: #fff;
+  color: #1976d2;
+  border: 2px solid #1976d2;
+}
+
+.columns.columns8 .button:hover,
+.columns.columns8 .button:focus {
+  filter: brightness(0.94);
+}
+
+/* --- Right column: IMAGE --- */
+.columns.columns8 .columns-img-col {
+  flex: 1 1 40%;
+  min-width: 250px;
+  max-width: 540px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding-left: 8px;
+  padding-right: 24px;
+  min-height: 1px;
+}
+
+.columns.columns8 .columns-img-col img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  object-fit: contain;
+}
+
+/* --- Prevent image column collapse, even if empty --- */
+
+/* --- Responsive: Stack columns and buttons on mobile --- */
+@media (width <= 900px) {
+  .columns.columns8 > div {
+    flex-direction: column;
+    gap: 32px;
+    padding: 24px 0;
+  }
+
+  .columns.columns8 > div > div:first-child {
+    max-width: 100%;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .columns.columns8 .columns-img-col {
+    max-width: 100%;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+  }
+
+  .columns.columns8 > div > div:first-child .button-container {
+    display: block;
+    margin: 12px 0 0;
+  }
+
+  .columns.columns8 > div > div:first-child .button-container:first-of-type {
+    margin-top: 1.4rem;
+  }
+}
+
+/* --- Extra right padding for large screens for balance --- */
+@media (width >= 1200px) {
+  .columns.columns8 .columns-img-col {
+    padding-right: 44px;
+    max-width: 650px;
+  }
 }
