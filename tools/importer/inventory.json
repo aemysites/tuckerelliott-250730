@@ -1,0 +1,362 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-00-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]"
+        }
+      ],
+      "styles": {
+        "height": 65,
+        "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-27-26bb43af345feb1be99d208b20d76ccfc5eb3ed1",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/footer[1]/div[1]/div[1]/div[1]/div[2]/div[5]"
+        }
+      ],
+      "styles": {
+        "background": "rgb(3, 41, 84) none repeat scroll 0% 0% / cover padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "header",
+      "cluster": 1,
+      "source": "Header",
+      "target": "Header",
+      "key": "header1",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-00-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 2,
+      "source": "Columns",
+      "target": "Columns (columns2)",
+      "key": "columns2",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-01-8cd3e19c279cb587ec2d1edb0748f9c9fe49bb0b",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 3,
+      "source": "Hero",
+      "target": "Hero",
+      "key": "hero3",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-02-3759d0959dde47266ef89f0136cc469a7081f250",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 4,
+      "source": "Cards",
+      "target": "Cards (cards4)",
+      "key": "cards4",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-05-8e6889a6550284daa1a06621f9d4815f7bc439bc",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 5,
+      "source": "Columns",
+      "target": "Columns (columns5)",
+      "key": "columns5",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-07-39528f1480a211d99996a7ec469c1d64406d7bb1",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[2]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Tabs",
+      "cluster": 6,
+      "source": "Tabs",
+      "target": "Tabs",
+      "key": "tabs6",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-08-349fb62539dc5a58afa204df4e0d48b191bb34f6",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[2]/div[4]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 7,
+      "source": "Cards",
+      "target": "Cards (cards7)",
+      "key": "cards7",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-11-59ac61c1058cb00e1331f997d8a2d09c525dab3a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[2]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 8,
+      "source": "Columns",
+      "target": "Columns (columns8)",
+      "key": "columns8",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-14-b1122315eec015508bd3941a9ee23f10ccabc466",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[2]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 9,
+      "source": "Columns",
+      "target": "Columns (columns9)",
+      "key": "columns9",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-16-c96f292c8015acced34ef0c6677321bd085e29e6",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[2]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 10,
+      "source": "Columns",
+      "target": "Columns (columns10)",
+      "key": "columns10",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-19-6e0fe3786309aed0e08261ba2968f389183dd1f0",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[2]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 11,
+      "source": "Cards",
+      "target": "Cards (cards11)",
+      "key": "cards11",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-23-477a977ddeacbc84d977f274c74d2bfb2880aea9",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[2]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 12,
+      "source": "Columns",
+      "target": "Columns (columns12)",
+      "key": "columns12",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-25-90b28b09febacb3fd55334530412fecccb8f7257",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[2]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 13,
+      "source": "Columns",
+      "target": "Columns (columns13)",
+      "key": "columns13",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-26-4c803b9539b0bb4c724a287ad431812b6c743f32",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/footer[1]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-4"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 14,
+      "source": "Columns",
+      "target": "Columns (columns14)",
+      "key": "columns14",
+      "instances": [
+        {
+          "url": "https://www.sas.com/en_us/home.html",
+          "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+          "uuid": "f619d570-27-26bb43af345feb1be99d208b20d76ccfc5eb3ed1",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/footer[1]/div[1]/div[1]/div[1]/div[2]/div[5]",
+          "section": "section-4"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-03-9f7d800125591b18312eef9c48cfb3402d27df50",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-04-af203e4fc6fa5f4565ef39f8f8b17460d114c6e1",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[2]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-06-60f049db642b44b44cdbe1f9acf3df99b7e72407",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-09-239ffbd6a86670bc5d823ee9f3bdfda9759734da",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[8]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-10-a827f11041f99d818e96d98e0614efe2804a0b99",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-12-2da9966c597cf7ac796253b1e877c73317f0392a",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-13-ec731e7eecb7b14ee9a0f5814c11683ca0273a3c",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[2]/div[2]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-15-f641602f03f85c9c8e5dbd4337589833c7cdefb2",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-17-19afd0bf44d574be925a8557769ee0f31319f5a6",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[12]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-18-7704f5cb597085b4d865c147e9f740305b650168",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-20-c1bffc835f0ddec8c831af588ca5c05d93e4af3d",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[2]/div[3]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-21-cfcd5621b2158c74a3a2b0389971ee4b91b8a617",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[2]/div[4]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-22-47958ddac7709b4c463778f0b7d81f818a1d9286",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.sas.com/en_us/home.html",
+      "urlHash": "f619d570db5d303ba3b0f63f012c828b5128b1ff",
+      "uuid": "f619d570-24-49f364d98a33b24978efcf1e206ca531f70d8333",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[2]/div[1]"
+    }
+  ],
+  "sections": [
+    {
+      "name": "section-1",
+      "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-2",
+      "background": "rgb(3, 41, 84) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-3",
+      "background": "rgb(248, 249, 251) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-4",
+      "background": "rgb(3, 41, 84) none repeat scroll 0% 0% / cover padding-box border-box",
+      "count": 2
+    }
+  ]
+}
