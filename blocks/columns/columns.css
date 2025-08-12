@@ -91,93 +91,6 @@
 }
 
 
-.columns.columns14 {
-  background: #0a2946;
-  font-family: var(--body-font-family);
-  padding: 0;
-}
-
-.columns.columns14 > div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 0 14px;
-  min-height: 24px;
-  background: transparent;
-  gap: 0;
-}
-
-.columns.columns14 > div > div {
-  display: flex;
-  align-items: center;
-  flex: none;
-  padding: 0 6px;
-  color: #dce6f1;
-  font-size: 11px;
-  line-height: 1;
-  white-space: nowrap;
-  min-width: 0;
-  background: transparent;
-}
-
-.columns.columns14 > div > div:first-child {
-  padding-left: 0;
-}
-
-.columns.columns14 > div > div:not(:first-child) {
-  border-left: 1px solid #bfcbd6;
-}
-
-.columns.columns14 img {
-  display: none;
-}
-
-.columns.columns14 ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.columns.columns14 li {
-  display: inline;
-  margin: 0;
-  padding: 0;
-}
-
-.columns.columns14 a {
-  color: #dce6f1;
-  font-size: 11px;
-  text-decoration: none;
-  line-height: 1;
-  padding: 0;
-  margin: 0;
-  background: none;
-}
-
-@media (width <= 600px) {
-  .columns.columns14 > div {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0 8px;
-    min-height: unset;
-  }
-
-  .columns.columns14 > div > div {
-    border-left: none;
-    border-top: 1px solid #bfcbd6;
-    width: 100%;
-    justify-content: flex-start;
-    padding: 4px 0;
-  }
-
-  .columns.columns14 > div > div:first-child {
-    border-top: none;
-    padding-left: 0;
-  }
-}
-
-
 .columns.columns2 {
   background: #042B56;
   min-height: 44px;
@@ -911,7 +824,6 @@
   padding: 0;
 }
 
-/* Top-level: three columns side by side */
 .columns.columns13 > div {
   display: flex;
   flex-direction: row;
@@ -931,7 +843,6 @@
   }
 }
 
-/* First column: sidebar */
 .columns.columns13 > div > div:first-child {
   border-right: 1px solid #415e7c;
   padding-right: 26px;
@@ -953,7 +864,6 @@
   }
 }
 
-/* Breadcrumb styling */
 .columns.columns13 > div > div:first-child ol {
   display: flex;
   flex-direction: row;
@@ -976,7 +886,6 @@
   color: #fff;
 }
 
-/* Description and spacing */
 .columns.columns13 > div > div:first-child p {
   font-size: 14px;
   color: #fff;
@@ -984,7 +893,6 @@
   line-height: 1.6;
 }
 
-/* "Contact Us" Button styling */
 .columns.columns13 > div > div:first-child .button-container {
   margin: 0 0 14px;
 }
@@ -1010,7 +918,6 @@
   color: #fff;
 }
 
-/* Social icons row */
 .columns.columns13 > div > div:first-child ul {
   display: flex;
   flex-direction: row;
@@ -1035,7 +942,6 @@
   text-indent: -9999px;
 }
 
-/* Example: Replace with real SVG icons in production */
 .columns.columns13 > div > div:first-child ul li:nth-child(1) a {
   background: url('/path/to/facebook.svg') center/contain no-repeat;
 }
@@ -1056,7 +962,6 @@
   background: url('/path/to/rss.svg') center/contain no-repeat;
 }
 
-/* Middle column: navigation links in four vertical columns */
 .columns.columns13 > div > div:nth-child(2) {
   flex: 3 1 0;
   min-width: 0;
@@ -1064,7 +969,6 @@
   display: block;
 }
 
-/* Use CSS columns for nav links, set to 4 for proper grouping */
 .columns.columns13 > div > div:nth-child(2) ul {
   column-count: 4;
   column-gap: 32px;
@@ -1087,7 +991,6 @@
   }
 }
 
-/* Nav list items */
 .columns.columns13 > div > div:nth-child(2) ul li {
   break-inside: avoid;
   margin-bottom: 4px;
@@ -1096,7 +999,6 @@
   font-weight: 400;
 }
 
-/* Simulate group headers by bolding first items (adjust indices for your HTML) */
 .columns.columns13 > div > div:nth-child(2) ul li:nth-child(1),
 .columns.columns13 > div > div:nth-child(2) ul li:nth-child(8),
 .columns.columns13 > div > div:nth-child(2) ul li:nth-child(16),
@@ -1120,13 +1022,11 @@
   color: #c1d8f0;
 }
 
-/* Remove any default group headers in <p> or <h2> inside column 2 */
 .columns.columns13 > div > div:nth-child(2) > p,
 .columns.columns13 > div > div:nth-child(2) > h2 {
   display: none;
 }
 
-/* Right column: "What is..." */
 .columns.columns13 > div > div:last-child {
   min-width: 160px;
   max-width: 210px;
@@ -1183,7 +1083,6 @@
   color: #c1d8f0;
 }
 
-/* Remove extra top/bottom margin and spacing in all columns */
 .columns.columns13 > div > div {
   margin-top: 0;
   padding-top: 0;
@@ -1192,4 +1091,118 @@
 
 .columns.columns13 > div > div:nth-child(2) ul li:last-child {
   margin-bottom: 0;
+}
+
+
+.columns.columns14 {
+  background: #0B2947;
+  color: #C8D6E5;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1.3;
+  min-height: 24px;
+  padding: 0 8px; /* tighter left/right padding, closer match to original */
+  box-sizing: border-box;
+}
+
+/* Main row container: flexbox, tightly packed, no gap */
+.columns.columns14 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 24px;
+  width: 100%;
+  gap: 0;
+}
+
+/* Columns: do not stretch/grow, slightly less padding for tight grouping */
+.columns.columns14 > div > div {
+  display: flex;
+  align-items: center;
+  flex: none;
+  min-width: 0;
+  padding: 0 6px;
+  position: relative;
+  background: none;
+  white-space: nowrap;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-family: inherit;
+}
+
+/* First/last column edge padding */
+.columns.columns14 > div > div:first-child {
+  padding-left: 0;
+}
+
+.columns.columns14 > div > div:last-child {
+  padding-right: 0;
+}
+
+/* Divider: thin, short, subtle, spaced from link text */
+.columns.columns14 > div > div:not(:last-child)::after {
+  position: absolute;
+  right: -3px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 50%;
+  background: #6C7A89;
+  display: block;
+  content: '';
+}
+
+/* Remove default list styling */
+.columns.columns14 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.columns.columns14 li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+/* Link styling override for specificity */
+.columns.columns14 a {
+  color: #C8D6E5;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: inherit;
+  font-family: inherit;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+.columns.columns14 a:hover,
+.columns.columns14 a:focus {
+  text-decoration: underline;
+}
+
+@media (width <= 900px) {
+  .columns.columns14 {
+    padding: 0 8px;
+    min-height: unset;
+  }
+
+  .columns.columns14 > div {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: unset;
+  }
+
+  .columns.columns14 > div > div {
+    padding: 4px 0;
+    width: 100%;
+  }
+
+  .columns.columns14 > div > div:not(:last-child)::after {
+    display: none;
+  }
 }
