@@ -435,27 +435,23 @@
 .columns.columns9 {
   background: #fff;
   margin: 0;
-
-  /* Add vertical padding to create comfortable block height */
   padding-top: 48px;
   padding-bottom: 48px;
   box-sizing: border-box;
 }
 
-/* Main flex container: ensure side-by-side layout, vertical centering */
 .columns.columns9 > div {
   display: flex;
   flex-direction: row;
-  align-items: center;      /* vertically center child columns */
+  align-items: center;
   justify-content: flex-start;
   gap: 0;
   width: 100%;
-  min-height: 120px;        /* Ensures enough space for vertical centering */
+  min-height: 120px;
   box-sizing: border-box;
   padding: 0;
 }
 
-/* Hide empty left column; right column fills space */
 .columns.columns9 > div > div:first-child {
   display: none;
   width: 0;
@@ -465,12 +461,11 @@
   flex: 0 0 0px;
 }
 
-/* Right content column: stacked layout, vertical & left alignment */
 .columns.columns9 > div > div:last-child {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;  /* vertical centering within parent */
+  justify-content: center;
   flex: 1 1 0%;
   min-width: 320px;
   width: 100%;
@@ -479,7 +474,6 @@
   padding: 0;
 }
 
-/* Headline styling */
 .columns.columns9 h3 {
   font-size: 20px;
   font-weight: 700;
@@ -490,7 +484,6 @@
   text-align: left;
 }
 
-/* Paragraph styling */
 .columns.columns9 p:not(.button-container) {
   font-size: 14px;
   color: #484B52;
@@ -500,7 +493,6 @@
   text-align: left;
 }
 
-/* CTA */
 .columns.columns9 .button-container {
   margin-top: 14px;
   margin-bottom: 0;
@@ -511,7 +503,6 @@
   padding: 0;
 }
 
-/* CTA link as simple link, left-aligned */
 .columns.columns9 .button-container .button {
   background: none;
   border: none;
@@ -533,7 +524,6 @@
   transition: color 0.2s;
 }
 
-/* CTA link hover/focus */
 .columns.columns9 .button-container .button:hover,
 .columns.columns9 .button-container .button:focus {
   color: #005fa3;
@@ -542,7 +532,6 @@
   box-shadow: none;
 }
 
-/* Responsive: stack vertically, maintain comfortable vertical space */
 @media (width <= 900px) {
   .columns.columns9 {
     padding-top: 24px;
@@ -565,4 +554,62 @@
     min-width: unset;
     justify-content: flex-start;
   }
+}
+
+
+.columns.columns10 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* center the entire row horizontally */
+  gap: 56px;
+  width: 100%;
+  min-height: 48px;
+  box-sizing: border-box;
+}
+
+@media (width <= 899px) {
+  .columns.columns10 > div {
+    gap: 32px;
+    flex-wrap: wrap;
+    min-height: 36px;
+    justify-content: center;
+  }
+}
+
+@media (width <= 599px) {
+  .columns.columns10 > div {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    min-height: 0;
+  }
+}
+
+.columns.columns10 > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  padding: 0 4px; /* add a little breathing room around logos */
+  flex: 0 0 auto; /* only as wide as content */
+}
+
+.columns.columns10 img {
+  height: 36px;
+  width: auto;
+  max-width: 140px;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+/* Tight vertical spacing for any text or captions under logos, if present */
+.columns.columns10 > div > div > * {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  line-height: 1.2;
 }
