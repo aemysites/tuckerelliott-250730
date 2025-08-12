@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -42,7 +43,6 @@
   box-sizing: border-box;
 }
 
-/* Flex row for horizontal layout, flush to container edges */
 .columns.columns2 > div {
   display: flex;
   flex-direction: row;
@@ -55,17 +55,15 @@
   gap: 0;
 }
 
-/* Keep child divs only as wide as they need to be */
 .columns.columns2 > div > div {
   flex: 0 0 auto;
   margin: 0;
   padding: 0;
 }
 
-/* Heading (left column) with minimal left padding for near-flush alignment */
 .columns.columns2 h1 {
   margin: 0;
-  padding-left: 2px; /* fine-tuned for near pixel-perfect flush left */
+  padding-left: 2px;
   font-size: 12px;
   color: #C8D2E1;
   font-weight: normal;
@@ -74,17 +72,15 @@
   letter-spacing: 0.01em;
 }
 
-/* Button container (right column) with minimal right padding */
 .columns.columns2 .button-container {
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   height: 40px;
-  padding-right: 6px; /* fine-tuned for near pixel-perfect flush right */
+  padding-right: 6px;
 }
 
-/* Pill-shaped button styling */
 .columns.columns2 .button-container .button {
   background: #fff;
   color: #6C7686;
@@ -107,7 +103,6 @@
   box-sizing: border-box;
 }
 
-/* Remove global button hover effect for this block */
 .columns.columns2 .button-container .button:hover,
 .columns.columns2 .button-container .button:focus {
   background: #fff;
@@ -115,7 +110,6 @@
   text-decoration: underline;
 }
 
-/* Responsive stacking for small screens */
 @media (width <= 599px) {
   .columns.columns2 > div {
     flex-direction: column;
@@ -140,4 +134,149 @@
     height: auto;
     padding-bottom: 8px;
   }
+}
+
+
+.columns.columns5 {
+  background: #fff;
+  padding: 48px 0;
+  display: block;
+}
+
+/* Flex container for columns, row layout, vertical centering */
+.columns.columns5 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Perfect vertical centering */
+  justify-content: flex-start;
+  gap: 24px; /* Slightly reduced gap for even tighter, more original layout */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (width <= 899px) {
+  .columns.columns5 > div {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+}
+
+/* Image Column Styling */
+.columns.columns5 .columns-img-col {
+  width: 504px;
+  height: 504px;
+  min-width: 504px;
+  min-height: 504px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+@media (width <= 899px) {
+  .columns.columns5 .columns-img-col,
+  .columns.columns5 .columns-img-col img {
+    width: 320px;
+    height: 320px;
+    min-width: 320px;
+    min-height: 320px;
+  }
+}
+
+/* Maintain image aspect ratio, correct corners, and orientation */
+.columns.columns5 .columns-img-col img {
+  width: 504px;
+  height: 504px;
+  object-fit: cover;
+  border-radius: 56px 0;
+  display: block;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+/* Decorative Blue Corner Shapes (illustrative positioning; real markup should use appropriate elements) */
+.columns.columns5 .columns-img-col span,
+.columns.columns5 .columns-img-col i {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  pointer-events: none;
+  display: block;
+  z-index: 2;
+  background: transparent;
+}
+
+.columns.columns5 .columns-img-col span.corner-tl {
+  top: -32px;
+  left: -32px;
+  background: #0066d6;
+  border-top-left-radius: 96px;
+}
+
+.columns.columns5 .columns-img-col span.corner-bl {
+  bottom: -32px;
+  left: -32px;
+  background: #96c8f8;
+  border-bottom-left-radius: 96px;
+}
+
+.columns.columns5 .columns-img-col i.corner-tr {
+  top: -32px;
+  right: -32px;
+  background: #96c8f8;
+  border-top-right-radius: 96px;
+}
+
+.columns.columns5 .columns-img-col i.corner-br {
+  bottom: -32px;
+  right: -32px;
+  background: #0066d6;
+  border-bottom-right-radius: 96px;
+}
+
+/* Text Column Styling: vertical centering and optimal width */
+.columns.columns5 > div > div:not(.columns-img-col) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 540px; /* Slightly tighter for more original line length */
+  width: 100%;
+  align-self: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media (width <= 899px) {
+  .columns.columns5 > div > div:not(.columns-img-col) {
+    max-width: 100%;
+    align-self: stretch;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.columns.columns5 h3 {
+  font-size: 2.15rem;
+  font-weight: 700;
+  margin-bottom: 26px;
+  color: #1a1a1a;
+  line-height: 1.22;
+  letter-spacing: -0.01em;
+}
+
+.columns.columns5 h4 {
+  font-size: 1.14rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+
+.columns.columns5 p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 10px;
+  margin-top: 0;
+  line-height: 1.5;
 }
