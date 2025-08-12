@@ -282,7 +282,6 @@
   padding: 0;
 }
 
-/* --- Main two-column flex layout --- */
 .columns.columns8 > div {
   display: flex;
   flex-direction: row;
@@ -294,7 +293,6 @@
   min-height: 1px;
 }
 
-/* --- Left column: text & CTAs --- */
 .columns.columns8 > div > div:first-child {
   flex: 1 1 60%;
   min-width: 300px;
@@ -306,7 +304,6 @@
   font-size: 0;
 }
 
-/* --- Headline --- */
 .columns.columns8 h3 {
   font-size: 1.55rem;
   font-weight: 700;
@@ -316,7 +313,6 @@
   margin-top: 0;
 }
 
-/* --- Paragraph text --- */
 .columns.columns8 p {
   font-size: 1rem;
   color: #444;
@@ -328,7 +324,6 @@
   white-space: normal;
 }
 
-/* --- BUTTONS: horizontal row (critical fix) --- */
 .columns.columns8 > div > div:first-child .button-container {
   display: inline-block;
   margin-right: 16px;
@@ -342,9 +337,6 @@
   margin-right: 0;
 }
 
-/* Ensure buttons are on the same line after last paragraph */
-
-/* --- BUTTONS base --- */
 .columns.columns8 .button {
   display: inline-block;
   min-width: 215px;
@@ -360,7 +352,6 @@
   margin: 0;
 }
 
-/* --- Solid and outlined button distinction --- */
 .columns.columns8 > div > div:first-child .button-container:first-of-type .button {
   background: #1976d2;
   color: #fff;
@@ -378,7 +369,6 @@
   filter: brightness(0.94);
 }
 
-/* --- Right column: IMAGE --- */
 .columns.columns8 .columns-img-col {
   flex: 1 1 40%;
   min-width: 250px;
@@ -403,9 +393,6 @@
   object-fit: contain;
 }
 
-/* --- Prevent image column collapse, even if empty --- */
-
-/* --- Responsive: Stack columns and buttons on mobile --- */
 @media (width <= 900px) {
   .columns.columns8 > div {
     flex-direction: column;
@@ -437,10 +424,145 @@
   }
 }
 
-/* --- Extra right padding for large screens for balance --- */
 @media (width >= 1200px) {
   .columns.columns8 .columns-img-col {
     padding-right: 44px;
     max-width: 650px;
+  }
+}
+
+
+.columns.columns9 {
+  background: #fff;
+  margin: 0;
+
+  /* Add vertical padding to create comfortable block height */
+  padding-top: 48px;
+  padding-bottom: 48px;
+  box-sizing: border-box;
+}
+
+/* Main flex container: ensure side-by-side layout, vertical centering */
+.columns.columns9 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;      /* vertically center child columns */
+  justify-content: flex-start;
+  gap: 0;
+  width: 100%;
+  min-height: 120px;        /* Ensures enough space for vertical centering */
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* Hide empty left column; right column fills space */
+.columns.columns9 > div > div:first-child {
+  display: none;
+  width: 0;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  flex: 0 0 0px;
+}
+
+/* Right content column: stacked layout, vertical & left alignment */
+.columns.columns9 > div > div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;  /* vertical centering within parent */
+  flex: 1 1 0%;
+  min-width: 320px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headline styling */
+.columns.columns9 h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #181C23;
+  margin-bottom: 8px;
+  margin-top: 0;
+  line-height: 1.2;
+  text-align: left;
+}
+
+/* Paragraph styling */
+.columns.columns9 p:not(.button-container) {
+  font-size: 14px;
+  color: #484B52;
+  margin-bottom: 10px;
+  margin-top: 0;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* CTA */
+.columns.columns9 .button-container {
+  margin-top: 14px;
+  margin-bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}
+
+/* CTA link as simple link, left-aligned */
+.columns.columns9 .button-container .button {
+  background: none;
+  border: none;
+  box-shadow: none;
+  color: #2173C8;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  display: inline-flex;
+  align-items: center;
+  text-align: left;
+  text-decoration: none;
+  line-height: 1.4;
+  min-width: unset;
+  max-width: unset;
+  white-space: normal;
+  transition: color 0.2s;
+}
+
+/* CTA link hover/focus */
+.columns.columns9 .button-container .button:hover,
+.columns.columns9 .button-container .button:focus {
+  color: #005fa3;
+  text-decoration: underline;
+  background: none;
+  box-shadow: none;
+}
+
+/* Responsive: stack vertically, maintain comfortable vertical space */
+@media (width <= 900px) {
+  .columns.columns9 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .columns.columns9 > div {
+    flex-direction: column;
+    gap: 16px;
+    min-height: unset;
+    padding: 0;
+  }
+
+  .columns.columns9 > div > div:first-child {
+    display: none;
+  }
+
+  .columns.columns9 > div > div:last-child {
+    width: 100%;
+    min-width: unset;
+    justify-content: flex-start;
   }
 }
