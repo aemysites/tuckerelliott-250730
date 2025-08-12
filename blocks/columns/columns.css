@@ -633,7 +633,6 @@
   display: contents;
 }
 
-/* Card containers: flex column, distribute content vertically */
 .columns.columns12 > div > div {
   display: flex;
   flex-direction: column;
@@ -646,16 +645,11 @@
   position: relative;
   text-align: center;
 }
-
-/* Distinct backgrounds for each card */
 .columns.columns12 > div > div:nth-child(1) { background: #0070d9; }
 .columns.columns12 > div > div:nth-child(2) { background: #f7f7fa; }
 .columns.columns12 > div > div:nth-child(3) { background: #eaecef; }
 .columns.columns12 > div > div:nth-child(4) { background: #fff; }
 
-/* Center text */
-
-/* Headings and divider line */
 .columns.columns12 > div > div h2 {
   text-align: center;
   font-size: 1.35rem;
@@ -669,7 +663,6 @@
   margin-right: auto;
 }
 
-/* Short divider line above headings, extra space for elegance */
 .columns.columns12 > div > div h2::before {
   display: block;
   width: 64px;
@@ -687,7 +680,6 @@
 
 .columns.columns12 > div > div:nth-child(n+2) h2 { color: #232323; }
 
-/* Description text block, tight margins */
 .columns.columns12 > div > div p {
   color: #232323;
   font-size: 1rem;
@@ -697,9 +689,6 @@
 }
 .columns.columns12 > div > div:nth-child(1) p { color: #fff; }
 
-/* Button container: 
-   - First card: grouped closely below description.
-   - Cards 2-4: use margin-top:auto to anchor button to bottom. */
 .columns.columns12 > div > div .button-container {
   display: flex;
   width: 100%;
@@ -708,18 +697,15 @@
   position: relative;
 }
 
-/* First card: magenta rectangular button, spaced below description */
 .columns.columns12 > div > div:nth-child(1) .button-container {
   margin-top: 36px;
 }
 
-/* Cards 2-4: push button to bottom */
 .columns.columns12 > div > div:nth-child(n+2) .button-container {
   margin-top: auto;
   margin-bottom: 0;
 }
 
-/* Button styles */
 .columns.columns12 > div > div:nth-child(1) .button {
   background: #eb247b;
   color: #fff;
@@ -736,7 +722,6 @@
   margin: 0 auto;
 }
 
-/* Cards 2-4: circular arrow button, anchored lower (not tightly grouped) */
 .columns.columns12 > div > div:nth-child(n+2) .button {
   background: #0070d9;
   color: #fff;
@@ -765,7 +750,6 @@
   display: none;
 }
 
-/* Responsive tweaks for mobile */
 @media (width <= 899px) {
   .columns.columns12 > div > div {
     height: auto;
@@ -785,4 +769,260 @@
   .columns.columns12 > div > div .button-container {
     margin-top: 24px;
   }
+}
+
+
+.columns.columns13 {
+  background: #0c2d59;
+  color: #fff;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-s);
+  padding: 0;
+}
+
+.columns.columns13 > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 18px 24px 14px; /* tighter vertical/horizontal padding */
+  gap: 0;
+}
+
+@media (width <= 900px) {
+  .columns.columns13 > div {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+}
+
+/* Left column */
+.columns.columns13 > div > div:nth-child(1) {
+  flex: 0 0 210px;
+  max-width: 220px;
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-right: 1px solid #b0b7c3;
+  padding-right: 12px;
+  margin-right: 18px;
+}
+
+@media (width <= 900px) {
+  .columns.columns13 > div > div:nth-child(1) {
+    border-right: none;
+    border-bottom: 1px solid #b0b7c3;
+    padding-right: 0;
+    margin-right: 0;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+  }
+}
+
+/* Hide breadcrumbs if present */
+.columns.columns13 > div > div:nth-child(1) ol {
+  display: none;
+}
+
+.columns.columns13 > div > div:nth-child(1) p {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 8px;
+  margin-top: 0;
+  line-height: 1.6;
+}
+
+.columns.columns13 > div > div:nth-child(1) .button-container .button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 0;
+  padding: 0;
+  margin: 0 0 7px;
+  text-transform: none;
+  box-shadow: none;
+  cursor: pointer;
+  line-height: 1.2;
+  vertical-align: middle;
+  text-decoration: underline;
+}
+
+.columns.columns13 > div > div:nth-child(1) .button-container .button:hover,
+.columns.columns13 > div > div:nth-child(1) .button-container .button:focus {
+  color: #b0b7c3;
+  text-decoration: underline;
+}
+
+/* Follow Us heading: compact */
+.columns.columns13 > div > div:nth-child(1) h2,
+.columns.columns13 > div > div:nth-child(1) h2[id*="follow"] {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  margin: 8px 0 7px;
+}
+
+/* Social icons list: horizontal, compact, smaller */
+.columns.columns13 > div > div:nth-child(1) ul {
+  display: flex;
+  gap: 8px;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.columns.columns13 > div > div:nth-child(1) ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.columns.columns13 > div > div:nth-child(1) ul li a {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background-color: #fff;
+  border-radius: 50%;
+  text-indent: -9999px;
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+
+/* Center nav: multi-column using column-count for a single <ul> */
+.columns.columns13 > div > div:nth-child(2) {
+  flex: 1 1 0;
+  min-width: 0;
+  padding-right: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media (width <= 900px) {
+  .columns.columns13 > div > div:nth-child(2) {
+    padding-right: 0;
+    margin-bottom: 12px;
+  }
+}
+
+/* Hide nav heading if present */
+.columns.columns13 > div > div:nth-child(2) > p,
+.columns.columns13 > div > div:nth-child(2) > h2 {
+  display: none;
+}
+
+/* Multi-column nav: use CSS columns for single ul */
+.columns.columns13 > div > div:nth-child(2) ul {
+  column-count: 3;
+  column-gap: 14px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+@media (width <= 1200px) {
+  .columns.columns13 > div > div:nth-child(2) ul {
+    column-count: 2;
+    column-gap: 10px;
+  }
+}
+
+@media (width <= 900px) {
+  .columns.columns13 > div > div:nth-child(2) ul {
+    column-count: 1;
+    column-gap: 0;
+  }
+}
+
+.columns.columns13 > div > div:nth-child(2) ul li {
+  margin-bottom: 2px;
+  break-inside: avoid;
+}
+
+.columns.columns13 > div > div:nth-child(2) ul li a {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+  transition: color 0.2s;
+  padding: 0 1px;
+}
+
+.columns.columns13 > div > div:nth-child(2) ul li a:hover,
+.columns.columns13 > div > div:nth-child(2) ul li a:focus {
+  color: #b0b7c3;
+  text-decoration: underline;
+}
+
+/* Right column: "What is..." topics, right-aligned */
+.columns.columns13 > div > div:nth-child(3) {
+  flex: 0 0 150px;
+  min-width: 120px;
+  max-width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-left: 0;
+  justify-content: flex-start;
+}
+
+@media (width <= 900px) {
+  .columns.columns13 > div > div:nth-child(3) {
+    padding-left: 0;
+    margin-top: 18px;
+    align-items: flex-start;
+  }
+}
+
+/* Remove extra heading above the topic list if present */
+.columns.columns13 > div > div:nth-child(3) > p {
+  display: none;
+}
+
+/* Topic heading: top-aligned right, compact */
+.columns.columns13 > div > div:nth-child(3) h2,
+.columns.columns13 > div > div:nth-child(3) h2[id*="what"] {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0 0 7px;
+  align-self: flex-end;
+  line-height: 1.2;
+  text-align: right;
+  width: 100%;
+}
+
+/* Topic list: unbulleted, compact, right-aligned */
+.columns.columns13 > div > div:nth-child(3) ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.columns.columns13 > div > div:nth-child(3) ul li {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 3px;
+  font-weight: normal;
+  text-align: right;
+}
+
+.columns.columns13 > div > div:nth-child(3) ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.columns.columns13 > div > div:nth-child(3) ul li a:hover,
+.columns.columns13 > div > div:nth-child(3) ul li a:focus {
+  color: #b0b7c3;
+  text-decoration: underline;
 }
