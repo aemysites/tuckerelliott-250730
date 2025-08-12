@@ -62,18 +62,19 @@
 .tabs {
   display: flex;
   flex-direction: row;
-  align-items: stretch;
-  background: transparent;
+  align-items: flex-start;
+  background: #f8f9fb;
   border-radius: 16px;
   box-shadow: 0 2px 16px rgb(40 40 40 / 7%);
-  padding: 40px 0;
-  max-width: 100%;
-  justify-content: center;
-  gap: 24px;
-  min-height: 420px;
+  padding: 0;
+  max-width: 1200px;
+  justify-content: flex-start;
+  gap: 72px;
+  min-height: 210px;
+  margin: 40px auto;
+  box-sizing: border-box;
 }
 
-/* Sidebar (navigation) */
 .tabs > .tabs-list {
   display: flex;
   flex-direction: column;
@@ -144,7 +145,6 @@
   margin-bottom: 0;
 }
 
-/* Content area */
 .tabs > .tabs-panel {
   flex: 1 1 0%;
   background: #fff;
@@ -184,13 +184,11 @@
   text-align: left;
 }
 
-/* Center the CTA link */
 .tabs > .tabs-panel .button-container {
   text-align: center;
   margin-top: 34px;
 }
 
-/* CTA LINK - override default .button style for this context */
 .tabs > .tabs-panel .button {
   color: #1478d8;
   background: none;
@@ -211,7 +209,6 @@
   outline: none;
 }
 
-/* Right arrow icon for button */
 .tabs > .tabs-panel .button::after {
   display: inline-block;
   margin-left: 8px;
@@ -222,7 +219,6 @@
   content: "";
 }
 
-/* Responsive stacking for mobile */
 @media (width <= 900px) {
   .tabs {
     flex-direction: column;
@@ -281,5 +277,199 @@
 
   .tabs > .tabs-panel .button-container {
     margin-top: 18px;
+  }
+}
+
+/* --- NAVIGATION CARD --- */
+.tabs-list {
+  background: #fff;
+  box-shadow: 0 2px 8px rgb(40 40 40 / 6%);
+  border-radius: 14px;
+  padding: 42px 0;
+  width: 260px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-left: 42px;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+/* --- NAVIGATION BUTTONS --- */
+.tabs-tab {
+  background: #fff;
+  color: #c6c6c6;
+  font-size: 16px;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 20px 24px;
+  margin: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.2s, border-left 0.2s, background 0.2s;
+  font-weight: 400;
+  border-left: 6px solid transparent;
+}
+
+/* Remove all gaps between tabs */
+.tabs-tab:not(:last-child) {
+  margin-bottom: 0;
+}
+
+/* Only card is rounded */
+.tabs-tab:first-child,
+.tabs-tab:last-child {
+  border-radius: 0;
+}
+
+/* --- ACTIVE TAB --- */
+.tabs-tab[aria-selected="true"] {
+  border-left: 6px solid #1065d2;
+  color: #222;
+  font-weight: 600;
+  background: #fff;
+  z-index: 1;
+}
+
+/* --- TAB TEXT --- */
+.tabs-tab p {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* --- CONTENT PANEL --- */
+.tabs-panel {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgb(40 40 40 / 6%);
+  padding: 42px 54px 38px;
+  color: #505050;
+  font-size: 16px;
+  font-weight: 400;
+  display: none;
+  min-height: 110px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Only show active panel */
+.tabs-panel[aria-hidden="false"] {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top/left alignment for content */
+.tabs-panel > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* --- DESCRIPTION TEXT --- */
+.tabs-panel > div > p {
+  color: #505050;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0 0 24px;
+  line-height: 1.7;
+}
+
+/* --- CTA BUTTON/LINK --- */
+.tabs-panel .button-container {
+  text-align: left;
+  margin-top: 12px;
+}
+
+.tabs-panel .button {
+  color: #1065d2;
+  font-size: 16px;
+  font-weight: 600;
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.18s;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.tabs-panel .button::after {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-left: 8px;
+  vertical-align: middle;
+  background: url("data:image/svg+xml,%3Csvg width='18' height='18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 9h6m0 0l-3-3m3 3l-3 3' stroke='%231065d2' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center/contain;
+}
+
+/* --- RESPONSIVE --- */
+@media (width <= 900px) {
+  .tabs {
+    flex-direction: column;
+    max-width: 100%;
+    min-height: unset;
+    gap: 0;
+    padding: 0;
+  }
+
+  .tabs-list {
+    flex-direction: row;
+    width: 100%;
+    min-width: 0;
+    border-radius: 12px 12px 0 0;
+    margin-left: 0;
+    box-shadow: 0 2px 12px rgb(40 40 40 / 6%);
+    padding: 0 8px;
+    gap: 0;
+  }
+
+  .tabs-tab {
+    min-width: 120px;
+    border-radius: 8px 8px 0 0;
+    border-left: none;
+    border-top: 6px solid transparent;
+    justify-content: center;
+    padding: 16px 8px;
+  }
+
+  .tabs-tab[aria-selected="true"] {
+    border-top: 6px solid #1065d2;
+    border-left: none;
+    color: #1065d2;
+  }
+
+  .tabs-panel {
+    border-radius: 0 0 12px 12px;
+    padding: 18px 10px 22px;
+    min-height: 100px;
+    margin: 0;
+    box-shadow: none;
+    max-width: 100%;
+  }
+
+  .tabs-panel > div {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .tabs-panel .button-container {
+    margin-top: 10px;
   }
 }
