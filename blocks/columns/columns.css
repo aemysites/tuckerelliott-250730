@@ -31,3 +31,113 @@
     order: unset;
   }
 }
+
+
+.columns.columns2 {
+  background: #052C54;
+  min-height: 40px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Flex row for horizontal layout, flush to container edges */
+.columns.columns2 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 40px;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 0;
+}
+
+/* Keep child divs only as wide as they need to be */
+.columns.columns2 > div > div {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading (left column) with minimal left padding for near-flush alignment */
+.columns.columns2 h1 {
+  margin: 0;
+  padding-left: 2px; /* fine-tuned for near pixel-perfect flush left */
+  font-size: 12px;
+  color: #C8D2E1;
+  font-weight: normal;
+  font-family: var(--heading-font-family);
+  line-height: 40px;
+  letter-spacing: 0.01em;
+}
+
+/* Button container (right column) with minimal right padding */
+.columns.columns2 .button-container {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 40px;
+  padding-right: 6px; /* fine-tuned for near pixel-perfect flush right */
+}
+
+/* Pill-shaped button styling */
+.columns.columns2 .button-container .button {
+  background: #fff;
+  color: #6C7686;
+  border: none;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.5;
+  font-family: var(--body-font-family);
+  padding: 4px 16px;
+  margin: 0;
+  box-shadow: none;
+  text-decoration: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: unset;
+  display: inline-block;
+  white-space: nowrap;
+  transition: background 0.2s, color 0.2s;
+  box-sizing: border-box;
+}
+
+/* Remove global button hover effect for this block */
+.columns.columns2 .button-container .button:hover,
+.columns.columns2 .button-container .button:focus {
+  background: #fff;
+  color: #6C7686;
+  text-decoration: underline;
+}
+
+/* Responsive stacking for small screens */
+@media (width <= 599px) {
+  .columns.columns2 > div {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0;
+    gap: 8px;
+    min-height: unset;
+    height: auto;
+  }
+
+  .columns.columns2 h1 {
+    padding-left: 8px;
+    line-height: 1.4;
+    padding-top: 8px;
+    padding-bottom: 0;
+  }
+
+  .columns.columns2 .button-container {
+    padding-right: 0;
+    justify-content: flex-start;
+    height: auto;
+    padding-bottom: 8px;
+  }
+}
