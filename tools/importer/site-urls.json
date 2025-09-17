@@ -1,0 +1,1168 @@
+{
+  "originUrl": "https://te.com",
+  "aborted": false,
+  "lastCrawled": "https://te.com/",
+  "urls": [
+    {
+      "url": "https://www.te.com/en/product-1-1803334-8.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-1-1803334-8",
+      "id": "81bcaeb7ed05799ee08eea8fb11a664713039ad7"
+    },
+    {
+      "url": "https://www.te.com/en/product-1-1803514-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-1-1803514-2",
+      "id": "2a26c27b887ea69a82d7177f2afd6d12e7bcca39"
+    },
+    {
+      "url": "https://www.te.com/en/product-1-2825260-0.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-1-2825260-0",
+      "id": "91facf6d60ac651617dac4a10659d79c8670e853"
+    },
+    {
+      "url": "https://www.te.com/en/product-1-2825260-4.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-1-2825260-4",
+      "id": "fbba27a26ba7b16c1ca7fd0e3759282da5c58274"
+    },
+    {
+      "url": "https://www.te.com/en/product-1-2825260-6.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-1-2825260-6",
+      "id": "441a945ba8ab459322125fa1bac5d815b47a1e90"
+    },
+    {
+      "url": "https://www.te.com/en/product-1-2825261-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-1-2825261-2",
+      "id": "bcf44b17e2193c66adddae7da1f396c78349a6d6"
+    },
+    {
+      "url": "https://www.te.com/en/product-1-2825261-6.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-1-2825261-6",
+      "id": "eb2ba064490b387622b9395de5179c514ceaa6ae"
+    },
+    {
+      "url": "https://www.te.com/en/product-10214854-00.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-10214854-00",
+      "id": "c9f21aacc4f4718054ff2cbd9b94c3b68ceaa047"
+    },
+    {
+      "url": "https://www.te.com/en/product-10214862-00.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-10214862-00",
+      "id": "c2ae27ce01d9b66739bdcf5f1bd0b70b3b0cca0e"
+    },
+    {
+      "url": "https://www.te.com/en/product-10214870-00.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-10214870-00",
+      "id": "2add8c9d29be8a3bc9991190d4812ce864c3733f"
+    },
+    {
+      "url": "https://www.te.com/en/product-10214910-00.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-10214910-00",
+      "id": "0cd0ac53b23d9df396a04436e7dacdda1db0a9a5"
+    },
+    {
+      "url": "https://www.te.com/en/product-10214965-00.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-10214965-00",
+      "id": "fdf21e6b8f00659b346eded5bb864e00b43e58cb"
+    },
+    {
+      "url": "https://www.te.com/en/product-1551953-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-1551953-2",
+      "id": "d2489119684b0b74e5448cf5937208cacd1c9ad5"
+    },
+    {
+      "url": "https://www.te.com/en/product-1803453-6.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-1803453-6",
+      "id": "72b0371211429bb6d57b249cb114bffc1ffa90c0"
+    },
+    {
+      "url": "https://www.te.com/en/product-1803537-4.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-1803537-4",
+      "id": "f7cb9dcfc7cd98bb7635be8e549c7aff425e753f"
+    },
+    {
+      "url": "https://www.te.com/en/product-1803554-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-1803554-2",
+      "id": "1cf3585941f6309f13ee6d5e1782ff0110d3bb67"
+    },
+    {
+      "url": "https://www.te.com/en/product-1803558-1.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-1803558-1",
+      "id": "45385cd79fded508a7a5e508e386b9154157166f"
+    },
+    {
+      "url": "https://www.te.com/en/product-1803559-1.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-1803559-1",
+      "id": "fc4a157caa39b667b10cb38ee16e3fceffd59814"
+    },
+    {
+      "url": "https://www.te.com/en/product-2-1803470-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2-1803470-2",
+      "id": "5188386eda8b70a11efd17fa98a1f585a1df46a5"
+    },
+    {
+      "url": "https://www.te.com/en/product-2-2291859-0.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2-2291859-0",
+      "id": "78464887aff5a22a1f2cf9ce907fdc2a6b3e30ce"
+    },
+    {
+      "url": "https://www.te.com/en/product-2-2825260-0.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2-2825260-0",
+      "id": "58c327ea0a392d8e7331e87f6f2f19afab5d1bf3"
+    },
+    {
+      "url": "https://www.te.com/en/product-2-2825260-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2-2825260-2",
+      "id": "e631a6a702d60211cea8fb7e8ba68c4013297525"
+    },
+    {
+      "url": "https://www.te.com/en/product-2-2825260-4.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2-2825260-4",
+      "id": "06a542db87b221aefef51efa2656b30c2e56bb8b"
+    },
+    {
+      "url": "https://www.te.com/en/product-2-2825261-0.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2-2825261-0",
+      "id": "20faca235c631ba0791d8bd292a0c462f8e051c7"
+    },
+    {
+      "url": "https://www.te.com/en/product-2-2825261-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2-2825261-2",
+      "id": "411a296c842b95d3a4476bfc3edd23544044eb9e"
+    },
+    {
+      "url": "https://www.te.com/en/product-2150190-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2150190-2",
+      "id": "3b55b63f6cbf81160968d24e781a1cd8b946e4d0"
+    },
+    {
+      "url": "https://www.te.com/en/product-2185251-5.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2185251-5",
+      "id": "7653837d6c737c387a3eae0df31bc207874b291b"
+    },
+    {
+      "url": "https://www.te.com/en/product-2215060-4.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2215060-4",
+      "id": "2e90e2164893c028fa54f4398864042d1cf279c5"
+    },
+    {
+      "url": "https://www.te.com/en/product-2291316-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2291316-2",
+      "id": "6caf5574a66382d9ff1a69a653dc556136428107"
+    },
+    {
+      "url": "https://www.te.com/en/product-2291859-9.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2291859-9",
+      "id": "000d702928f54a2e2247832f71a7f97e709f00cf"
+    },
+    {
+      "url": "https://www.te.com/en/product-2315853-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2315853-2",
+      "id": "a7e3ce4957a6ab5076ae9692676652a205a3be93"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320914-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320914-2",
+      "id": "cbaaeb19e0b5b2223c26e6047cd5ca309149e3eb"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320915-4.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320915-4",
+      "id": "dad33f35df5d2a76d3121760bd373c53ad316058"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320916-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320916-2",
+      "id": "4e19b8a919ec3dcde48598fdefcae1788efb4d1b"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320917-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320917-2",
+      "id": "331575c89949a76c9a62aec94f26bd881f3d5399"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320917-4.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320917-4",
+      "id": "bf5342250295b035d63c527a704ee920fee0ca2b"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320918-3.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320918-3",
+      "id": "bbcd0cb1305f60c5def65387874ff8afbcc3582c"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320918-4.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320918-4",
+      "id": "884aa7f614e6c57c7602e47dfee31efd061eca4c"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320920-3.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320920-3",
+      "id": "1496c39b7927c84fb5c1a63a67a010fc3fa76926"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320921-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320921-2",
+      "id": "a92558312ee9c172c0d011ceb78f451fb5d95f79"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320922-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320922-2",
+      "id": "17c1347e69da5a4922efb51eb5f925999ca4ecb9"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320922-4.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320922-4",
+      "id": "ea57f873d8017381efb675dd5582bf87105cf44c"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320923-3.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320923-3",
+      "id": "c5033e35679657d00a64fbe48f135facd6dbe965"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320925-3.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320925-3",
+      "id": "21f0a6deb4e0e8a7463b2fec1e9c4875f0bd26bd"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320925-4.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320925-4",
+      "id": "64f1e8bcedb3830431d2cd3cb4fd037369786310"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320926-1.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320926-1",
+      "id": "ea9df68e84309f6e0251fe74100b5edd965c93e4"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320926-4.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320926-4",
+      "id": "8f8134c3c883c95d315ee58bad6290b8c0edc035"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320927-1.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320927-1",
+      "id": "c93a1ec191aa9aee1604945598fdb86088f0ae08"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320927-3.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320927-3",
+      "id": "236f1d6080b9b63f68a15a66a5b6e985e692b95e"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320927-4.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320927-4",
+      "id": "b85f85d556a471ecefa9ae88c4526c3081e6659d"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320928-3.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320928-3",
+      "id": "81b3426e157aafc0c806aedc0854039f60d1a4a7"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320928-4.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320928-4",
+      "id": "f530fbcd1e75b6fee09769942e71da0412f59189"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320929-1.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320929-1",
+      "id": "eedd2dbb928a90717a59716ab0431af153a763e9"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320930-1.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320930-1",
+      "id": "c3f99aae0cc4d6d6615e57fe90e2ab1cab1428c4"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320930-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320930-2",
+      "id": "5809a00eb23ef36c25973e7962712d5dc919c859"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320930-4.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320930-4",
+      "id": "3069f0b070d5f70ce44c428347a4feb34d75dd0b"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320932-1.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320932-1",
+      "id": "27d72d620f9bca183104c02aa5cf7e6e35fb5d29"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320932-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320932-2",
+      "id": "5b153172607197d35c88378c5df23832d311d22e"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320933-1.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320933-1",
+      "id": "8c6322584d59ea0a8b682ebb1d853baf083760a7"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320933-4.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320933-4",
+      "id": "6a36d210d2777ef571aed386d5837bc3d2a78c5a"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320934-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320934-2",
+      "id": "0a9bd61db0ff01e2da88147207e71f120755d60a"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320935-3.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320935-3",
+      "id": "1a4b022b89b7ab0c36dfd9e287cedd94a1dc5c50"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320936-4.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320936-4",
+      "id": "de1af963e7c02920ff3f94a5bf5c226ac4d94671"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320937-3.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2320937-3",
+      "id": "c8609155658f31469a5a5f0f52ef30f809bd7a30"
+    },
+    {
+      "url": "https://www.te.com/en/product-2321519-1.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2321519-1",
+      "id": "3bfbeb32aa595af66535da85449e3197362747bb"
+    },
+    {
+      "url": "https://www.te.com/en/product-2321525-1.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2321525-1",
+      "id": "25a4cae38da1f1ff848faf6016d5446739e2e829"
+    },
+    {
+      "url": "https://www.te.com/en/product-2321666-1.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2321666-1",
+      "id": "ef31be3baab881f28677595692c4b52121a19418"
+    },
+    {
+      "url": "https://www.te.com/en/product-2821986-1.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2821986-1",
+      "id": "84138a7fabfb367d5c3ae5d46df61b0f6bdd0b2b"
+    },
+    {
+      "url": "https://www.te.com/en/product-2821987-1.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2821987-1",
+      "id": "946918637f1078391e19be1d3e426b9399fff1bc"
+    },
+    {
+      "url": "https://www.te.com/en/product-2821987-3.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2821987-3",
+      "id": "5759778fc93a07b3794f8e81d6800aa50efd20ab"
+    },
+    {
+      "url": "https://www.te.com/en/product-2821992-3.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2821992-3",
+      "id": "09f2966b08a603a123b39a326f1fc7cad9095c38"
+    },
+    {
+      "url": "https://www.te.com/en/product-2821994-1.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2821994-1",
+      "id": "d5b7312a06a76b72d8b07161d794ebf323af3052"
+    },
+    {
+      "url": "https://www.te.com/en/product-2821994-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2821994-2",
+      "id": "7ab9cf4481acccfd808b9cd29da2d52de8db5044"
+    },
+    {
+      "url": "https://www.te.com/en/product-2821994-3.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2821994-3",
+      "id": "95dbf7bbc2b2cbcb2597a9ac66f8a9cde89eaa4a"
+    },
+    {
+      "url": "https://www.te.com/en/product-2825260-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2825260-2",
+      "id": "795e8af5921f82d6694eb23d10543c021e4351e9"
+    },
+    {
+      "url": "https://www.te.com/en/product-2825260-6.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2825260-6",
+      "id": "68462942e42d6ada9226fc804e9a13f7c66fa0c1"
+    },
+    {
+      "url": "https://www.te.com/en/product-2825261-6.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2825261-6",
+      "id": "80e58e26249ee82773357b5b02df11e50d1661f2"
+    },
+    {
+      "url": "https://www.te.com/en/product-2825272-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2825272-2",
+      "id": "7c261e65b35b779493fae964d838a0ac72f716a6"
+    },
+    {
+      "url": "https://www.te.com/en/product-2825438-1.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2825438-1",
+      "id": "906a9e3fe23039fb53ea3c3ee00c93e0fca59d00"
+    },
+    {
+      "url": "https://www.te.com/en/product-2836837-1.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2836837-1",
+      "id": "5e4fe3af926bef2d06affc36971f973180ed10d9"
+    },
+    {
+      "url": "https://www.te.com/en/product-2836837-2.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2836837-2",
+      "id": "9362c006d0ebfeb6291842aa9b9591adeea8f56c"
+    },
+    {
+      "url": "https://www.te.com/en/product-2836846-1.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-2836846-1",
+      "id": "feb22d2cf9c0ba0106ab149d46b979c4e362beca"
+    },
+    {
+      "url": "https://www.te.com/en/product-3-1803223-3.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-3-1803223-3",
+      "id": "ffd9817f1a1be7bdd6f55d399b5f336c89915eea"
+    },
+    {
+      "url": "https://www.te.com/en/product-4-1633922-9.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-4-1633922-9",
+      "id": "e9f9b872d4be7cf93a9ea7f40ceee450ef596b80"
+    },
+    {
+      "url": "https://www.te.com/en/product-4-2236896-3.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-4-2236896-3",
+      "id": "4bcf5358d24d06e9602fcf10913a9d9e62921b3f"
+    },
+    {
+      "url": "https://www.te.com/en/product-7-2150190-7.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-7-2150190-7",
+      "id": "cac3f9021d8250e2e61f05d14c37422a0fc8e912"
+    },
+    {
+      "url": "https://www.te.com/en/product-7-2150817-7.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-7-2150817-7",
+      "id": "c9921776995869c1d788cd32a49cda02217ff14f"
+    },
+    {
+      "url": "https://www.te.com/en/product-7-2150818-7.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-7-2150818-7",
+      "id": "cb34618a22273043c6ddda5c08c9ca6dacbf1976"
+    },
+    {
+      "url": "https://www.te.com/en/product-7-2836838-7.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-7-2836838-7",
+      "id": "017cb705fd1941e3e413f2260094818b7abc51b1"
+    },
+    {
+      "url": "https://www.te.com/en/product-7-2836846-7.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-7-2836846-7",
+      "id": "e69daf6af162fcb10896b9f56fb8296ac193763b"
+    },
+    {
+      "url": "https://www.te.com/en/product-7-2836848-7.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-7-2836848-7",
+      "id": "8439b5d99944ff5766310cf63b56fa4df895b2d6"
+    },
+    {
+      "url": "https://www.te.com/en/product-9-1803019-9.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-9-1803019-9",
+      "id": "862151948d142b0e58840bed4e1d301f23c5ee66"
+    },
+    {
+      "url": "https://www.te.com/en/product-CN8280-000.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-cn8280-000",
+      "id": "e7b50e74419b0f48ea3b7a810c501e72d42e7a51"
+    },
+    {
+      "url": "https://www.te.com/en/product-EL9946-000.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-el9946-000",
+      "id": "c45de8ee0ae17a6da202e35b6010c68d82b38aba"
+    },
+    {
+      "url": "https://www.te.com/en/product-EM0318-000.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-em0318-000",
+      "id": "13ba8e16c1ab645afd0819bc44a443527bf9597d"
+    },
+    {
+      "url": "https://www.te.com/en/product-YDTS24Y13-35CB0000.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-ydts24y13-35cb0000",
+      "id": "336e6aede0bdc50cf1cef1e0ec32fb2516dcb539"
+    },
+    {
+      "url": "https://www.te.com/en/product-YDTS24Y13-35CN0000.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-ydts24y13-35cn0000",
+      "id": "6e208678e0ab1779391fd2fb5c86e9c120d23108"
+    },
+    {
+      "url": "https://www.te.com/en/product-ZPF000000000033206.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-zpf000000000033206",
+      "id": "c1dddb636b3734542c7cc5aae1e6dfceb962dad8"
+    },
+    {
+      "url": "https://www.te.com/en/product-ZPF000000000036864.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-zpf000000000036864",
+      "id": "8ac7089ed253624213b5076553ce414fd481c248"
+    },
+    {
+      "url": "https://www.te.com/en/product-ZPF000000000204961.html",
+      "source": "SITEMAPS",
+      "targetPath": "/en/product-zpf000000000204961",
+      "id": "441bd9c534ead7faaf90c29a08101ed0f3537f63"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 64800000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": 100,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "sitemaps",
+    "logger": {},
+    "strategiesAttempted": [
+      "SITEMAPS"
+    ]
+  },
+  "extractionErrors": [
+    {
+      "url": "https://www.te.com/en/product-1-2291859-0.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-1-2291859-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-1-2291859-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-10214795-00.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2185251-6.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2215061-7.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-ZPF000000000204962.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2187223-1.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-8-1803252-7.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2150817-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2150817-1.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-833639-000.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320928-1.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320931-1.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320934-1.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320935-1.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320936-1.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320937-1.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320914-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320914-4.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320915-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320915-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320916-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320917-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320918-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320920-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320920-4.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320921-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320921-4.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320922-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320923-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320924-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320924-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320924-4.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320925-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320926-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320926-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320927-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320928-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320929-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320929-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320930-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320931-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320931-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320931-4.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320932-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320932-4.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320933-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320933-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320934-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320934-4.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320935-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320936-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320936-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320937-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-7-2836837-7.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2320937-4.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2317123-1.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2-1803325-0.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2292096-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2321548-1.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2321549-1.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-10214828-00.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-10214829-00.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-10214858-00.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-3-1633921-7.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-7-2836840-7.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2-1879339-1.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2150190-1.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-1-1879808-9.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-4-2176090-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-11191646-00.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-11191650-00.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-11191649-00.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-3-2208157-1.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2-2208157-1.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-4-2208157-1.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-7-2836842-7.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-4-1803318-7.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-4-2098269-9.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2312042-5.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-6-1803058-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-3330273002.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-CM4646-000.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-CM4645-000.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-CQ78423001.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-7-2150819-7.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-10214871-00.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-10214917-00.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-10214918-00.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-10214938-00.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-7-2150820-7.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-10214953-00.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-4-1803224-8.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-7-2836844-7.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-1803437-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2836846-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-4-1333296-6.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2076408-8.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-1958540-1.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2821986-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2821986-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2821987-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2821988-1.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2821988-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2821988-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2821988-4.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2821992-1.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2821992-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2821993-3.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2821994-4.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-1-1707665-5.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-10214966-00.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2308171-6.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2825260-4.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2825260-8.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-1-2825260-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-1-2825260-8.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2825261-2.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2825261-4.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2825261-8.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-1-2825261-0.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-1-2825261-4.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-1-2825261-8.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://www.te.com/en/product-2-2825261-4.html",
+      "status": "fetch failed Cause: Headers Timeout Error"
+    },
+    {
+      "url": "https://te.com/sitemap.xml",
+      "status": "parseSitemapFromUrl (https://te.com/sitemap.xml): TypeError: fetch failed"
+    },
+    {
+      "url": "https://www.te.com/sitemaps/de/sitemap-de-index.xml",
+      "status": "parseSitemapFromUrl (https://www.te.com/sitemaps/de/sitemap-de-index.xml): TypeError: fetch failed"
+    },
+    {
+      "url": "https://www.te.com/sitemaps/en/sitemap-en-navigation0.xml",
+      "status": "parseSitemapFromUrl (https://www.te.com/sitemaps/en/sitemap-en-navigation0.xml): TypeError: fetch failed"
+    },
+    {
+      "url": "https://www.te.com/sitemaps/en/sitemap-en-pdp1.xml",
+      "status": "parseSitemapFromUrl (https://www.te.com/sitemaps/en/sitemap-en-pdp1.xml): TypeError: fetch failed"
+    },
+    {
+      "url": "https://www.te.com/sitemaps/en/sitemap-en-pdp3.xml",
+      "status": "parseSitemapFromUrl (https://www.te.com/sitemaps/en/sitemap-en-pdp3.xml): TypeError: fetch failed"
+    },
+    {
+      "url": "https://www.te.com/sitemaps/en/sitemap-en-pdp4.xml",
+      "status": "parseSitemapFromUrl (https://www.te.com/sitemaps/en/sitemap-en-pdp4.xml): TypeError: fetch failed"
+    },
+    {
+      "url": "https://www.te.com/sitemaps/es/sitemap-es-index.xml",
+      "status": "parseSitemapFromUrl (https://www.te.com/sitemaps/es/sitemap-es-index.xml): TypeError: fetch failed"
+    },
+    {
+      "url": "https://www.te.com/sitemaps/fr/sitemap-fr-navigation0.xml",
+      "status": "parseSitemapFromUrl (https://www.te.com/sitemaps/fr/sitemap-fr-navigation0.xml): TypeError: fetch failed"
+    },
+    {
+      "url": "https://www.te.com/sitemaps/fr/sitemap-fr-pdp4.xml",
+      "status": "parseSitemapFromUrl (https://www.te.com/sitemaps/fr/sitemap-fr-pdp4.xml): TypeError: fetch failed"
+    },
+    {
+      "url": "https://www.te.com/sitemaps/ja/sitemap-ja-index.xml",
+      "status": "parseSitemapFromUrl (https://www.te.com/sitemaps/ja/sitemap-ja-index.xml): TypeError: fetch failed"
+    },
+    {
+      "url": "https://www.te.com/sitemaps/pt/sitemap-pt-index.xml",
+      "status": "parseSitemapFromUrl (https://www.te.com/sitemaps/pt/sitemap-pt-index.xml): TypeError: fetch failed"
+    }
+  ],
+  "errorCountMessage": "{\"others\":136}",
+  "error": null
+}
