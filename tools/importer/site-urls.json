@@ -1,0 +1,26 @@
+{
+  "originUrl": "https://www.netsuite.com",
+  "lastCrawled": "https://www.netsuite.com/",
+  "urls": [
+    {
+      "url": "https://www.netsuite.com/portal/resource/articles/financial-management/bank-integration.shtml/",
+      "source": "SITEMAPS",
+      "targetPath": "/",
+      "id": "1b9ba84f36ee3a519917302a79dfd970725bae31"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 64800000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": -1,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "sitemaps",
+    "logger": {},
+    "strategiesAttempted": [
+      "SITEMAPS"
+    ]
+  },
+  "extractionErrors": []
+}
