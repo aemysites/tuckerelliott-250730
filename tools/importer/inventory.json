@@ -61,7 +61,8 @@
           "uuid": "29320121-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
           "xpath": "/html[1]/body[1]/div[1]/div[1]"
         }
-      ]
+      ],
+      "key": "unknown2"
     },
     {
       "name": "Hero",
