@@ -1,0 +1,162 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+          "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+          "uuid": "29320121-00-e9726e977075141437c908ebee8ed79c65915f84",
+          "xpath": "/html[1]/body[1]/div[1]/a[1]"
+        }
+      ],
+      "styles": {
+        "height": 40,
+        "background": "rgb(0, 104, 74) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+          "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+          "uuid": "29320121-08-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        }
+      ],
+      "styles": {
+        "background": "rgb(6, 22, 33) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "header",
+      "cluster": 1,
+      "source": "Header",
+      "target": "Header (header1)",
+      "key": "header1",
+      "instances": [
+        {
+          "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+          "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+          "uuid": "29320121-00-e9726e977075141437c908ebee8ed79c65915f84",
+          "xpath": "/html[1]/body[1]/div[1]/a[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 2,
+      "instances": [
+        {
+          "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+          "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+          "uuid": "29320121-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]"
+        }
+      ],
+      "key": "unknown2"
+    },
+    {
+      "name": "Hero",
+      "cluster": 3,
+      "source": "Hero",
+      "target": "Hero (hero3)",
+      "key": "hero3",
+      "instances": [
+        {
+          "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+          "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+          "uuid": "29320121-02-a8878b7993ccab430da36401529308f2b9c22dae",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/header[1]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 4,
+      "source": "Columns",
+      "target": "Columns (columns4)",
+      "key": "columns4",
+      "instances": [
+        {
+          "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+          "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+          "uuid": "29320121-03-a7ffa77f59d6425cb85d06697fffae2af5eaa609",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 5,
+      "source": "Cards",
+      "target": "Cards (cards5)",
+      "key": "cards5",
+      "instances": [
+        {
+          "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+          "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+          "uuid": "29320121-06-c000e3be9f3b96973bff2c258afe247f3c7b07ca",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 6,
+      "source": "Columns",
+      "target": "Columns (columns6)",
+      "key": "columns6",
+      "instances": [
+        {
+          "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+          "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+          "uuid": "29320121-08-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]",
+          "section": "section-3"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+      "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+      "uuid": "29320121-04-caedde121fd5550147e4ce17b5de44d7c0aede4a",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+      "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+      "uuid": "29320121-05-87b45918a3d04ebcec21a5697b34ae3e5b959af7",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+      "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+      "uuid": "29320121-07-4e74b9bf9f7d4a529dd9ad90445c271e68ad92ba",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+      "differences": [
+        {
+          "change_type": "equal",
+          "text": "New Modernize 2-3x faster with MongoDB\u2019s AI-powered Application Modernization Platform. Learn more > Modernize 2-3x faster with MongoDB\u2019s AI-powered Application Modernization Platform. >> New Search & Vector Search now in public preview for Community Edition Read the blog > Search & Vector Search now in public preview for Community Edition >> Blog Innovate for the AI Era: Get the latest MongoDB.local NYC 2025 news and updates! Read the blog > Innovate for the AI Era: Get the latest MongoDB.local NYC 2025 news and updates! >> Home Culture Artificial Intelligence Developer Blog Engineering Blog Voyage AI Dev Ittycheria, President and CEO, MongoDB September 18, 2025 | Updated: September 26, 2025 Yesterday, we welcomed thousands of developers and executives to MongoDB.local NYC, the latest stop in our global .local series. Over the past year, we\u2019ve connected with tens of thousands of partners and customers in 20 cities worldwide. But it\u2019s especially meaningful to be in New York\u2014where MongoDB was founded and where we are still headquartered. This post is also available in: Deutsch , Fran\u00e7ais , Espa\u00f1ol , Portugu\u00eas , Italiano , \ud55c\uad6d\uc5b4 , \u7b80\u4f53\u4e2d\u6587 . During the event, we introduced new capabilities that advance MongoDB\u2019s position as the world\u2019s leading modern database. With MongoDB 8.2, our most feature-rich and performant release yet, we are raising the bar for what developers can achieve. We also shared more about our Voyage AI embedding models and rerankers, which bring state-of-the-art accuracy and efficiency to building trustworthy, reliable AI applications. And with Search and Vector Search now in public preview for both MongoDB Community Edition and Enterprise Server , we are putting powerful retrieval capabilities directly into customers\u2019 environments\u2014wherever they prefer to run. I am particularly excited about the launch of the MongoDB Application Modernization Platform , or AMP. Enterprises everywhere are grappling with the massive costs of legacy systems that cannot support the demands of AI. AMP is not a simple \u201clift-and-shift.\u201d It is a repeatable, end-to-end platform that combines AI-powered tooling, proven techniques, and specialized talent to reinvent critical business systems while minimizing cost and risk. Early results are impressive: enterprises moving from old systems to MongoDB are doing so two to three times faster, and tasks like code rewriting are accelerating by an order of magnitude. Figure 1. MongoDB.local NYC keynote. Watch the full keynote on YouTube. Becoming the world\u2019s most popular modern database When I reflect on MongoDB\u2019s journey, I\u2019m struck by how far we\u2019ve come. When I joined just over a decade ago, we had only a few thousand customers. Today, MongoDB serves nearly 60,000 organizations across every industry and vertical, including more than 70% of the Fortune 500 and cutting-edge AI-native startups. Yet the reason behind our growth remains the same. Relational databases built in the 1970s were never designed for the scale and complexity of modern applications. They were rigid, hard to scale, and slow to adapt. Our founders, who had lived those limitations first-hand while building DoubleClick, set out to create something better: a database model designed for the realities of the modern world. The document model was born. Based in JSON, the document model is intuitive, flexible, and powerful. It allows developers to represent complex, interdependent, and constantly changing data in a natural way. And, as we enter the era of AI, those same qualities\u2014adaptability, scalability, and security\u2014are more critical than ever. The database a company chooses will be one of the most strategic decisions determining the success of its AI initiatives. Generative AI applications have already begun delivering productivity gains, writing code, drafting documents, and answering questions. But the real transformation lies ahead with agentic AI \u2014applications that perceive, decide, and act. These intelligent agents don\u2019t just follow workflows; they pursue outcomes, reasoning about the best steps to achieve them. And in that loop, the database is indispensable. It provides the memory that allows agents to perceive context, the facts that allow them to decide intelligently, and the state that will enable them to act coherently. This is why a company\u2019s data is its most valuable asset. Large language models (LLMs) may generate responses, but it is the database that provides continuity, collaboration, and true intelligence. The future of AI is not only about reasoning\u2014it is about context, memory, and the power of your data. The ideal database for transformative AI So what does the ideal database for agentic AI look like? It must reflect today\u2019s complexity and tomorrow\u2019s change. It must speak the language of AI, which is increasingly JSON. It must integrate advanced retrieval across raw data, metadata, and embeddings\u2014not just exact matching but meaning and intent. It must bridge private data and LLMs with the highest-quality embeddings and rerankers. And it must deliver the performance, scalability, and security required to power mission-critical applications at a global scale. This is precisely what MongoDB delivers. We don\u2019t simply check the boxes on this list\u2014we define them. We\u2019re only just getting started That\u2019s why I am so optimistic about our future. The energy and creativity we see at every MongoDB.local event remind me of the passion that has always fueled this company. As our customers continue to innovate, I know MongoDB is in the perfect position to help them succeed in the AI era. We can\u2019t wait to see what you build next. To see more announcements and for the latest product updates, visit our What\u2019s New page. And head to the MongoDB.local hub to see where we\u2019ll be next. \u2190 Previous Celebrating Excellence: MongoDB Global Partner Awards 2025 In a world being reshaped by AI and rapid technological change, one thing is clear: our partners are powering the future with MongoDB. Together, we help customers modernize legacy systems, solve challenges from security to budget constraints, and build the next wave of AI-powered applications. That\u2019s why we\u2019re proud to announce the annual MongoDB Global Partner Awards \u2014 celebrating partners who led the way in 2025. From pioneering AI and modernization to advancing public sector innovation to building bold go-to-market collaborations, these partners set the standard for excellence. Their leadership doesn\u2019t just move the needle \u2014 it redefines what\u2019s possible. This post is also available in: Deutsch , Fran\u00e7ais , Espa\u00f1ol , Portugu\u00eas , Italiano , \ud55c\uad6d\uc5b4 , \u7b80\u4f53\u4e2d\u6587 . Global Cloud Partner of the Year: Microsoft We are proud to recognize Microsoft for exceptional year-over-year growth as MongoDB\u2019s Global Cloud Partner of the Year. Together, MongoDB and Microsoft have delivered strong momentum across industries such as healthcare, telecommunications, and financial services, helping organizations build great applications that deliver exceptional customer experiences. Microsoft\u2019s deep commitment to collaboration, customer success, and cloud leadership makes it an indispensable part of MongoDB\u2019s partner ecosystem. The strength of the partnership continues to grow; in fact, MongoDB was recently selected as a Microsoft partner for a \u201cUnify your data solution play,\u201d which enables customers to benefit from the joint integrations and go-to-market (GTM) resources between MongoDB Atlas on Azure and Native Microsoft services. Global AI Cloud Partner of the Year: Amazon Web Services (AWS) AWS has been a driving force in helping customers unlock the full potential of AI with MongoDB, highlighted by our work with Novo Nordisk , who leveraged Amazon Bedrock and MongoDB Atlas to build an AI solution that cut one of their most time-intensive workflows from 12 weeks to 10 minutes. The work with Novo Nordisk is just one example of many that showcases the power of our partnership to create business differentiation for customers in the gen AI era. MongoDB was also a generative AI Competency launch partner for AWS, further tightening our collaboration in AI. From breakthrough generative AI use cases and beyond, our partnership empowers organizations to move faster, innovate more boldly, and transform with confidence. Together, AWS and MongoDB are shaping what\u2019s possible in the AI era. Global Cloud GTM Partner of the Year: Google Cloud Google Cloud is being honored for accelerating new business through impactful joint GTM initiatives. MongoDB's partnership with Google Cloud has set the standard for meaningful collaboration\u2014driving new business and delivering impact across some of the world\u2019s most complex global enterprises. The joint Google Cloud and MongoDB Sales Development Representative program has been the cornerstone of this success, ensuring early-stage talent get the opportunity to work with the largest organisations in the world whilst learning a sales playbook that will serve them well for the rest of their career. Google Cloud continues to be a driving force in MongoDB\u2019s global growth thanks to its joint commitment to innovative GTM strategies. Global Systems Integrator Partner of the Year: Accenture Accenture has demonstrated exceptional commitment as a Global SI Partner, establishing a dedicated center of excellence for MongoDB within its software engineering service line. Together, MongoDB and Accenture have delivered transformative customer outcomes across industries, from payment modernization for a leading bank to data transformation for a major manufacturer. Meanwhile, closer collaboration with Accenture\u2019s BFSI business unit has continued to fuel global customer success. By combining MongoDB\u2019s modern database platform with Accenture\u2019s deep industry expertise, our partnership continues to help customers modernize, unlock data-driven insights, and accelerate digital transformation at enterprise scale. Global Public Sector Partner of the Year: Accenture Federal Services Accenture Federal Services has played a pivotal role in advancing MongoDB\u2019s presence in the public sector. Thanks to its scale, expertise, and focus on customer outcomes, it has driven remarkable year-over-year growth and has supported critical government missions in coordination with MongoDB. MongoDB and Accenture Federal Services are helping government agencies meet their efficiency goals by modernizing legacy applications, seamlessly consolidating platforms, and streamlining architectures, all while reducing costs. We are excited to have Accenture Federal Services as a key sponsor of our inaugural MongoDB Public Sector Summit in January 2026. Global Tech Partner of the Year: Confluent Confluent \u2014the data streaming platform built by the co-creators of Apache Kafka\u00ae\u2014continues to be a strategic partner with more than 550 joint customer deployments delivering impact across industries worldwide. Over the past year, MongoDB and Confluent have strengthened global go-to-market (GTM) alignment, focusing acceleration of co-sell engagement across EMEA and APAC. Together, MongoDB and Confluent have delivered gen AI quickstarts, no-code streaming demos, and co-authored agentic AI thought leadership to help customers accelerate innovation with data in motion and build event-driven AI applications. Our partnership is anchored in strong field collaboration, with ongoing co-sponsored AI workshops and hands-on developer events. A standout highlight of our GTM collaboration was a joint gen AI Developer Day with Confluent and LangChain, where AI leaders engaged 80+ developers to showcase how our combined platforms enable cost-effective, explainable, and personalized multi-agent systems. Global ISV Partner of the Year: BigID BigID has remained a standout ISV partner for MongoDB, consistently delivering strong results for customers across financial services, insurance, and healthcare. Together, we have launched impactful joint GTM initiatives, from customer events to tailored incentive programs that have accelerated growth opportunities. BigID continues to be recognized as a leader in data security, privacy, and AI data management, and thanks to our close global alignment, is further strengthening MongoDB\u2019s position as a trusted partner for organizations operating in highly regulated industries. Global AI Tech Partner of the Year: LangChain MongoDB\u2019s partnership with LangChain has unlocked powerful new integrations that make it easier for developers to build retrieval-augmented generation (RAG) applications and intelligent agents on MongoDB. From hybrid search and parent document retrievers to short- and long-term memory capabilities, these joint solutions are helping developers push the boundaries of what\u2019s possible with AI. Through joint workshops, webinars, and hands-on training, we have equipped developers with the tools and knowledge to adopt these capabilities at scale. Momentum continues to build rapidly, and adoption of both the LangChain/MongoDB and LangGraph/MongoDB packages continues to grow, highlighting the strength of our collaboration and the thriving developer ecosystem that MongoDB and LangChain are enabling together. Global AI SI Partner of the Year: Pureinsights Pureinsights accelerates intelligent search and AI application development with its powerful Discovery Platform. A standout capability is its integration with Voyage AI by MongoDB , delivering advanced embeddings, multimodal embedding, and result reranking, earning recognition for its strong proof point track record and differentiated value in enterprise-grade use cases. With a focus on implementing generative AI, vector search, and RAG use cases, Pureinsights continues to empower clients to innovate quickly, reliably, and at scale. Global Modernization Partner of the Year: gravity9 gravity9 has established itself as a trusted MongoDB partner by delivering consistent impact through modernization and jumpstart projects across industries and geographies, powered by AI. As a strategic implementation partner, gravity9 specializes in designing and delivering cloud-native, scalable solutions that help organizations modernize legacy systems, adopt new technologies, accelerate time-to-value, and prepare for the AI era. By combining deep technical expertise with an agile delivery model, gravity9 enables customers to unlock transformation opportunities, whether moving workloads to the cloud, building new AI experiences, or optimizing existing infrastructure. gravity9\u2019s close collaboration with MongoDB\u2019s Professional Services teams has generated consistently high customer ratings, demonstrating the quality and reliability of their work. Global Impact Partner of the Year: IBM IBM is being recognized for the Impact Partner of the Year award for their strategic contributions across a variety of large, industry-leading clients. IBM has played a critical role in securing large contracts with several multinational financial institutions and is investing more in expanding the partnership globally. The partnership continues to grow, including with Atlas & Watsonx.ai, and increasing numbers of differentiated projects on the IBM Z Systems or LinuxOne infrastructure. IBM is a trusted vendor for large Enterprises, and is a strategic partner in over 25% of MongoDB's largest customers. Global Cloud - Certified DBaaS Partner of the Year: Alibaba Alibaba Cloud has established itself as a strategic MongoDB partner by driving innovation with ApsaraDB for MongoDB and utilizing AI to help organizations build modern applications. With a strong focus on key verticals such as Gaming, Automotive, Retail, and Fintech, Alibaba Cloud is enabling enterprises to modernize faster and unlock new opportunities across industries. By combining cutting-edge data solutions with a bold global expansion strategy, Alibaba Cloud empowers customers worldwide to accelerate transformation, whether scaling digital platforms, delivering new customer experiences, or optimizing mission-critical workloads. Looking ahead Congratulations to all of the 2025 Global Partner Award winners! Their commitment to innovation, collaboration, and customer success has\u2014and will have\u2014a lasting impact on organizations worldwide. These awards not only recognize the past year\u2019s achievements, but also underscore MongoDB\u2019s vision for what we, alongside our partners, will build together in the future. To learn more about the MongoDB Partner Program, please visit our partners page . September 18, 2025 Next \u2192 Innovating with MongoDB | Customer Successes, October 2025 It\u2019s officially fall! The start of every new season is a perfect time to consider change and new beginnings. While fall might make you think about pumpkin spice and newly chilly evenings, I\u2019m thinking about the latest round of transformations that MongoDB\u2019s customers are embracing to thrive in an AI-powered world. In all seriousness, legacy systems and technical debt are huge challenges: the cost of tech debt has been estimated at almost $4 trillion dollars. That\u2019s trillion with a T! Legacy systems can slow down innovation, create bottlenecks, and make it tough to deliver the seamless, real-time experiences customers increasingly expect. But companies are finding that modernizing their applications isn't just about fixing what's broken\u2014modernization enables them to move faster and innovate for end-users. That\u2019s why I'm incredibly excited to share the recent launch of MongoDB\u2019s Application Modernization Platform (AMP). This AI-powered program is designed to help enterprises move beyond outdated infrastructures to embrace a flexible, data-driven future. AMP is a comprehensive approach to modernization that combines smart AI tooling with proven methodologies, enabling businesses to transform their applications from the ground up, moving from legacy monoliths to a more flexible, microservices-based architecture. In this roundup, we're spotlighting customers who understand the strategic importance of modernization. You'll see how Wells Fargo is using MongoDB to power a new credit card platform, how CSX is ensuring business continuity during a critical migration, how Intellect Design is modernizing its wealth management platform, and how Deutsche Telekom is transforming its B2C digital channels. With MongoDB, customers are showing how integral a modern database is to powering the next generation of applications\u2014and succeeding in the AI era. Wells Fargo Wells Fargo sought to modernize its mainframe-dependent credit card platform to provide a faster, more seamless customer experience and handle an exponential increase in transaction data. The company's legacy system was costly to manage and lacked the scalability needed for its \"Cards 2.0\" initiative. To solve this, Wells Fargo built an operational data store (ODS) using MongoDB. This new platform allowed them to adopt reusable APIs, streamline integrations, and move from a monolithic architecture to flexible microservices. The ODS now serves 40% of traffic from external vendors, handling more than 7 million transactions with sub-second service. By leveraging MongoDB, Wells Fargo was able to jumpstart its mainframe modernization and create curated data products to serve real-time, personalized financial services. CSX CSX , a major U.S. railroad company, sought to modernize its critical operations platform, RTOP, by migrating it to the cloud. The challenge was to maintain the platform's 24/7 availability with minimal disruption to its mission-critical, near real-time operations during the transition. To solve this, CSX selected MongoDB Atlas on Azure and partnered with MongoDB Professional Services . Leveraging the Cluster-to-Cluster Sync feature, the team was able to facilitate continuous data synchronization and complete the entire migration in just a few hours. The move to MongoDB Atlas has equipped CSX with a more scalable and resilient platform. This modernization effort established a blueprint for migrating other critical applications and helped CSX continue its digital transformation journey toward becoming America\u2019s best-run railroad. Intellect Design Intellect Design , a global fintech company, sought to modernize its wealth management platform to overcome legacy system bottlenecks and multihour batch processing delays. The company's rigid relational database architecture limited its ability to scale and innovate. To solve this, the company partnered with MongoDB, using our AMP methodology and generative AI tools. This transformation reengineered the platform's core components, resulting in an 85% reduction in onboarding workflow times, allowing clients to access critical portfolio insights faster than ever. This initiative is the first step in Intellect Design's long-term vision to integrate its entire application suite into a unified, AI-driven service. By leveraging MongoDB Atlas's flexible schema and powerful native tools, the company is now better positioned to deliver smarter analytics and advanced AI capabilities to its customers. Watch Intellect AI\u2019s MongoDB.local Bengaluru keynote presentation to learn how AMP helped them transform outdated systems into scalable, modern solutions. Deutsche Telekom Deutsche Telekom , a leading telecommunications company, sought to modernize its B2C digital channels, which were fragmented by outdated legacy systems. The company needed to create a unified digital experience for its 30 million customers while improving developer productivity. By leveraging MongoDB Atlas as part of its Internal Developer Platform, Deutsche Telekom built a robust data infrastructure to unify customer data and power its new digital services. This approach allowed the company to retire legacy systems and reduce its reliance on physical shops and call centers. The transition to MongoDB Atlas led to a massive surge in digital engagement, with daily customer interactions rising from under 50,000 to approximately 1.5 million. The company's customer data platform now handles up to 15 times the load of legacy systems, supporting large-scale loyalty programs and transforming the customer experience. Video spotlight: Bendigo Bank Before you go, watch how Bendigo and Adelaide Bank modernized their core banking technology using MongoDB Atlas and generative AI. Bendigo and Adelaide Bank reduced the migration time for legacy applications from 80 hours to just five minutes. This innovative approach allowed them to quickly modernize their systems and better serve their 2.5 million customers. Want to get inspired by your peers and discover all the ways we empower businesses to innovate for the future? Visit MongoDB\u2019s Customer Success Stories hub to see why these customers, and so many more, build modern applications with MongoDB. October 2, 2025"
+        }
+      ],
+      "similarity_score": 0.9999999999999967
+    }
+  ]
+}
