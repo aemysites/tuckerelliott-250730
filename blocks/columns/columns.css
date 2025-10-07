@@ -68,7 +68,6 @@
   line-height: 1.4;
 }
 
-/* Style the second line (after <br>) */
 .columns-2-cols > div > div:not(.columns-img-col) p br + * {
   color: #73808c;
   font-size: 13px;
@@ -86,4 +85,140 @@
   .columns-img-col {
     margin-bottom: 8px;
   }
+}
+
+
+.columns.columns6 {
+  background: #091e26;
+  color: #fff;
+  padding: 48px 32px;
+  position: relative;
+}
+
+.columns.columns6 .block.columns {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.columns.columns6 .block.columns div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  align-items: start;
+}
+
+@media (width <= 900px) {
+  .columns.columns6 .block.columns div {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
+
+@media (width <= 600px) {
+  .columns.columns6 .block.columns div {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .columns.columns6 {
+    padding: 32px 8px;
+  }
+}
+
+/* Headings as section labels inside block.columns div */
+.columns.columns6 .block.columns div p {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0.04em;
+  margin: 0 0 10px;
+  line-height: 1.3;
+}
+
+/* Unordered list styling for links */
+.columns.columns6 .block.columns div ul {
+  list-style: none;
+  margin: 0 0 24px;
+  padding: 0;
+}
+
+.columns.columns6 .block.columns div ul li a {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.7;
+  padding: 2px 0;
+  transition: color 0.2s;
+  text-decoration: none;
+  display: block;
+}
+
+.columns.columns6 .block.columns div ul li a:hover,
+.columns.columns6 .block.columns div ul li a:focus {
+  color: #13aa52;
+  text-decoration: underline;
+}
+
+/* Logo at the top left, if present */
+.columns.columns6 .block.columns div picture,
+.columns.columns6 .block.columns div img {
+  display: block;
+  max-width: 140px;
+  margin-bottom: 24px;
+}
+
+/* Copyright or footer at bottom left, if present */
+.columns.columns6 .block.columns div p:last-of-type {
+  font-size: 12px;
+  color: #fff;
+  margin-top: 32px;
+  opacity: 0.6;
+}
+
+/* Close button at top center */
+.columns.columns6 .close-btn {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  width: 48px;
+  height: 48px;
+  background: #13aa52;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
+}
+
+/* Chat button at bottom right */
+.columns.columns6 .chat-btn {
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+  z-index: 2;
+  width: 48px;
+  height: 48px;
+  background: #13aa52;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
+}
+
+/* Make sure images/icons don't overflow their containers */
+.columns.columns6 .block.columns div img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
