@@ -1,0 +1,27 @@
+{
+  "originUrl": "https://mongodb.com",
+  "aborted": false,
+  "urls": [
+    {
+      "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+      "source": "MANUAL",
+      "targetPath": "/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+      "id": "29320121f0f0c22d2be2f286da06772ade1b9d55"
+    }
+  ],
+  "lastCrawled": "MANUAL",
+  "crawlOptions": {
+    "timeout": 10000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": 100,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "manual",
+    "strategiesAttempted": [
+      "MANUAL"
+    ]
+  },
+  "extractionErrors": [],
+  "errorCountMessage": "none"
+}
