@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -29,5 +30,60 @@
   .columns > div > div {
     flex: 1;
     order: unset;
+  }
+}
+
+
+.columns-2-cols > div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #f5f6f7;
+  padding: 16px 24px;
+  gap: 8px;
+  box-sizing: border-box;
+}
+
+.columns-img-col img,
+.columns-img-col picture img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.columns-2-cols > div > div:not(.columns-img-col) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.columns-2-cols > div > div:not(.columns-img-col) p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #3b4552;
+  line-height: 1.4;
+}
+
+/* Style the second line (after <br>) */
+.columns-2-cols > div > div:not(.columns-img-col) p br + * {
+  color: #73808c;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+@media (width <= 600px) {
+  .columns-2-cols > div {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 10px;
+    gap: 8px;
+  }
+
+  .columns-img-col {
+    margin-bottom: 8px;
   }
 }
