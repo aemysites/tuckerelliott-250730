@@ -1,0 +1,166 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+          "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+          "uuid": "29320121-00-e9726e977075141437c908ebee8ed79c65915f84",
+          "xpath": "/html[1]/body[1]/div[1]/a[1]"
+        }
+      ],
+      "styles": {
+        "height": 40,
+        "background": "rgb(0, 104, 74) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+          "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+          "uuid": "29320121-08-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        }
+      ],
+      "styles": {
+        "background": "rgb(6, 22, 33) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "header",
+      "cluster": 1,
+      "source": "Header",
+      "target": "Header (header1)",
+      "key": "header1",
+      "instances": [
+        {
+          "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+          "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+          "uuid": "29320121-00-e9726e977075141437c908ebee8ed79c65915f84",
+          "xpath": "/html[1]/body[1]/div[1]/a[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 2,
+      "instances": [
+        {
+          "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+          "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+          "uuid": "29320121-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 3,
+      "source": "Hero",
+      "target": "Hero (hero3)",
+      "key": "hero3",
+      "instances": [
+        {
+          "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+          "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+          "uuid": "29320121-02-a8878b7993ccab430da36401529308f2b9c22dae",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/header[1]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 4,
+      "source": "Columns",
+      "target": "Columns (columns4)",
+      "key": "columns4",
+      "instances": [
+        {
+          "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+          "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+          "uuid": "29320121-03-a7ffa77f59d6425cb85d06697fffae2af5eaa609",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 5,
+      "source": "Cards",
+      "target": "Cards (cards5)",
+      "key": "cards5",
+      "instances": [
+        {
+          "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+          "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+          "uuid": "29320121-06-c000e3be9f3b96973bff2c258afe247f3c7b07ca",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 6,
+      "source": "Columns",
+      "target": "Columns (columns6)",
+      "key": "columns6",
+      "instances": [
+        {
+          "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+          "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+          "uuid": "29320121-08-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]",
+          "section": "section-3"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+      "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+      "uuid": "29320121-04-caedde121fd5550147e4ce17b5de44d7c0aede4a",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+      "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+      "uuid": "29320121-05-87b45918a3d04ebcec21a5697b34ae3e5b959af7",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+      "urlHash": "29320121f0f0c22d2be2f286da06772ade1b9d55",
+      "uuid": "29320121-07-4e74b9bf9f7d4a529dd9ad90445c271e68ad92ba",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]"
+    }
+  ],
+  "sections": [
+    {
+      "name": "section-1",
+      "background": "rgb(0, 104, 74) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-2",
+      "background": "rgba(0, 0, 0, 0) url(\"https://webassets.mongodb.com/_com_assets/cms/local2025_nyc_announcements-ywagn7kcxk.png\") no-repeat scroll 50% 50% / cover padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-3",
+      "background": "rgb(6, 22, 33) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    }
+  ]
+}
