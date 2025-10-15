@@ -1,0 +1,170 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.virginvoyages.com/ahoy/stories",
+          "urlHash": "efc8dea8cc8f944ad73da1c53716ca98f916e8f3",
+          "uuid": "efc8dea8-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        }
+      ],
+      "styles": {
+        "height": 100
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.virginvoyages.com/ahoy/stories",
+          "urlHash": "efc8dea8cc8f944ad73da1c53716ca98f916e8f3",
+          "uuid": "efc8dea8-07-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        }
+      ],
+      "styles": {
+        "background": "rgb(21, 21, 21) url(\"https://virginvoyages.imgix.net/dam/jcr:c5f2b891-28fe-4eda-9b98-492b16f55b49/ILL-BRAND-virgin-logo-white-v1-01-672x544.png\") no-repeat scroll calc(100% + 40px) calc(100% + 32px) / 314px 278px padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "header",
+      "cluster": 1,
+      "source": "Header",
+      "target": "Header (header1)",
+      "key": "header1",
+      "instances": [
+        {
+          "url": "https://www.virginvoyages.com/ahoy/stories",
+          "urlHash": "efc8dea8cc8f944ad73da1c53716ca98f916e8f3",
+          "uuid": "efc8dea8-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 2,
+      "source": "Hero",
+      "target": "Hero (hero2)",
+      "key": "hero2",
+      "instances": [
+        {
+          "url": "https://www.virginvoyages.com/ahoy/stories",
+          "urlHash": "efc8dea8cc8f944ad73da1c53716ca98f916e8f3",
+          "uuid": "efc8dea8-01-31d3c8896b1fd3531c6b4d088f068667d668f20a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[1]"
+        }
+      ]
+    },
+    {
+      "name": "Tabs",
+      "cluster": 3,
+      "source": "Tabs",
+      "target": "Tabs (tabs3)",
+      "key": "tabs3",
+      "instances": [
+        {
+          "url": "https://www.virginvoyages.com/ahoy/stories",
+          "urlHash": "efc8dea8cc8f944ad73da1c53716ca98f916e8f3",
+          "uuid": "efc8dea8-02-43c80e31edd7608dc4690165c8c5f13a27db33de",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/nav[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 4,
+      "source": "Hero",
+      "target": "Hero (hero4)",
+      "key": "hero4",
+      "instances": [
+        {
+          "url": "https://www.virginvoyages.com/ahoy/stories",
+          "urlHash": "efc8dea8cc8f944ad73da1c53716ca98f916e8f3",
+          "uuid": "efc8dea8-03-9e8251af1b02d50adde61a9f403a919c5c224657",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[2]/div[1]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 5,
+      "source": "Cards",
+      "target": "Cards (cards5)",
+      "key": "cards5",
+      "instances": [
+        {
+          "url": "https://www.virginvoyages.com/ahoy/stories",
+          "urlHash": "efc8dea8cc8f944ad73da1c53716ca98f916e8f3",
+          "uuid": "efc8dea8-05-7840742f78a245ab723ae13a53ad0d0692c14495",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[2]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 6,
+      "source": "Columns",
+      "target": "Columns (columns6)",
+      "key": "columns6",
+      "instances": [
+        {
+          "url": "https://www.virginvoyages.com/ahoy/stories",
+          "urlHash": "efc8dea8cc8f944ad73da1c53716ca98f916e8f3",
+          "uuid": "efc8dea8-07-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]",
+          "section": "section-4"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories",
+      "urlHash": "efc8dea8cc8f944ad73da1c53716ca98f916e8f3",
+      "uuid": "efc8dea8-04-dd90f0f10b60b33f61e57257171845e5495e49e5",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[2]/h2[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories",
+      "urlHash": "efc8dea8cc8f944ad73da1c53716ca98f916e8f3",
+      "uuid": "efc8dea8-06-c9fa38a594578374a81beda3142102a9f8d8b240",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/section[2]/div[2]/div[3]",
+      "section": "section-3"
+    }
+  ],
+  "sections": [
+    {
+      "name": "section-1",
+      "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-2",
+      "background": "rgb(255, 255, 255) none no-repeat scroll 50% 50% / cover padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-3",
+      "background": "rgb(247, 247, 247) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 3
+    },
+    {
+      "name": "section-4",
+      "background": "rgb(21, 21, 21) url(\"https://virginvoyages.imgix.net/dam/jcr:c5f2b891-28fe-4eda-9b98-492b16f55b49/ILL-BRAND-virgin-logo-white-v1-01-672x544.png\") no-repeat scroll calc(100% + 40px) calc(100% + 32px) / 314px 278px padding-box border-box",
+      "count": 1
+    }
+  ]
+}
