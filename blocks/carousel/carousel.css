@@ -159,7 +159,6 @@
   display: none;
 }
 
-/* Improved block alignment, sizing, and appearance */
 .carousel.carousel3 .carousel-content-block {
   position: absolute;
   top: 50%;
@@ -176,7 +175,6 @@
   transition: background 0.3s, box-shadow 0.3s;
 }
 
-/* Responsive: shrink left margin and padding on small screens */
 @media (width <= 700px) {
   .carousel.carousel3 .carousel-content-block {
     left: 4vw;
@@ -187,7 +185,6 @@
   }
 }
 
-/* Headings: slightly larger and spaced for legibility */
 .carousel.carousel3 .carousel-content-block h2,
 .carousel.carousel3 .carousel-content-block h3 {
   margin-top: 0;
@@ -197,7 +194,6 @@
   letter-spacing: 0.01em;
 }
 
-/* Date: larger and more separated */
 .carousel.carousel3 .carousel-content-block .carousel-date {
   display: block;
   font-size: 1.09rem;
@@ -207,7 +203,6 @@
   letter-spacing: 0.02em;
 }
 
-/* Button: more prominent, better spacing */
 .carousel.carousel3 .carousel-content-block .carousel-btn {
   background: #2362fb;
   color: #fff;
@@ -226,4 +221,203 @@
   background: #1849b3;
 }
 
-/* Add subtle transition for block opacity and shadow */
+
+.carousel.carousel4 .carousel-navigation-buttons {
+  /* Visible: style to match screenshot */
+  right: 32px;
+  left: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  background: none;
+  box-shadow: none;
+  z-index: 2;
+  width: auto;
+  gap: 0;
+  height: 44px;
+}
+
+.carousel.carousel4 .carousel-navigation-buttons button {
+  background: none;
+  border: none;
+  box-shadow: none;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  border-radius: 50%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  transition: background 0.2s;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel.carousel4 .carousel-navigation-buttons button:not(.slide-next) {
+  display: none;
+}
+
+.carousel.carousel4 .carousel-navigation-buttons button.slide-next::after {
+  border: none;
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: block;
+  border-radius: 50%;
+  background: none;
+  box-shadow: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel.carousel4 .carousel-navigation-buttons button.slide-next::before {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  border-right: 2px solid #d81e36;
+  border-top: 2px solid #d81e36;
+  border-bottom: none;
+  border-left: none;
+  content: '';
+  display: block;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  rotate: 45deg;
+}
+
+.carousel.carousel4 .carousel-navigation-buttons button.slide-next:active,
+.carousel.carousel4 .carousel-navigation-buttons button.slide-next:focus-visible {
+  background: rgb(216 30 54 / 8%);
+}
+
+/* Remove background and overlay on .carousel-slide-content */
+.carousel.carousel4 .carousel-slide .carousel-slide-content {
+  background: none;
+  color: #131313;
+  margin: 0;
+  padding: 0 0 0 12px;
+  box-shadow: none;
+  z-index: 1;
+  width: 100%;
+  max-width: none;
+  position: static;
+  font-family: var(--body-font-family);
+}
+
+.carousel.carousel4 .carousel-slide {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-height: auto;
+  background: none;
+  position: relative;
+  width: 100%;
+}
+
+/* Thumbnail image: left-aligned, square/cropped, small size */
+.carousel.carousel4 .carousel-slide-image {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  min-width: 72px;
+  min-height: 72px;
+  margin: 12px 24px 12px 0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.carousel.carousel4 .carousel-slide-image picture,
+.carousel.carousel4 .carousel-slide-image picture > img {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+
+/* Content alignment */
+.carousel.carousel4 .carousel-slide-content h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 4px;
+  font-family: var(--heading-font-family);
+  color: #131313;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.carousel.carousel4 .carousel-slide-content p {
+  color: #505050;
+  font-size: 13px;
+  margin: 0 0 4px;
+  font-family: var(--body-font-family);
+  line-height: 1.4;
+}
+
+/* Date line styling (first p) */
+.carousel.carousel4 .carousel-slide-content p:first-of-type {
+  font-size: 12px;
+  color: #7a7a7a;
+  margin: 0 0 8px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+/* Description */
+.carousel.carousel4 .carousel-slide-content p:nth-of-type(2) {
+  font-size: 13px;
+  color: #505050;
+  margin-bottom: 0;
+}
+
+/* Hide button container if not in screenshot */
+.carousel.carousel4 .carousel-slide-content .button-container {
+  display: none;
+}
+
+/* Responsive: ensure single-row horizontal layout at all sizes */
+@media (width <= 899px) {
+  .carousel.carousel4 .carousel-slide {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .carousel.carousel4 .carousel-slide-image {
+    margin: 8px 16px 8px 0;
+    width: 56px;
+    height: 56px;
+    min-width: 56px;
+    min-height: 56px;
+  }
+
+  .carousel.carousel4 .carousel-slide-content {
+    padding-left: 8px;
+  }
+
+  .carousel.carousel4 .carousel-slide-content h2 {
+    font-size: 16px;
+  }
+
+  .carousel.carousel4 .carousel-slide-content p {
+    font-size: 12px;
+  }
+}
+
+/* Hide page indicators: not in screenshot */
+.carousel.carousel4 .carousel-slide-indicators {
+  display: none;
+}
