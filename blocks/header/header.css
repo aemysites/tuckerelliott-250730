@@ -1,4 +1,5 @@
-/* header and nav layout */
+/* stylelint-disable no-descending-specificity */
+
 header .nav-wrapper {
   background-color: var(--background-color);
   width: 100%;
@@ -7,18 +8,16 @@ header .nav-wrapper {
 }
 
 header nav {
-  box-sizing: border-box;
-  display: grid;
-  grid-template:
-    'hamburger brand tools' var(--nav-height)
-    'sections sections sections' 1fr / auto 1fr auto;
+  display: flex;
   align-items: center;
-  gap: 0 24px;
-  margin: auto;
-  max-width: 1248px;
-  height: var(--nav-height);
-  padding: 0 24px;
-  font-family: var(--body-font-family);
+  max-width: 1264px;
+  width: 100%;
+  margin: 0 auto;
+  height: 56px;
+  padding: 0 36px;
+  box-sizing: border-box;
+  background: #fff;
+  justify-content: space-between;
 }
 
 header nav[aria-expanded='true'] {
@@ -54,12 +53,12 @@ header nav a:any-link {
   color: currentcolor;
 }
 
-/* hamburger */
 header nav .nav-hamburger {
   grid-area: hamburger;
   height: 22px;
-  display: flex;
+  display: none;
   align-items: center;
+  visibility: hidden;
 }
 
 header nav .nav-hamburger button {
@@ -135,7 +134,6 @@ header nav[aria-expanded='true'] .nav-hamburger-icon::after {
   }
 }
 
-/* brand */
 header .nav-brand {
   grid-area: brand;
   flex-basis: 128px;
@@ -151,12 +149,16 @@ header nav .nav-brand img {
   max-width: 128px;
 }
 
-/* sections */
 header nav .nav-sections {
   grid-area: sections;
   flex: 1 1 auto;
-  display: none;
+  display: flex;
   visibility: hidden;
+  order: 2;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  min-width: 0;
 }
 
 header nav[aria-expanded='true'] .nav-sections {
@@ -264,7 +266,294 @@ header nav .nav-sections ul > li > ul > li {
   }
 }
 
-/* tools */
 header nav .nav-tools {
   grid-area: tools;
+  order: 3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 180px;
+  margin-left: 40px;
+  height: 56px;
+  gap: 16px;
+}
+
+/* === Virgin Voyages Header - Optimized EDS CSS === */
+
+/* EDS Foundation */
+header { display: flex; }
+
+.header-wrapper .nav-wrapper {
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  top: 0; left: 0; right: 0;
+  background: #fff;
+}
+
+/* Logo */
+header nav .nav-brand {
+  order: 1;
+  display: flex;
+  align-items: center;
+  min-width: 160px;
+  height: 56px;
+  margin-right: 40px;
+}
+
+header nav .nav-brand img,
+header nav .nav-brand picture {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* Navigation sections */
+
+header nav .nav-sections > .default-content-wrapper > ul {
+  display: flex;
+  gap: 38px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+header nav .nav-sections > .default-content-wrapper > ul > li {
+  display: flex;
+  align-items: center;
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #505050;
+  cursor: pointer;
+  height: 56px;
+  min-width: 44px;
+  padding: 0;
+  background: none;
+  border: none;
+  position: relative;
+  transition: color 0.15s;
+}
+
+header nav .nav-sections > .default-content-wrapper > ul > li:hover,
+header nav .nav-sections > .default-content-wrapper > ul > li:focus-within {
+  color: #d0172c;
+}
+
+header nav .nav-sections > .default-content-wrapper > ul > li > a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 0 6px;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  transition: color 0.15s;
+}
+
+header nav .nav-sections > .default-content-wrapper > ul > li > picture,
+header nav .nav-sections > .default-content-wrapper > ul > li > img {
+  margin-left: 6px;
+  height: 14px;
+  width: 14px;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Tool Section */
+
+header nav .nav-tools ul {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav .nav-tools li {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-family: Montserrat, Arial, sans-serif;
+  color: #7C7C7C;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  padding: 0;
+  min-height: 44px;
+}
+
+header nav .nav-tools li > picture,
+header nav .nav-tools li > img {
+  margin-left: 6px;
+  height: 16px;
+  width: 16px;
+  object-fit: contain;
+  display: inline-block;
+}
+
+/* Book Button */
+header nav .nav-tools .button,
+header nav .nav-tools a.button,
+header nav .nav-tools li:last-child a,
+header nav .nav-tools li:last-child button {
+  display: inline-block;
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #d0172c;
+  border: 2px solid #d0172c;
+  border-radius: 30px;
+  background: #fff;
+  min-width: 88px;
+  min-height: 44px;
+  padding: 8px 28px;
+  margin-left: 10px;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.12s, color 0.12s, border-color 0.12s;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+header nav .nav-tools .button:hover,
+header nav .nav-tools a.button:hover,
+header nav .nav-tools li:last-child a:hover,
+header nav .nav-tools li:last-child button:hover,
+header nav .nav-tools .button:focus,
+header nav .nav-tools a.button:focus,
+header nav .nav-tools li:last-child a:focus,
+header nav .nav-tools li:last-child button:focus {
+  background: #d0172c;
+  color: #fff;
+  border-color: #d0172c;
+}
+
+/* Touch targets for accessibility */
+header nav .nav-brand,
+header nav .nav-sections > .default-content-wrapper > ul > li,
+header nav .nav-tools li,
+header nav .nav-tools .button,
+header nav .nav-tools a.button {
+  min-height: 44px;
+  min-width: 44px;
+  box-sizing: border-box;
+}
+
+/* Responsive Breakpoint */
+@media (width <= 899px) {
+  .header-wrapper .nav-wrapper {
+    min-height: 56px;
+    padding: 0;
+  }
+
+  header nav {
+    max-width: 100vw;
+    padding: 0 8px;
+    height: 56px;
+  }
+
+  header nav .nav-brand {
+    margin-right: 8px;
+    min-width: 98px;
+  }
+
+  header nav .nav-brand img, header nav .nav-brand picture {
+    height: 32px;
+  }
+
+  /* Show hamburger menu button */
+  header nav .nav-hamburger {
+    display: flex;
+    visibility: visible;
+    order: 2;
+    align-items: center;
+    justify-content: center;
+    margin: 0 12px 0 0;
+    height: 44px;
+    width: 44px;
+  }
+
+  /* Hide nav-sections and nav-tools unless expanded */
+  header nav .nav-sections,
+  header nav .nav-tools {
+    display: none;
+    visibility: hidden;
+  }
+
+  header nav[aria-expanded="true"] .nav-sections {
+    display: flex;
+    visibility: visible;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 56px;
+    width: 100vw;
+    background: #fff;
+    z-index: 10;
+    box-shadow: 0 2px 8px 0 rgb(80 80 80 / 10%);
+    padding: 20px 0 0;
+  }
+
+  header nav[aria-expanded="true"] .nav-sections > .default-content-wrapper > ul {
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+  }
+
+  header nav[aria-expanded="true"] .nav-sections > .default-content-wrapper > ul > li {
+    height: 48px;
+    font-size: 16px;
+    padding: 0 20px;
+    border-bottom: 1px solid #eee;
+    justify-content: flex-start;
+    min-width: unset;
+  }
+
+  header nav[aria-expanded="true"] .nav-tools {
+    display: flex;
+    visibility: visible;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    background: #fff;
+    padding: 18px 0 12px 12px;
+    box-shadow: 0 -2px 8px 0 rgb(80 80 80 / 10%);
+    z-index: 12;
+    gap: 8px;
+  }
+
+  header nav[aria-expanded="true"] .nav-tools ul {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  header nav .nav-tools .button,
+  header nav .nav-tools a.button,
+  header nav .nav-tools li:last-child a,
+  header nav .nav-tools li:last-child button {
+    margin-left: 0;
+    width: 100%;
+    min-width: 120px;
+    min-height: 44px;
+    padding: 10px 12px;
+    font-size: 15px;
+  }
+}
+
+/* Always enforce solid white background */
+header,
+.header-wrapper .nav-wrapper,
+header nav {
+  background: #fff;
 }
