@@ -1,4 +1,4 @@
 mountpoints:
   /:
-    url: https://content.da.live/aemysites/telliott-250731/
+    url: https://content.da.live/aemysites/telliott-250730
     type: markup
