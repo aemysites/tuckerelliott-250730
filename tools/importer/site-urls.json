@@ -1,0 +1,27 @@
+{
+  "originUrl": "https://www.virginvoyages.com",
+  "aborted": false,
+  "urls": [
+    {
+      "url": "https://www.virginvoyages.com/cruise-deals/cruise-add-on-options",
+      "source": "MANUAL",
+      "targetPath": "/cruise-deals/cruise-add-on-options",
+      "id": "bcffb74f198c406e6de0a1248fdc16cd6891bf92"
+    }
+  ],
+  "lastCrawled": "MANUAL",
+  "crawlOptions": {
+    "timeout": 10000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": 100,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "manual",
+    "strategiesAttempted": [
+      "MANUAL"
+    ]
+  },
+  "extractionErrors": [],
+  "errorCountMessage": "none"
+}
