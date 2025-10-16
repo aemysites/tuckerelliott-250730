@@ -1,0 +1,708 @@
+{
+  "originUrl": "https://www.virginvoyages.com",
+  "aborted": false,
+  "lastCrawled": "https://www.virginvoyages.com/",
+  "urls": [
+    {
+      "url": "https://www.virginvoyages.com/accessibility/additional-assistance",
+      "source": "SITEMAPS",
+      "targetPath": "/accessibility/additional-assistance",
+      "id": "c00b9f889feb6cd0581088a6d0d8ecde68737035"
+    },
+    {
+      "url": "https://www.virginvoyages.com/accessibility/dietary-requirements",
+      "source": "SITEMAPS",
+      "targetPath": "/accessibility/dietary-requirements",
+      "id": "c3b8bb4ac4e0cd2b274eca100bcd8f29532fe8ed"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/18-and-over-ship",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/18-and-over-ship",
+      "id": "4e54a44613535636820f2eb701ff646a8da9fd7a"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/adults-only-cruise",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/adults-only-cruise",
+      "id": "2e3b648aeaf3ab488d3f019498df26fe2898f021"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/best-cruises-december-deals",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/best-cruises-december-deals",
+      "id": "b38851e8b936e55156715a2cda27dbcf2ab5a3bc"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/best-week-long-caribbean-cruises",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/best-week-long-caribbean-cruises",
+      "id": "7ebffe2c7569dbb9a350e2d36b1726856494419c"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/climate-action-plan",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/climate-action-plan",
+      "id": "9f5f1e89c54a138fd96bbaaf855790a34679cc1b"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/concrete-amsterdam",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/concrete-amsterdam",
+      "id": "8a27709b8421de8ec5e2f7c30531938e927d86e0"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/cruise-virgins",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/cruise-virgins",
+      "id": "cbeee7cf15e3e7502ddad1e88c9812eaff2cd937"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/cruises-for-couples",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/cruises-for-couples",
+      "id": "eee48e4ed6ee8d82f62830fa1a23d85597f35fc2"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/how-to-take-vacation-photos",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/how-to-take-vacation-photos",
+      "id": "ae3a3bda47fb3aa76a266f8d133dc41f8ba8aa84"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/jlo-beauty",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/jlo-beauty",
+      "id": "f456ede54e28f9b1ee942413e8e62b48fd336cbf"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/new-cruise-ship-entertainment-fun-things-to-do",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/new-cruise-ship-entertainment-fun-things-to-do",
+      "id": "249fa2d8e6176deee32733f6180745d39664a7a2"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/new-cruise-ship-onboard-spaces-activities-events",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/new-cruise-ship-onboard-spaces-activities-events",
+      "id": "cd8b2e141f27be1451576e80d2b1ac144655913d"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/non-alcoholic-drinks-for-sober-cruises",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/non-alcoholic-drinks-for-sober-cruises",
+      "id": "5398bd83f22600bdb4abd48e7b4ce61bccb67263"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/plan-new-cruises-2024-2025",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/plan-new-cruises-2024-2025",
+      "id": "040aa1ee96d9ba75793e17514c11eeb0a5960144"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/ports-things-to-do",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/ports-things-to-do",
+      "id": "ae6e2df1cb986dac39d27a417a2f6f2315668c32"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/resilient-lady-has-big-plans",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/resilient-lady-has-big-plans",
+      "id": "a3d79340f2dcbfebc12b39ec27d87f799a538c6c"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/shotgun-wedding-movie",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/shotgun-wedding-movie",
+      "id": "f20f684c0870b41665dcf9eb8eb998e60b5b915b"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/summer-soiree-series",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/summer-soiree-series",
+      "id": "a4c0f1957f514b10ffa10f4e55d79fb96293fcf7"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/wellness-fitness-cruises-for-women",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/wellness-fitness-cruises-for-women",
+      "id": "20545cec12761df939b1c32af63f9424b4a27bcc"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/why-sailors-50-over-love-adults-only-cruises",
+      "source": "SITEMAPS",
+      "targetPath": "/ahoy/stories/why-sailors-50-over-love-adults-only-cruises",
+      "id": "3b4d8c11b36cbaf83e1c6e930dcce16c2f45cda0"
+    },
+    {
+      "url": "https://www.virginvoyages.com/bar-tab",
+      "source": "SITEMAPS",
+      "targetPath": "/bar-tab",
+      "id": "de7199cafc86deedb3f344f85a957ac79532c2fe"
+    },
+    {
+      "url": "https://www.virginvoyages.com/cruise-deals/All-cruise-deals-and-programs",
+      "source": "SITEMAPS",
+      "targetPath": "/cruise-deals/all-cruise-deals-and-programs",
+      "id": "6bfe50fbc63fc503d584869749ce2f188cd8c1c6"
+    },
+    {
+      "url": "https://www.virginvoyages.com/cruise-deals/happy-hour-sale-cruises-free-alcohol-drinks",
+      "source": "SITEMAPS",
+      "targetPath": "/cruise-deals/happy-hour-sale-cruises-free-alcohol-drinks",
+      "id": "9c9f3691e6fb9227c0f88ed0a3a7780cff7beb4b"
+    },
+    {
+      "url": "https://www.virginvoyages.com/cruises/best-month/august",
+      "source": "SITEMAPS",
+      "targetPath": "/cruises/best-month/august",
+      "id": "0845ee472432242806ab3e25fd5011ccd6238af6"
+    },
+    {
+      "url": "https://www.virginvoyages.com/cruises/best-month/july",
+      "source": "SITEMAPS",
+      "targetPath": "/cruises/best-month/july",
+      "id": "8fe25d1199f5a7bdb385e68811ba6ea425e7a697"
+    },
+    {
+      "url": "https://www.virginvoyages.com/cruises/best-month/march",
+      "source": "SITEMAPS",
+      "targetPath": "/cruises/best-month/march",
+      "id": "c5af0c6e1db8f06d21b358ae53abdea0b51e5dbb"
+    },
+    {
+      "url": "https://www.virginvoyages.com/cruises/new-england-canada-northeast-cruises",
+      "source": "SITEMAPS",
+      "targetPath": "/cruises/new-england-canada-northeast-cruises",
+      "id": "7292da4ecc6b746ab46aa96998026a771050e97c"
+    },
+    {
+      "url": "https://www.virginvoyages.com/cruises/specialized-themed/comedy-cruises",
+      "source": "SITEMAPS",
+      "targetPath": "/cruises/specialized-themed/comedy-cruises",
+      "id": "e353eecbfa71ee2d449ba25f118a4a836007585a"
+    },
+    {
+      "url": "https://www.virginvoyages.com/cruises/specialized-themed/marvelous-voyages",
+      "source": "SITEMAPS",
+      "targetPath": "/cruises/specialized-themed/marvelous-voyages",
+      "id": "c035befc04f3db9335931d03a6c2a2186697a18b"
+    },
+    {
+      "url": "https://www.virginvoyages.com/cruises/specialized-themed/valentines-day",
+      "source": "SITEMAPS",
+      "targetPath": "/cruises/specialized-themed/valentines-day",
+      "id": "51ac6e734be347acd4e68b6bb02a8020d9d32856"
+    },
+    {
+      "url": "https://www.virginvoyages.com/cruises/the-voyage",
+      "source": "SITEMAPS",
+      "targetPath": "/cruises/the-voyage",
+      "id": "72e55fa5eafe61d20877adfad4a98915f55e902b"
+    },
+    {
+      "url": "https://www.virginvoyages.com/cruises/vacation/round-trip-cruises",
+      "source": "SITEMAPS",
+      "targetPath": "/cruises/vacation/round-trip-cruises",
+      "id": "0015bed132f9ed031e47f625b46db2f34820107f"
+    },
+    {
+      "url": "https://www.virginvoyages.com/cruises/vacation/transatlantic-cruises",
+      "source": "SITEMAPS",
+      "targetPath": "/cruises/vacation/transatlantic-cruises",
+      "id": "8e9e32e6abf04822c2e60e5a638ae11bd93523eb"
+    },
+    {
+      "url": "https://www.virginvoyages.com/destinations/caribbean-cruises",
+      "source": "SITEMAPS",
+      "targetPath": "/destinations/caribbean-cruises",
+      "id": "cb9ad9e82b3fff044b6867889084a692e4410e9a"
+    },
+    {
+      "url": "https://www.virginvoyages.com/destinations/caribbean-cruises/basseterre",
+      "source": "SITEMAPS",
+      "targetPath": "/destinations/caribbean-cruises/basseterre",
+      "id": "f9e0f9234727dc9616f7ca3a0a1bcdcb865ce9db"
+    },
+    {
+      "url": "https://www.virginvoyages.com/destinations/caribbean-cruises/fort-de-france",
+      "source": "SITEMAPS",
+      "targetPath": "/destinations/caribbean-cruises/fort-de-france",
+      "id": "5fa7a4ea676e5be4c3b3e7e7e6e9c4418e278cd1"
+    },
+    {
+      "url": "https://www.virginvoyages.com/destinations/caribbean-cruises/grand-turk",
+      "source": "SITEMAPS",
+      "targetPath": "/destinations/caribbean-cruises/grand-turk",
+      "id": "82bc8351c7cdeaacb71d6a91cd6eaf042cdecce2"
+    },
+    {
+      "url": "https://www.virginvoyages.com/destinations/caribbean-cruises/key-west",
+      "source": "SITEMAPS",
+      "targetPath": "/destinations/caribbean-cruises/key-west",
+      "id": "61cd91b022dea9151ce5ecd98caabbcdc2510c59"
+    },
+    {
+      "url": "https://www.virginvoyages.com/destinations/caribbean-cruises/long-cruises",
+      "source": "SITEMAPS",
+      "targetPath": "/destinations/caribbean-cruises/long-cruises",
+      "id": "8ba1f62f5724e8f3f382a9b3af6d34c0180a7307"
+    },
+    {
+      "url": "https://www.virginvoyages.com/destinations/caribbean-cruises/nassau",
+      "source": "SITEMAPS",
+      "targetPath": "/destinations/caribbean-cruises/nassau",
+      "id": "3d673f70f43b6bca30a941fb8d75febfd0802648"
+    },
+    {
+      "url": "https://www.virginvoyages.com/destinations/caribbean-cruises/roatan",
+      "source": "SITEMAPS",
+      "targetPath": "/destinations/caribbean-cruises/roatan",
+      "id": "26f40013dbacabda525156844769b652486b01ae"
+    },
+    {
+      "url": "https://www.virginvoyages.com/destinations/europe-cruises/bergen",
+      "source": "SITEMAPS",
+      "targetPath": "/destinations/europe-cruises/bergen",
+      "id": "8995237650143d80b77ac90e4a30bf835165e408"
+    },
+    {
+      "url": "https://www.virginvoyages.com/destinations/europe-cruises/bodrum",
+      "source": "SITEMAPS",
+      "targetPath": "/destinations/europe-cruises/bodrum",
+      "id": "b1ee3d951d18caaccfccf1af4a0717417acc34ef"
+    },
+    {
+      "url": "https://www.virginvoyages.com/destinations/europe-cruises/civitavecchia",
+      "source": "SITEMAPS",
+      "targetPath": "/destinations/europe-cruises/civitavecchia",
+      "id": "629cddb45014f4bb982b6a6d5afb5b491da445fd"
+    },
+    {
+      "url": "https://www.virginvoyages.com/destinations/europe-cruises/gran-canaria",
+      "source": "SITEMAPS",
+      "targetPath": "/destinations/europe-cruises/gran-canaria",
+      "id": "177fe957e1e4936cc7b1fcbaccc0ccbcd4da8e80"
+    },
+    {
+      "url": "https://www.virginvoyages.com/destinations/europe-cruises/le-verdon",
+      "source": "SITEMAPS",
+      "targetPath": "/destinations/europe-cruises/le-verdon",
+      "id": "6bce3afb87d24799bf905f7a17328bd31be3b312"
+    },
+    {
+      "url": "https://www.virginvoyages.com/destinations/europe-cruises/santa-cruz-de-tenerife",
+      "source": "SITEMAPS",
+      "targetPath": "/destinations/europe-cruises/santa-cruz-de-tenerife",
+      "id": "ece026f33c03f2e148eb7ff64e98adf94a3a12f6"
+    },
+    {
+      "url": "https://www.virginvoyages.com/drinks",
+      "source": "SITEMAPS",
+      "targetPath": "/drinks",
+      "id": "3932b96e2ae7744ba97a5d7950d161c3ef6cb493"
+    },
+    {
+      "url": "https://www.virginvoyages.com/drinks/cruise-drink-package-option-free-drinks/bar-tab",
+      "source": "SITEMAPS",
+      "targetPath": "/drinks/cruise-drink-package-option-free-drinks/bar-tab",
+      "id": "e06adebd5927f8c47436fab0c019c58d4594d1e1"
+    },
+    {
+      "url": "https://www.virginvoyages.com/faq/before-you-sail",
+      "source": "SITEMAPS",
+      "targetPath": "/faq/before-you-sail",
+      "id": "6dee195808b4b830d674409507da358720ccb280"
+    },
+    {
+      "url": "https://www.virginvoyages.com/faq/before-you-sail/fraud-and-scam-alerts",
+      "source": "SITEMAPS",
+      "targetPath": "/faq/before-you-sail/fraud-and-scam-alerts",
+      "id": "f4e6bb03bb98a57b17b866c86b5875a1ebcaecce"
+    },
+    {
+      "url": "https://www.virginvoyages.com/faq/the-days-at-sea/using-the-band",
+      "source": "SITEMAPS",
+      "targetPath": "/faq/the-days-at-sea/using-the-band",
+      "id": "dce4d478d7d930224c6901a5ea731e17bf078a2b"
+    },
+    {
+      "url": "https://www.virginvoyages.com/hotel-booking-policy",
+      "source": "SITEMAPS",
+      "targetPath": "/hotel-booking-policy",
+      "id": "941633a676f676831415ca007a3a475344c7d78e"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/caribbean/5-night-miami-new-years-cruise-2025",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/caribbean/5-night-miami-new-years-cruise-2025",
+      "id": "ec2a26966d2926dbea4916507cc89b3f78ada0b7"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/caribbean/7-night-valentines-cruise-from-san-juan-puerto-rico",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/caribbean/7-night-valentines-cruise-from-san-juan-puerto-rico",
+      "id": "7dec040e2cbf49f2954766f30b36534336c2b006"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/caribbean/cruise-from-miami-to-antigua-st-kitts-bimini",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/caribbean/cruise-from-miami-to-antigua-st-kitts-bimini",
+      "id": "91c775bac924146c83d0801f1eeaecb0093eada3"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/caribbean/cruise-from-miami-to-jamaica-caymans-colombia",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/caribbean/cruise-from-miami-to-jamaica-caymans-colombia",
+      "id": "bd43c556a99e7165609b606a2e606bd69bab18ee"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/caribbean/cruise-from-miami-to-st-croix-dr-pr",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/caribbean/cruise-from-miami-to-st-croix-dr-pr",
+      "id": "70b9e00f6d98afc4a82d0684c59249b0d9304d62"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/caribbean/cruise-to-jamaica-cayman-islands-bimini",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/caribbean/cruise-to-jamaica-cayman-islands-bimini",
+      "id": "aeec8584c3412b8164836845b3fcaae1d290fd7a"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/caribbean/elevate-voyage",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/caribbean/elevate-voyage",
+      "id": "61e77be766b12bff8ca1993ff8447e87d00dd919"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/caribbean/san-juan-lesser-antilles-cruise",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/caribbean/san-juan-lesser-antilles-cruise",
+      "id": "312d6362166648faf73f38e96adf9e0ba47d4b01"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/europe/11-nights-athens-greece-istanbul-santorini-cruise",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/europe/11-nights-athens-greece-istanbul-santorini-cruise",
+      "id": "50584700724ea3b2ab825e66ac0d133ad961bd42"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/europe/6-night-summer-cruise-from-rome-italy-to-france-spain",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/europe/6-night-summer-cruise-from-rome-italy-to-france-spain",
+      "id": "c51e14771c33fc1e6c4acad835bc4cdfb6914ca6"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/europe/7-night-holiday-cruise-from-barcelona-spain-to-italy-france",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/europe/7-night-holiday-cruise-from-barcelona-spain-to-italy-france",
+      "id": "0d3b3da1978b555084bb5b7cf8e87d113b316315"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/europe/7-night-holiday-med-cruise-from-spain-to-france",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/europe/7-night-holiday-med-cruise-from-spain-to-france",
+      "id": "e9a649b10fdb5b0e2567b087c09157556936727e"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/europe/7-night-holiday-med-cruise-italy-spain-france",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/europe/7-night-holiday-med-cruise-italy-spain-france",
+      "id": "638a0a60d553acfb44db2c5da6e24b908c8a441f"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/europe/7-night-summer-cruise-from-spain-to-france-italy",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/europe/7-night-summer-cruise-from-spain-to-france-italy",
+      "id": "c482d9e93f4681b12dc8cb1b0b83d0e5f2fb658d"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/europe/mediterranean-cruise-from-athens-to-italy-spain",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/europe/mediterranean-cruise-from-athens-to-italy-spain",
+      "id": "8692a7341b930d2b71da1647102d5dce37b4d633"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/europe/specialized-solar-eclipse-cruise-from-barcelona-to-rome",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/europe/specialized-solar-eclipse-cruise-from-barcelona-to-rome",
+      "id": "6de4a1d276d9fd90842ddac1bc585240cc0de6c7"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/north-america/8-night-canada-new-england-cruises",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/north-america/8-night-canada-new-england-cruises",
+      "id": "070f5bdd345784ea4f5e0c550a12dce4cc9764cd"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/north-america/inside-passage-alaska-canada-12-night-cruise-from-seattle",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/north-america/inside-passage-alaska-canada-12-night-cruise-from-seattle",
+      "id": "db30933f5d87ed09c5d6a78827d58e7590910e18"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/north-america/mermaiden-cruise-from-seattle-to-alaska-canada",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/north-america/mermaiden-cruise-from-seattle-to-alaska-canada",
+      "id": "7626577dd37f11e415783bc2690a674e8c0e517d"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/south-pacific/along-the-tasmanian-coast",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/south-pacific/along-the-tasmanian-coast",
+      "id": "ff639d8c3da645606599671f33f361893846e44e"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/south-pacific/australia-to-new-zealand-cruise",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/south-pacific/australia-to-new-zealand-cruise",
+      "id": "d6781b57678f05b46b984bebbe92a38e9d54ef25"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/south-pacific/brisbane-cairns-cruise",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/south-pacific/brisbane-cairns-cruise",
+      "id": "83cfb16587771060ced3e0bbc70ca02924d27371"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/south-pacific/melbourne-to-tasmania",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/south-pacific/melbourne-to-tasmania",
+      "id": "7188c06116b4b8561d55e545df04d924f2961416"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/south-pacific/sydney-to-burnie",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/south-pacific/sydney-to-burnie",
+      "id": "2cbd1605d082f6c5ec0dad859080406a1232edad"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/transatlantic/13-night-cruise-from-iceland-to-greenland-canada-nyc-usa",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/transatlantic/13-night-cruise-from-iceland-to-greenland-canada-nyc-usa",
+      "id": "c849853047ef9eee6706a444ef42ca0115ccbe48"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/transatlantic/cruise-from-new-york-to-spain",
+      "source": "SITEMAPS",
+      "targetPath": "/itinerary/transatlantic/cruise-from-new-york-to-spain",
+      "id": "74056b0b0c2e0d25cd0a45b99218f04b46e4e6bf"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases/2026-annaul-pass-stay-on-necker-island",
+      "source": "SITEMAPS",
+      "targetPath": "/press/latest-releases/2026-annaul-pass-stay-on-necker-island",
+      "id": "a782a353a13ac24406ccb488a0b0e03f63207eab"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases/delivery-of-scarlet-lady",
+      "source": "SITEMAPS",
+      "targetPath": "/press/latest-releases/delivery-of-scarlet-lady",
+      "id": "0a45ded68512dc8ceff15eba8e1d3a9fa85c9748"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases/Destinations-and-Cabins",
+      "source": "SITEMAPS",
+      "targetPath": "/press/latest-releases/destinations-and-cabins",
+      "id": "309e8ea40c5ecf12b0e6de33e2e3b705e855a7e7"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases/First-Destination-Commitment",
+      "source": "SITEMAPS",
+      "targetPath": "/press/latest-releases/first-destination-commitment",
+      "id": "a6f1364f144e88e94619ac51ed4af21d592f25f8"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases/health-and-safety",
+      "source": "SITEMAPS",
+      "targetPath": "/press/latest-releases/health-and-safety",
+      "id": "c43a77f175fbcbde182b8f684e1d8f4647605928"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases/industry-first-annual-pass-year-long-cruises",
+      "source": "SITEMAPS",
+      "targetPath": "/press/latest-releases/industry-first-annual-pass-year-long-cruises",
+      "id": "87e201836b405e923c741adf05e1536f9c3593aa"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases/limitless-voyage-speakers",
+      "source": "SITEMAPS",
+      "targetPath": "/press/latest-releases/limitless-voyage-speakers",
+      "id": "54ea62df5f9e29668c1d9781de82944631b53e2a"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases/new-ship-new-dining",
+      "source": "SITEMAPS",
+      "targetPath": "/press/latest-releases/new-ship-new-dining",
+      "id": "f2916d57da27f54039c8579c09e5c207523884a5"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases/nicky-jam-richard-branson-launch-jam-at-sea",
+      "source": "SITEMAPS",
+      "targetPath": "/press/latest-releases/nicky-jam-richard-branson-launch-jam-at-sea",
+      "id": "69ac702c361103827f85655f41396a5616b29419"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases/ryan-reynolds-aviation-american-gin",
+      "source": "SITEMAPS",
+      "targetPath": "/press/latest-releases/ryan-reynolds-aviation-american-gin",
+      "id": "671040e763aeb878ad924c1bf71337cc32261d8d"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases/scarlet-lady-cruise-ship-luxury-upgrades",
+      "source": "SITEMAPS",
+      "targetPath": "/press/latest-releases/scarlet-lady-cruise-ship-luxury-upgrades",
+      "id": "0dae3ca999982a6137bbfbd7792d258e2df01c65"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases/Valiant-Lady-s-Barcelona-MerMaiden",
+      "source": "SITEMAPS",
+      "targetPath": "/press/latest-releases/valiant-lady-s-barcelona-mermaiden",
+      "id": "75d3bf65648457a1919dc6e8f5375ce495539daa"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases/virgin-voyages-perks-program",
+      "source": "SITEMAPS",
+      "targetPath": "/press/latest-releases/virgin-voyages-perks-program",
+      "id": "267cd069f1892bfd5d8ff617efe562bd81ecf751"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases/Vitamin-Sea",
+      "source": "SITEMAPS",
+      "targetPath": "/press/latest-releases/vitamin-sea",
+      "id": "228b535759e14cd46c5d9ab5a09986de805cd7ab"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases/vv-guinness-world-records",
+      "source": "SITEMAPS",
+      "targetPath": "/press/latest-releases/vv-guinness-world-records",
+      "id": "6e5ed5459befddf3a8b88969f55a35660f17985a"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/photo-and-video/categories",
+      "source": "SITEMAPS",
+      "targetPath": "/press/photo-and-video/categories",
+      "id": "ed5fe437a66205fcf907040287829997016ce669"
+    },
+    {
+      "url": "https://www.virginvoyages.com/safety-security/pre-voyage-screening",
+      "source": "SITEMAPS",
+      "targetPath": "/safety-security/pre-voyage-screening",
+      "id": "db17c146f49d0ba5e55502d448f8ac285351d900"
+    },
+    {
+      "url": "https://www.virginvoyages.com/safety-security/sailor-conduct-policy",
+      "source": "SITEMAPS",
+      "targetPath": "/safety-security/sailor-conduct-policy",
+      "id": "37995c0654acc511d501f88a3112c6ba1e085e9e"
+    },
+    {
+      "url": "https://www.virginvoyages.com/sailing-club/eligibility-form",
+      "source": "SITEMAPS",
+      "targetPath": "/sailing-club/eligibility-form",
+      "id": "3d4162d7946fd3b75c1eb5a18cecfd84ffb37070"
+    },
+    {
+      "url": "https://www.virginvoyages.com/shore-excursions",
+      "source": "SITEMAPS",
+      "targetPath": "/shore-excursions",
+      "id": "283583f5f37e14e70b8508edf1ca203972a53969"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ticket-contract-eea-guests",
+      "source": "SITEMAPS",
+      "targetPath": "/ticket-contract-eea-guests",
+      "id": "c4908ad49633a536471455608754ef6fb3b14218"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 10000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": 100,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "sitemaps",
+    "logger": {},
+    "strategiesAttempted": [
+      "SITEMAPS"
+    ]
+  },
+  "extractionErrors": [
+    {
+      "url": "https://www.virginvoyages.com/careers",
+      "status": "301 Moved Permanently Redirect: https://careers.virginvoyages.com:443/careers"
+    },
+    {
+      "url": "https://www.virginvoyages.com/careers/shipboard",
+      "status": "301 Moved Permanently Redirect: https://careers.virginvoyages.com:443/careers/shipboard"
+    },
+    {
+      "url": "https://www.virginvoyages.com/health-safety",
+      "status": "301 Moved Permanently Redirect: https://www.virginvoyages.com/"
+    },
+    {
+      "url": "https://www.virginvoyages.com/group-cruise",
+      "status": "301 Moved Permanently Redirect: https://www.virginvoyages.com/cruises/group-cruise"
+    },
+    {
+      "url": "https://www.virginvoyages.com/awards",
+      "status": "301 Moved Permanently Redirect: https://www.virginvoyages.com/v/awards"
+    },
+    {
+      "url": "https://www.virginvoyages.com/cruise-deals/last-minute-caribbean-mediterranean-greek-isle-cruises",
+      "status": "302 Found Redirect: https://www.virginvoyages.com/cruise-deals/cruise-vacation-deals"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/south-pacific/perth-to-melbourne-cruise",
+      "status": "302 Found Redirect: https://www.virginvoyages.com/destinations"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/caribbean/valiant-caribbean-holidays",
+      "status": "302 Found Redirect: https://www.virginvoyages.com/destinations/caribbean-cruises"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/caribbean/cruise-from-san-juan-puerto-rico-december-2024",
+      "status": "302 Found Redirect: https://www.virginvoyages.com/destinations/caribbean-cruises"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/caribbean/miami-weekend-cruise-music-concert",
+      "status": "302 Found Redirect: https://www.virginvoyages.com/destinations/caribbean-cruises"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/caribbean/holiday-cruise-from-san-juan-puerto-rico-to-st-lucia",
+      "status": "302 Found Redirect: https://www.virginvoyages.com/destinations/caribbean-cruises"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/caribbean/san-juan-colombia-caribbeans-11-day-cruise",
+      "status": "302 Found Redirect: https://www.virginvoyages.com/destinations/caribbean-cruises"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/europe/irresistible-med-rome",
+      "status": "302 Found Redirect: https://www.virginvoyages.com/destinations/europe-cruises"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/europe/barcelona-cannes-ibiza-cruise",
+      "status": "302 Found Redirect: https://www.virginvoyages.com/destinations/europe-cruises"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/north-america/cruise-from-quebec-to-miami",
+      "status": "302 Found Redirect: https://www.virginvoyages.com/destinations/north-america-usa-cruises"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/transatlantic/transatlantic-cruise-from-miami-to-barcelona",
+      "status": "302 Found Redirect: https://www.virginvoyages.com/destinations/transatlantic-and-more"
+    },
+    {
+      "url": "https://www.virginvoyages.com/itinerary/transatlantic/cruise-from-sydney",
+      "status": "302 Found Redirect: https://www.virginvoyages.com/destinations/transatlantic-and-more"
+    },
+    {
+      "url": "https://www.virginvoyages.com/ahoy/stories/halloween-cruises-2023",
+      "status": "302 Found Redirect: https://www.virginvoyages.com/l/best-halloween-cruises"
+    }
+  ],
+  "errorCountMessage": "{\"E_301\":5,\"E_302\":13}",
+  "error": null
+}
