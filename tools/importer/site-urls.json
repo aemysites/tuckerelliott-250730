@@ -1,0 +1,27 @@
+{
+  "originUrl": "https://www.virginvoyages.com",
+  "aborted": false,
+  "urls": [
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases",
+      "source": "MANUAL",
+      "targetPath": "/press/latest-releases",
+      "id": "f755d13f5c579bb8dd1c24f0100bc84ba5c75f06"
+    }
+  ],
+  "lastCrawled": "MANUAL",
+  "crawlOptions": {
+    "timeout": 10000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": 100,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "manual",
+    "strategiesAttempted": [
+      "MANUAL"
+    ]
+  },
+  "extractionErrors": [],
+  "errorCountMessage": "none"
+}
