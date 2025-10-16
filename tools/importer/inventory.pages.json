@@ -1,0 +1,48 @@
+{
+  "templates": [
+    {
+      "name": "'Multi-purpose website template'",
+      "cluster": 1,
+      "pages": [
+        {
+          "url": "https://www.virginvoyages.com/cruises/group-cruise",
+          "uuid": "c887a1a6515352a84bf1ef97a8c42b65d8e9eb52"
+        },
+        {
+          "url": "https://www.virginvoyages.com/cruise-financing",
+          "uuid": "93be7ad9511b0d92d908b0c815caac02f47eb38e"
+        }
+      ]
+    },
+    {
+      "name": "'Portfolio Showcase'",
+      "cluster": 2,
+      "pages": [
+        {
+          "url": "https://www.virginvoyages.com/drinks/cruise-drink-package-option-free-drinks",
+          "uuid": "1cff5b9e604b5f479b984654b7106c959cdfbcbf"
+        }
+      ]
+    },
+    {
+      "name": "'Dashboard Template'",
+      "cluster": 3,
+      "pages": [
+        {
+          "url": "https://www.virginvoyages.com/cruises/celebrations/cruise-wedding",
+          "uuid": "fd44e1cdb8f164312e5e6cd6f26115c0ede5bb0b"
+        }
+      ]
+    },
+    {
+      "name": "'Business Homepage'",
+      "cluster": 4,
+      "pages": [
+        {
+          "url": "https://www.virginvoyages.com/cruise-deals/cruise-add-on-options",
+          "uuid": "bcffb74f198c406e6de0a1248fdc16cd6891bf92"
+        }
+      ]
+    }
+  ]
+}
