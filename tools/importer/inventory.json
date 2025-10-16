@@ -1,0 +1,184 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.virginvoyages.com/press/latest-releases",
+          "urlHash": "f755d13f5c579bb8dd1c24f0100bc84ba5c75f06",
+          "uuid": "f755d13f-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        }
+      ],
+      "styles": {
+        "height": 100
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.virginvoyages.com/press/latest-releases",
+          "urlHash": "f755d13f5c579bb8dd1c24f0100bc84ba5c75f06",
+          "uuid": "f755d13f-13-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]"
+        }
+      ],
+      "styles": {
+        "background": "rgb(21, 21, 21) url(\"https://virginvoyages.imgix.net/dam/jcr:c5f2b891-28fe-4eda-9b98-492b16f55b49/ILL-BRAND-virgin-logo-white-v1-01-672x544.png\") no-repeat scroll calc(100% + 40px) calc(100% + 32px) / 314px 278px padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "header",
+      "cluster": 1,
+      "source": "Header",
+      "target": "Header (header1)",
+      "key": "header1",
+      "instances": [
+        {
+          "url": "https://www.virginvoyages.com/press/latest-releases",
+          "urlHash": "f755d13f5c579bb8dd1c24f0100bc84ba5c75f06",
+          "uuid": "f755d13f-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 2,
+      "source": "Hero",
+      "target": "Hero (hero2)",
+      "key": "hero2",
+      "instances": [
+        {
+          "url": "https://www.virginvoyages.com/press/latest-releases",
+          "urlHash": "f755d13f5c579bb8dd1c24f0100bc84ba5c75f06",
+          "uuid": "f755d13f-01-31d3c8896b1fd3531c6b4d088f068667d668f20a",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/section[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 3,
+      "source": "Columns",
+      "target": "Columns (columns3)",
+      "key": "columns3",
+      "instances": [
+        {
+          "url": "https://www.virginvoyages.com/press/latest-releases",
+          "urlHash": "f755d13f5c579bb8dd1c24f0100bc84ba5c75f06",
+          "uuid": "f755d13f-04-328e188317e66ee56dc528693337bdf034630449",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[1]/article[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 4,
+      "source": "Cards",
+      "target": "Cards (cards4)",
+      "key": "cards4",
+      "instances": [
+        {
+          "url": "https://www.virginvoyages.com/press/latest-releases",
+          "urlHash": "f755d13f5c579bb8dd1c24f0100bc84ba5c75f06",
+          "uuid": "f755d13f-05-fe0a7667515978cd8886f3b891f6cfe05a873a3f",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[1]/article[2]"
+        },
+        {
+          "url": "https://www.virginvoyages.com/press/latest-releases",
+          "urlHash": "f755d13f5c579bb8dd1c24f0100bc84ba5c75f06",
+          "uuid": "f755d13f-06-2be2bb383dbbfc9495e4ca09effd9c9419c35fd0",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[1]/article[3]"
+        },
+        {
+          "url": "https://www.virginvoyages.com/press/latest-releases",
+          "urlHash": "f755d13f5c579bb8dd1c24f0100bc84ba5c75f06",
+          "uuid": "f755d13f-07-31d6ecd23619c675e7af21a9ebe373b2aa01fd51",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[1]/article[4]"
+        },
+        {
+          "url": "https://www.virginvoyages.com/press/latest-releases",
+          "urlHash": "f755d13f5c579bb8dd1c24f0100bc84ba5c75f06",
+          "uuid": "f755d13f-08-d38b634c28a92d847ef3f6e3cfee0ead342ba8d1",
+          "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[1]/article[5]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 5,
+      "source": "Columns",
+      "target": "Columns (columns5)",
+      "key": "columns5",
+      "instances": [
+        {
+          "url": "https://www.virginvoyages.com/press/latest-releases",
+          "urlHash": "f755d13f5c579bb8dd1c24f0100bc84ba5c75f06",
+          "uuid": "f755d13f-13-df2d8614774e18e1b8dccbc899c3c4aee180c525",
+          "xpath": "/html[1]/body[1]/div[1]/footer[1]",
+          "section": "section-2"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases",
+      "urlHash": "f755d13f5c579bb8dd1c24f0100bc84ba5c75f06",
+      "uuid": "f755d13f-02-69189896cde9d2631193f054fd2ec1cdf32e990a",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/nav[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases",
+      "urlHash": "f755d13f5c579bb8dd1c24f0100bc84ba5c75f06",
+      "uuid": "f755d13f-03-ef60cd20f391b15a870d0784b722e5545e377966",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[1]/div[1]"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases",
+      "urlHash": "f755d13f5c579bb8dd1c24f0100bc84ba5c75f06",
+      "uuid": "f755d13f-09-afc244827b748947bc9d70fd2ce5dec12da625aa",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[1]/section[1]/div[2]"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases",
+      "urlHash": "f755d13f5c579bb8dd1c24f0100bc84ba5c75f06",
+      "uuid": "f755d13f-10-4e74b9bf9f7d4a529dd9ad90445c271e68ad92ba",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[2]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases",
+      "urlHash": "f755d13f5c579bb8dd1c24f0100bc84ba5c75f06",
+      "uuid": "f755d13f-11-d5fc3d9486bbf512afdb4d6200259f86942c1a70",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.virginvoyages.com/press/latest-releases",
+      "urlHash": "f755d13f5c579bb8dd1c24f0100bc84ba5c75f06",
+      "uuid": "f755d13f-12-31a136b00ee4d368075f69906d1d33fc1ab5c432",
+      "xpath": "/html[1]/body[1]/div[1]/main[1]/div[4]"
+    }
+  ],
+  "sections": [
+    {
+      "name": "section-1",
+      "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 2
+    },
+    {
+      "name": "section-2",
+      "background": "rgb(21, 21, 21) url(\"https://virginvoyages.imgix.net/dam/jcr:c5f2b891-28fe-4eda-9b98-492b16f55b49/ILL-BRAND-virgin-logo-white-v1-01-672x544.png\") no-repeat scroll calc(100% + 40px) calc(100% + 32px) / 314px 278px padding-box border-box",
+      "count": 1
+    }
+  ]
+}
