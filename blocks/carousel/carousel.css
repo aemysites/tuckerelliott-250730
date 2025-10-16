@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .carousel .carousel-slides-container {
   position: relative;
 }
@@ -99,7 +100,6 @@
   z-index: 1;
 }
 
-/* stylelint-disable-next-line no-descending-specificity */
 .carousel .carousel-navigation-buttons button {
   position: relative;
   width: 44px;
@@ -151,3 +151,79 @@
     --slide-content-width: auto;
   }
 }
+
+
+.carousel.carousel3 .carousel-navigation-buttons,
+.carousel.carousel3 .carousel-slide-indicators,
+.carousel.carousel3 .carousel-slide-indicators * {
+  display: none;
+}
+
+/* Improved block alignment, sizing, and appearance */
+.carousel.carousel3 .carousel-content-block {
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  right: auto;
+  transform: translateY(-50%);
+  max-width: 355px;
+  min-width: 260px;
+  padding: 2.6rem 2.2rem 2.2rem 2.1rem;
+  background: rgb(20 24 31 / 41%);
+  border-radius: 15px;
+  box-shadow: 0 5px 24px rgb(20 24 31 / 8%);
+  color: #fff;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+/* Responsive: shrink left margin and padding on small screens */
+@media (width <= 700px) {
+  .carousel.carousel3 .carousel-content-block {
+    left: 4vw;
+    max-width: 98vw;
+    min-width: unset;
+    padding: 1.2rem 0.8rem 1.1rem 1rem;
+    border-radius: 11px;
+  }
+}
+
+/* Headings: slightly larger and spaced for legibility */
+.carousel.carousel3 .carousel-content-block h2,
+.carousel.carousel3 .carousel-content-block h3 {
+  margin-top: 0;
+  margin-bottom: 1.13rem;
+  line-height: 1.32;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+/* Date: larger and more separated */
+.carousel.carousel3 .carousel-content-block .carousel-date {
+  display: block;
+  font-size: 1.09rem;
+  opacity: 0.82;
+  margin-bottom: 1.6rem;
+  margin-top: 0.54rem;
+  letter-spacing: 0.02em;
+}
+
+/* Button: more prominent, better spacing */
+.carousel.carousel3 .carousel-content-block .carousel-btn {
+  background: #2362fb;
+  color: #fff;
+  border: none;
+  border-radius: 21px;
+  padding: 0.92em 2.45em;
+  margin-top: 1.55em;
+  font-weight: 600;
+  font-size: 1.13rem;
+  box-shadow: 0 2px 8px rgb(35 98 251 / 9%);
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.carousel.carousel3 .carousel-content-block .carousel-btn:hover {
+  background: #1849b3;
+}
+
+/* Add subtle transition for block opacity and shadow */
