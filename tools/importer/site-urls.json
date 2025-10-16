@@ -1,0 +1,51 @@
+{
+  "originUrl": "https://www.virginvoyages.com",
+  "aborted": false,
+  "urls": [
+    {
+      "url": "https://www.virginvoyages.com/cruise-deals/cruise-add-on-options",
+      "source": "MANUAL",
+      "targetPath": "/cruise-deals/cruise-add-on-options",
+      "id": "bcffb74f198c406e6de0a1248fdc16cd6891bf92"
+    },
+    {
+      "url": "https://www.virginvoyages.com/cruise-financing",
+      "source": "MANUAL",
+      "targetPath": "/cruise-financing",
+      "id": "93be7ad9511b0d92d908b0c815caac02f47eb38e"
+    },
+    {
+      "url": "https://www.virginvoyages.com/cruises/celebrations/cruise-wedding",
+      "source": "MANUAL",
+      "targetPath": "/cruises/celebrations/cruise-wedding",
+      "id": "fd44e1cdb8f164312e5e6cd6f26115c0ede5bb0b"
+    },
+    {
+      "url": "https://www.virginvoyages.com/cruises/group-cruise",
+      "source": "MANUAL",
+      "targetPath": "/cruises/group-cruise",
+      "id": "c887a1a6515352a84bf1ef97a8c42b65d8e9eb52"
+    },
+    {
+      "url": "https://www.virginvoyages.com/drinks/cruise-drink-package-option-free-drinks",
+      "source": "MANUAL",
+      "targetPath": "/drinks/cruise-drink-package-option-free-drinks",
+      "id": "1cff5b9e604b5f479b984654b7106c959cdfbcbf"
+    }
+  ],
+  "lastCrawled": "MANUAL",
+  "crawlOptions": {
+    "timeout": 10000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": 100,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "manual",
+    "strategiesAttempted": [
+      "MANUAL"
+    ]
+  },
+  "extractionErrors": [],
+  "errorCountMessage": "none"
+}
