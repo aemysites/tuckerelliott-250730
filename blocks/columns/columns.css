@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -30,4 +31,232 @@
     flex: 1;
     order: unset;
   }
+}
+
+
+/* Virgin Voyages-style columns block improved layout */
+
+.columns.columns5 {
+  box-sizing: border-box;
+  background: #181818;
+  color: #f4f4f4;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 48px 32px 40px;
+  display: grid;
+  grid-template-columns: minmax(200px, 240px) minmax(200px, 240px) 1fr;
+  gap: 32px;
+  align-items: start;
+  position: relative;
+  z-index: 1;
+}
+
+/* Responsive: Stack columns on small screens */
+@media (width <= 900px) {
+  .columns.columns5 {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    max-width: 98vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-top: 36px;
+  }
+}
+
+/* Fix vertical alignment of all direct descendants (columns) */
+.columns.columns5 div {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Headings and section labels; space below heading */
+.columns.columns5 p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 1.06em;
+  line-height: 1.3;
+}
+
+/* List and list items */
+.columns.columns5 ul,
+.columns.columns5 ol {
+  list-style: none;
+  margin: 0 0 18px;
+  padding: 0;
+}
+
+.columns.columns5 li {
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+
+/* Links */
+.columns.columns5 a {
+  color: #f4f4f4;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.columns.columns5 a:hover,
+.columns.columns5 a:focus {
+  color: #f00;
+  text-decoration: underline;
+}
+
+/* Inputs and buttons for forms/newsletter */
+.columns.columns5 input[type="text"],
+.columns.columns5 input[type="email"] {
+  background: #1e1e1e;
+  border: 1px solid #444;
+  border-radius: 30px;
+  padding: 10px 16px;
+  color: #f4f4f4;
+  margin-bottom: 10px;
+  font-size: 1em;
+  outline: none;
+  width: 77%;
+  max-width: 240px;
+  box-sizing: border-box;
+}
+
+.columns.columns5 button,
+.columns.columns5 input[type="submit"] {
+  background: transparent;
+  color: #fff;
+  border: 1.5px solid #fff;
+  border-radius: 30px;
+  padding: 10px 22px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-bottom: 12px;
+  transition: background 0.15s, color 0.15s;
+}
+
+.columns.columns5 button:hover,
+.columns.columns5 input[type="submit"]:hover {
+  background: #fff;
+  color: #181818;
+}
+
+/* Checkbox label styling */
+.columns.columns5 label {
+  color: #b7b7b7;
+  font-size: 0.97em;
+  margin-left: 5px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/* Social icons row */
+.columns.columns5 .social,
+.columns.columns5 .social-icons {
+  display: flex;
+  gap: 14px;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.columns.columns5 .social img,
+.columns.columns5 .social-icons img {
+  filter: brightness(9.5);
+  width: 28px;
+  height: 28px;
+  transition: filter 0.2s;
+}
+
+.columns.columns5 .social img:hover,
+.columns.columns5 .social-icons img:hover {
+  filter: brightness(2.5) sepia(1) hue-rotate(-30deg) saturate(6.5);
+}
+
+/* Logo at top of left column */
+.columns.columns5 img[alt*="Virgin"] {
+  display: block;
+  width: 120px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 24px;
+}
+
+/* Badge row styling */
+.columns.columns5 .badges,
+.columns.columns5 .badge-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.columns.columns5 .badges img,
+.columns.columns5 .badge-row img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+/* Separator line below columns */
+.columns.columns5 hr,
+.columns.columns5 .footer-separator {
+  border: none;
+  border-top: 1px solid #2a2a2a;
+  margin: 32px 0 20px;
+  width: 100%;
+  background: none;
+}
+
+/* Footer links row */
+.columns.columns5 .footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-size: 0.98em;
+  color: #ccc;
+  margin: 0 0 20px;
+}
+
+.columns.columns5 .footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.columns.columns5 .footer-links a:hover {
+  color: #f00;
+  text-decoration: underline;
+}
+
+/* Watermark logo in the bottom right */
+.columns.columns5 .watermark {
+  position: absolute;
+  bottom: -32px;
+  right: -48px;
+  width: 320px;
+  max-width: 80vw;
+  opacity: 0.09;
+  pointer-events: none;
+  z-index: 1;
+  user-select: none;
+}
+
+@media (width <= 700px) {
+  .columns.columns5 .watermark {
+    width: 170px;
+    bottom: -14px;
+    right: -18px;
+  }
+}
+
+/* Stacking context for watermark and content */
+
+.columns.columns5 * {
+  position: relative;
+  z-index: 2;
 }
